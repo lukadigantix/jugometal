@@ -1,0 +1,578 @@
+[
+  {
+    "key": "ratarstvo",
+    "label": "Ratarstvo",
+    "items": [
+      {
+        "slug": "prikljucne-masine/plugovi/noseni-plugovi",
+        "name": "Nošeni plugovi",
+        "category": "Plugovi",
+        "brand": "Impex",
+        "logo": "/brands/trim/impex.png",
+        "image": "/products/noseni.webp",
+        "href": "/prikljucne-masine/plugovi/noseni-plugovi",
+        "specs": [
+          {
+            "label": "Potrebna snaga",
+            "value": "26 - 50 kW"
+          },
+          {
+            "label": "Težina",
+            "value": "231 - 375 kg"
+          },
+          {
+            "label": "Rastojanje plužnih glava",
+            "value": "67 - 80 cm"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/sejalice/pneumatske-sejalice",
+        "name": "Pneumatske sejalice",
+        "category": "Sejalice",
+        "brand": "Majevica",
+        "logo": "/brands/trim/majevica.png",
+        "image": "/products/Sejalica-sa-fiksnom-gredom-1.webp",
+        "href": "/prikljucne-masine/sejalice/pneumatske-sejalice",
+        "specs": [
+          {
+            "label": "Radni zahvat",
+            "value": "4 RK - 12 RR"
+          },
+          {
+            "label": "Zapremina kutije za eme",
+            "value": "25 dm3"
+          },
+          {
+            "label": "Težina",
+            "value": "620 - 2050 kg"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/freze/rotacione-freze-rotas",
+        "name": "Rotacione freze Rotas",
+        "category": "Freze",
+        "brand": "FPM Agromehanika",
+        "logo": "/brands/trim/fpm.png",
+        "image": "/products/Teska-freza-ROTAS.webp",
+        "href": "/prikljucne-masine/freze/rotacione-freze-rotas",
+        "specs": [
+          {
+            "label": "Radni zahvat",
+            "value": "1.4 - 2.6 m"
+          },
+          {
+            "label": "Ukupna širina",
+            "value": "1.7 - 2.9 m"
+          },
+          {
+            "label": "Min. snaga traktora",
+            "value": "40 - 75 ks"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/setvospremaci/setvospremac-supra",
+        "name": "Setvospremač Supra",
+        "category": "Setvospremači",
+        "brand": "Gorenc",
+        "logo": "/brands/trim/gorenc.png",
+        "image": "/products/supra.webp",
+        "href": "/prikljucne-masine/setvospremaci/setvospremac-supra",
+        "specs": [
+          {
+            "label": "Priključak",
+            "value": "II./III. kategorija"
+          },
+          {
+            "label": "Radna širina",
+            "value": "525 cm"
+          },
+          {
+            "label": "Težina",
+            "value": "2380 kg"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/prskalice/vucena-prskalica",
+        "name": "Vučena prskalica",
+        "category": "Prskalice",
+        "brand": "Agromehanika",
+        "logo": "/brands/trim/kranj.png",
+        "image": "/products/AGS-1500-EN-7.webp",
+        "href": "/prikljucne-masine/prskalice/vucena-prskalica",
+        "specs": [
+          {
+            "label": "Točkovi",
+            "value": "9,5 x 24"
+          },
+          {
+            "label": "Potporna noga",
+            "value": "Da"
+          },
+          {
+            "label": "Kućište od aluminija",
+            "value": "Da"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/rasipaci/rasipac-minos-agri",
+        "name": "Rasipač Minos Agri",
+        "category": "Rasipači",
+        "brand": "Minos Agri",
+        "logo": "/brands/trim/minos.png",
+        "image": "/products/rasiminos.webp",
+        "href": "/prikljucne-masine/rasipaci/rasipac-minos-agri",
+        "specs": [
+          {
+            "label": "Rasipači",
+            "value": "800l i 1000l"
+          },
+          {
+            "label": "Broj diska",
+            "value": "2"
+          },
+          {
+            "label": "Radna širina",
+            "value": "0,8 m3 i 1 m3"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/sejalice/sejalica-za-zito",
+        "name": "Sejalica za žito",
+        "category": "Sejalice",
+        "brand": "Majevica",
+        "logo": "/brands/trim/majevica.png",
+        "image": "/products/szz.webp",
+        "href": "/prikljucne-masine/sejalice/sejalica-za-zito",
+        "specs": [
+          {
+            "label": "Razmak redova",
+            "value": "12 i 9,5 cm"
+          },
+          {
+            "label": "Broj redova",
+            "value": "25 i 31"
+          },
+          {
+            "label": "Širina",
+            "value": "3 m"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/freze/pomerljive-freze",
+        "name": "Pomerljive freze",
+        "category": "Freze",
+        "brand": "FPM Agromehanika",
+        "logo": "/brands/trim/fpm.png",
+        "image": "/products/Pomerljiva-freza.webp",
+        "href": "/prikljucne-masine/freze/pomerljive-freze",
+        "specs": [
+          {
+            "label": "Radni zahvat",
+            "value": "1.05 - 2.05 m"
+          },
+          {
+            "label": "Min. snaga traktora",
+            "value": "11 - 37 ks"
+          },
+          {
+            "label": "Priključivanje",
+            "value": "U 3 tačke"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "stocarstvo",
+    "label": "Stočarstvo",
+    "items": [
+      {
+        "slug": "prikljucne-masine/balirke/metal-fach-z562",
+        "name": "Metal-Fach Z562",
+        "category": "Balirke",
+        "brand": "Metal-Fach",
+        "logo": "/brands/trim/metalfach.png",
+        "image": "/products/prasa-belujaca-stalokomorowa-z562-rn-ts_660x371.webp",
+        "href": "/prikljucne-masine/balirke/metal-fach-z562",
+        "specs": [
+          {
+            "label": "Brzina rotacije kardana",
+            "value": "540obr/min"
+          },
+          {
+            "label": "Pneumatici",
+            "value": "400/60-15,5 14PR"
+          },
+          {
+            "label": "Sistem vezivanja",
+            "value": "kanap"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/balirke/ursus-543a",
+        "name": "Presa Ursus 543A",
+        "category": "Balirke",
+        "brand": "Ursus",
+        "logo": "/brands/trim/ursus.png",
+        "image": "/products/ursus-z543.webp",
+        "href": "/prikljucne-masine/balirke/ursus-543a",
+        "specs": [
+          {
+            "label": "Min. snaga",
+            "value": "35 kw"
+          },
+          {
+            "label": "Broj osovina",
+            "value": "1"
+          },
+          {
+            "label": "Transportna visina",
+            "value": "2.1 m"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/kosacice/agrisprint",
+        "name": "Agrisprint",
+        "category": "Kosačice",
+        "brand": "Čelmak",
+        "logo": "/brands/trim/celmak.png",
+        "image": "/products/kosacica.webp",
+        "href": "/prikljucne-masine/kosacice/agrisprint",
+        "specs": [
+          {
+            "label": "Težina",
+            "value": "350 kg"
+          },
+          {
+            "label": "Potrebna snaga traktora",
+            "value": "40 ks"
+          },
+          {
+            "label": "Radni kapacitet",
+            "value": "1,5 ha/h"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/kosacice/kosacice-comer",
+        "name": "Kosačice COMER",
+        "category": "Kosačice",
+        "brand": "FPM Agromehanika",
+        "logo": "/brands/trim/fpm.png",
+        "image": "/products/diskaste-kosacice-dk-06.webp",
+        "href": "/prikljucne-masine/kosacice/kosacice-comer",
+        "specs": [
+          {
+            "label": "Priključivanje",
+            "value": "U 3 tačke"
+          },
+          {
+            "label": "Broj noževa po disku",
+            "value": "2"
+          },
+          {
+            "label": "Min. snaga traktora",
+            "value": "21 ks - 41 ks"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/sakupljaci/sunce",
+        "name": "Sunce",
+        "category": "Sakupljači",
+        "brand": "Termometal",
+        "logo": "/brands/trim/termometal.png",
+        "image": "/products/sunce.webp",
+        "href": "/prikljucne-masine/sakupljaci/sunce",
+        "specs": [
+          {
+            "label": "Broj sabirnih točkova",
+            "value": "4"
+          },
+          {
+            "label": "Broj sabirnih elemenata u točku",
+            "value": "20"
+          },
+          {
+            "label": "Broj mesta za podmazivanje",
+            "value": "7"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/utovarivaci/hidraulicni-utovarivac",
+        "name": "Hidraulični utovarivač",
+        "category": "Utovarivači",
+        "brand": "Ferocoop",
+        "logo": "/brands/trim/ferocoop.png",
+        "image": "/products/hidraulicni-utovarivac.webp",
+        "href": "/prikljucne-masine/utovarivaci/hidraulicni-utovarivac",
+        "specs": [
+          {
+            "label": "Max. dubina dohvata",
+            "value": "3 m"
+          },
+          {
+            "label": "Radni pritisak",
+            "value": "160 bara"
+          },
+          {
+            "label": "Zapremina rezervoara",
+            "value": "18 l"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "vocarstvo",
+    "label": "Voćarstvo",
+    "items": [
+      {
+        "slug": "prikljucne-masine/atomizeri/agp-1000-2000-l",
+        "name": "AGP 1000 – 2000 l",
+        "category": "Atomizeri",
+        "brand": "Agromehanika",
+        "logo": "/brands/trim/kranj.png",
+        "image": "/products/AGP_2000EN_slika_1-remove.webp",
+        "href": "/prikljucne-masine/atomizeri/agp-1000-2000-l",
+        "specs": [
+          {
+            "label": "Ukupan broj dizni",
+            "value": "12"
+          },
+          {
+            "label": "Rezervoar",
+            "value": "Polietilenski"
+          },
+          {
+            "label": "Rezervoar za ispiranje ruku",
+            "value": "Da"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/atomizeri/noseni-atomizeri-s",
+        "name": "Nošeni atomizeri S",
+        "category": "Atomizeri",
+        "brand": "Morava",
+        "logo": "/brands/trim/morava.png",
+        "image": "/products/AM-330S-09-1-1.webp",
+        "href": "/prikljucne-masine/atomizeri/noseni-atomizeri-s",
+        "specs": [
+          {
+            "label": "Broj mlaznica",
+            "value": "10"
+          },
+          {
+            "label": "Broj membrana",
+            "value": "2 - 3"
+          },
+          {
+            "label": "Broj rezervoara",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/mulcari/vocarski-mulcari",
+        "name": "Voćarski Mulčari",
+        "category": "Mulčari",
+        "brand": "FPM Agromehanika",
+        "logo": "/brands/trim/fpm.png",
+        "image": "/products/Mulcar-za-vocarstvo-i-vinogradarstvo-2.webp",
+        "href": "/prikljucne-masine/mulcari/vocarski-mulcari",
+        "specs": [
+          {
+            "label": "Broj noževa Y",
+            "value": "48 - 60"
+          },
+          {
+            "label": "Broj noževa čekić",
+            "value": "16 - 18"
+          },
+          {
+            "label": "Visina reza",
+            "value": "2 - 7 cm"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/mulcari/elite",
+        "name": "Elite",
+        "category": "Mulčari",
+        "brand": "INO Brežice",
+        "logo": "/brands/trim/ino.png",
+        "image": "/products/elite.webp",
+        "href": "/prikljucne-masine/mulcari/elite",
+        "specs": [
+          {
+            "label": "Meh. podešavanje priklopa",
+            "value": "40"
+          },
+          {
+            "label": "Broj čekića",
+            "value": "28 - 34"
+          },
+          {
+            "label": "Kardansko vratilo",
+            "value": "540 o/min"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/mulcari/mks-plus",
+        "name": "MKS Plus",
+        "category": "Mulčari",
+        "brand": "INO Brežice",
+        "logo": "/brands/trim/ino.png",
+        "image": "/products/mksplus.webp",
+        "href": "/prikljucne-masine/mulcari/mks-plus",
+        "specs": [
+          {
+            "label": "Broj čekića",
+            "value": "20 - 28 kom"
+          },
+          {
+            "label": "Kardansko vratilo",
+            "value": "540 o/min"
+          },
+          {
+            "label": "Min.težina traktora",
+            "value": "2900 kg"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/atomizeri/atomizeri-inox",
+        "name": "Atomizeri INOX",
+        "category": "Atomizeri",
+        "brand": "Morava",
+        "logo": "/brands/trim/morava.png",
+        "image": "/products/1-22.webp",
+        "href": "/prikljucne-masine/atomizeri/atomizeri-inox",
+        "specs": [
+          {
+            "label": "Broj rezervoara",
+            "value": "3"
+          },
+          {
+            "label": "Broj mlaznica",
+            "value": "10 - 12"
+          },
+          {
+            "label": "Prečnik ventilatora",
+            "value": "700 - 900 mm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "key": "transport",
+    "label": "Transport",
+    "items": [
+      {
+        "slug": "prikljucne-masine/prikolice/prikolice-4-t",
+        "name": "Prikolice 4 T",
+        "category": "Prikolice",
+        "brand": "Majevica",
+        "logo": "/brands/trim/majevica.png",
+        "image": "/products/38-Background-Removed.webp",
+        "href": "/prikljucne-masine/prikolice/prikolice-4-t",
+        "specs": [
+          {
+            "label": "Pneumatici",
+            "value": "10.0/75-15.3″12PR"
+          },
+          {
+            "label": "Težina",
+            "value": "915 - 1035 kg"
+          },
+          {
+            "label": "Kipovanje",
+            "value": "Na 3 strane"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/prikolice/prikolica-celmak",
+        "name": "Prikolica Čelmak",
+        "category": "Prikolice",
+        "brand": "Čelmak",
+        "logo": "/brands/trim/celmak.png",
+        "image": "/products/35tnRmork1_2-(1).webp",
+        "href": "/prikljucne-masine/prikolice/prikolica-celmak",
+        "specs": [
+          {
+            "label": "Visina poklopca",
+            "value": "700 mm"
+          },
+          {
+            "label": "Veličina boksa",
+            "value": "4500x2100x700"
+          },
+          {
+            "label": "Dodatna visina",
+            "value": "300 mm"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/cisterne/cisterna-majevica",
+        "name": "Cisterna Majevica",
+        "category": "Cisterne",
+        "brand": "Majevica",
+        "logo": "/brands/trim/majevica.png",
+        "image": "/products/33-Background-Removed.webp",
+        "href": "/prikljucne-masine/cisterne/cisterna-majevica",
+        "specs": [
+          {
+            "label": "Potrebna vuča",
+            "value": "16 - 120 kW"
+          },
+          {
+            "label": "Težina cisterne",
+            "value": "780-2680 kg"
+          },
+          {
+            "label": "Učinak pumpe",
+            "value": "8100 l/min"
+          }
+        ]
+      },
+      {
+        "slug": "prikljucne-masine/rasturaci/rasturac-djubriva",
+        "name": "Rasturač đubriva",
+        "category": "Rasturači",
+        "brand": "Majevica",
+        "logo": "/brands/trim/majevica.png",
+        "image": "/products/41-Background-Removed.webp",
+        "href": "/prikljucne-masine/rasturaci/rasturac-djubriva",
+        "specs": [
+          {
+            "label": "Pneumatici",
+            "value": "10.0/75-15\""
+          },
+          {
+            "label": "Širina razbacivanja",
+            "value": "6 m"
+          },
+          {
+            "label": "Valjci",
+            "value": "Vertikalni"
+          }
+        ]
+      }
+    ]
+  }
+]

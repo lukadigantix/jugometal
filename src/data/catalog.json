@@ -1,0 +1,456 @@
+{
+  "tractorBrands": [
+    {
+      "slug": "solis",
+      "name": "Solis",
+      "description": "Solis je najbrže rastuće brend kompaktnih traktora u Evropi.",
+      "logo": "/sponsors/solis.png",
+      "banner": "/banners/traktori/solis.jpg",
+      "models": [
+        "traktori/solis/solis-20",
+        "traktori/solis/solis-26",
+        "traktori/solis/solis-50",
+        "traktori/solis/solis-60",
+        "traktori/solis/solis-60nt",
+        "traktori/solis/solis-75",
+        "traktori/solis/solis-75nt",
+        "traktori/solis/solis-90",
+        "traktori/solis/solis-90nt"
+      ]
+    },
+    {
+      "slug": "imt",
+      "name": "IMT",
+      "description": "IMT je pionir u mehanizaciji poljoprivrede i tehnologiji traktora.",
+      "logo": "/sponsors/imt.png",
+      "banner": "/banners/traktori/imt.webp",
+      "models": [
+        "traktori/imt/imt-5393-di",
+        "traktori/imt/imt-5493-di",
+        "traktori/imt/imt-5652-di"
+      ]
+    },
+    {
+      "slug": "john-deere",
+      "name": "John Deere",
+      "description": "Svestrani, snažni i efikasni – John Deere.",
+      "logo": "/sponsors/deere.png",
+      "banner": "",
+      "models": [
+        "traktori/john-deere/5045-d",
+        "traktori/john-deere/5075m"
+      ]
+    },
+    {
+      "slug": "yto",
+      "name": "YTO",
+      "description": "YTO, vodeći dobavljač poljoprivredne mehanizacije u Kini.",
+      "logo": "/sponsors/yto.png",
+      "banner": "/banners/traktori/yto.jpg",
+      "models": [
+        "traktori/yto/yto-354",
+        "traktori/yto/yto-504",
+        "traktori/yto/yto-x1204",
+        "traktori/yto/yto-x1304",
+        "traktori/yto/yto-x804",
+        "traktori/yto/yto-x904"
+      ]
+    },
+    {
+      "slug": "mahindra",
+      "name": "Mahindra",
+      "description": "",
+      "logo": "/sponsors/mahindra.png",
+      "banner": "",
+      "models": [
+        "traktori/mahindra/475-di-mkm",
+        "traktori/mahindra/595-di-turbo-mkm",
+        "traktori/mahindra/7030-di"
+      ]
+    }
+  ],
+  "implementCategories": [
+    {
+      "slug": "balirke",
+      "name": "Balirke",
+      "image": "/images/masine/balirke.webp",
+      "products": [
+        "prikljucne-masine/balirke/metal-fach-z562",
+        "prikljucne-masine/balirke/ursus-543a"
+      ]
+    },
+    {
+      "slug": "kosacice",
+      "name": "Kosačice",
+      "image": "/images/masine/kosacice.webp",
+      "products": [
+        "prikljucne-masine/kosacice/agrisprint",
+        "prikljucne-masine/kosacice/kosacice-comer",
+        "prikljucne-masine/kosacice/rotaciona-kosacica"
+      ]
+    },
+    {
+      "slug": "sakupljaci",
+      "name": "Sakupljači",
+      "image": "/images/masine/sakupljaci.webp",
+      "products": [
+        "prikljucne-masine/sakupljaci/sunce"
+      ]
+    },
+    {
+      "slug": "utovarivaci",
+      "name": "Utovarivači",
+      "image": "/images/masine/utovarivaci.webp",
+      "products": [
+        "prikljucne-masine/utovarivaci/hidraulicni-utovarivac"
+      ]
+    },
+    {
+      "slug": "freze",
+      "name": "Freze",
+      "image": "/images/masine/freze.webp",
+      "products": [
+        "prikljucne-masine/freze/pomerljive-freze",
+        "prikljucne-masine/freze/rotacione-freze-rotas"
+      ]
+    },
+    {
+      "slug": "plugovi",
+      "name": "Plugovi",
+      "image": "/images/masine/plugovi.webp",
+      "products": [
+        "prikljucne-masine/plugovi/noseni-plugovi"
+      ]
+    },
+    {
+      "slug": "sejalice",
+      "name": "Sejalice",
+      "image": "/images/masine/sejalice.webp",
+      "products": [
+        "prikljucne-masine/sejalice/pneumatske-sejalice",
+        "prikljucne-masine/sejalice/sejalica-za-zito"
+      ]
+    },
+    {
+      "slug": "prskalice",
+      "name": "Prskalice",
+      "image": "/images/masine/prskalice.webp",
+      "products": [
+        "prikljucne-masine/prskalice/motorna-prskalica",
+        "prikljucne-masine/prskalice/motorne-prskalice",
+        "prikljucne-masine/prskalice/nosena-prskalica-330l",
+        "prikljucne-masine/prskalice/nosena-prskalica-440l",
+        "prikljucne-masine/prskalice/nosena-prskalica-660l",
+        "prikljucne-masine/prskalice/nosena-prskalica-e",
+        "prikljucne-masine/prskalice/nosena-prskalica-f",
+        "prikljucne-masine/prskalice/nosene-prskalice",
+        "prikljucne-masine/prskalice/vucena-prskalica"
+      ]
+    },
+    {
+      "slug": "rasipaci",
+      "name": "Rasipači",
+      "image": "/images/masine/rasipaci.webp",
+      "products": [
+        "prikljucne-masine/rasipaci/rasipac-careta",
+        "prikljucne-masine/rasipaci/rasipac-minos-agri"
+      ]
+    },
+    {
+      "slug": "setvospremaci",
+      "name": "Setvospremači",
+      "image": "/images/masine/setvospremaci.webp",
+      "products": [
+        "prikljucne-masine/setvospremaci/agp-300k-400k",
+        "prikljucne-masine/setvospremaci/setvospremac-supra",
+        "prikljucne-masine/setvospremaci/setvospremaci"
+      ]
+    },
+    {
+      "slug": "atomizeri",
+      "name": "Atomizeri",
+      "image": "/images/masine/atomizeri.jpg",
+      "products": [
+        "prikljucne-masine/atomizeri/agp-1000-2000-l",
+        "prikljucne-masine/atomizeri/agp-330-440",
+        "prikljucne-masine/atomizeri/atomizeri-inox",
+        "prikljucne-masine/atomizeri/noseni-atomizeri-e",
+        "prikljucne-masine/atomizeri/noseni-atomizeri-s"
+      ]
+    },
+    {
+      "slug": "mulcari",
+      "name": "Mulčari",
+      "image": "/images/masine/mulcari.webp",
+      "products": [
+        "prikljucne-masine/mulcari/elite-l",
+        "prikljucne-masine/mulcari/elite",
+        "prikljucne-masine/mulcari/forst",
+        "prikljucne-masine/mulcari/mkl",
+        "prikljucne-masine/mulcari/mkm",
+        "prikljucne-masine/mulcari/mks-plus",
+        "prikljucne-masine/mulcari/mmt",
+        "prikljucne-masine/mulcari/ratarski-mulcari",
+        "prikljucne-masine/mulcari/roto-mulcer",
+        "prikljucne-masine/mulcari/spyder",
+        "prikljucne-masine/mulcari/vocarski-mulcari"
+      ]
+    },
+    {
+      "slug": "prikolice",
+      "name": "Prikolice",
+      "image": "/images/masine/prikolice.webp",
+      "products": [
+        "prikljucne-masine/prikolice/prikolica-celmak",
+        "prikljucne-masine/prikolice/prikolice-4-t"
+      ]
+    },
+    {
+      "slug": "cisterne",
+      "name": "Cisterne",
+      "image": "/images/masine/cisterne.webp",
+      "products": [
+        "prikljucne-masine/cisterne/cisterna-majevica"
+      ]
+    },
+    {
+      "slug": "rasturaci",
+      "name": "Rasturači",
+      "image": "/images/masine/rasturaci.webp",
+      "products": [
+        "prikljucne-masine/rasturaci/rasturac-djubriva"
+      ]
+    }
+  ],
+  "partsGroups": [
+    {
+      "slug": "traktorski-delovi",
+      "name": "Traktorski delovi",
+      "subcategories": [
+        {
+          "slug": "imt",
+          "name": "IMT",
+          "image": "/images/masine/imt-delovi.png",
+          "count": 34,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "solis",
+          "name": "Solis",
+          "image": "/images/masine/solis-delovi.png",
+          "count": 4,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "yto",
+          "name": "YTO",
+          "image": "/images/masine/yto-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "massey-ferguson",
+          "name": "Massey Ferguson",
+          "image": "/images/masine/masey-delovi.png",
+          "count": 39,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "landini",
+          "name": "Landini",
+          "image": "/images/masine/landini-delovi.png",
+          "count": 51,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "jinma",
+          "name": "Jinma",
+          "image": "/images/masine/jinma-delovi.png",
+          "count": 51,
+          "brokenOnOriginal": false
+        }
+      ]
+    },
+    {
+      "slug": "delovi-za-prikljucne-masine",
+      "name": "Delovi za priključne mašine",
+      "subcategories": [
+        {
+          "slug": "fpm-agromehanika",
+          "name": "FPM Agromehanika",
+          "image": "/images/masine/fpm-delovi.png",
+          "count": 3,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "agromehanika-kranj",
+          "name": "Agromehanika Kranj",
+          "image": "/images/masine/agro-delovi.png",
+          "count": 47,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "ino-brezice",
+          "name": "INO Brežice",
+          "image": "/images/masine/ino-delovi.png",
+          "count": 12,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "sip-sempeter",
+          "name": "SIP Šempeter",
+          "image": "/images/masine/sip-delovi.png",
+          "count": 68,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "majevica",
+          "name": "Majevica",
+          "image": "/images/masine/majevica-delovi.png",
+          "count": 12,
+          "brokenOnOriginal": false
+        },
+        {
+          "slug": "rotaciona-kosa-poljska",
+          "name": "Rotaciona kosa (Poljska)",
+          "image": "/images/masine/rotaciona-delovi.png",
+          "count": 17,
+          "brokenOnOriginal": false
+        }
+      ]
+    },
+    {
+      "slug": "ostalo",
+      "name": "Ostalo",
+      "subcategories": [
+        {
+          "slug": "kardani",
+          "name": "Kardani",
+          "image": "/images/masine/kardani-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        },
+        {
+          "slug": "ulja-i-maziva",
+          "name": "Ulja i maziva",
+          "image": "/images/masine/ulja-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        },
+        {
+          "slug": "hladnjaci",
+          "name": "Hladnjaci",
+          "image": "/images/masine/hladnjaci-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        },
+        {
+          "slug": "trimeri",
+          "name": "Trimeri",
+          "image": "/images/masine/trimeri-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        },
+        {
+          "slug": "spoljne-gume",
+          "name": "Spoljne gume",
+          "image": "/images/masine/spoljne-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        },
+        {
+          "slug": "razno",
+          "name": "Razno",
+          "image": "/images/masine/razno-delovi.png",
+          "count": 0,
+          "brokenOnOriginal": true
+        }
+      ]
+    }
+  ],
+  "homeFeatured": [
+    "/traktori/solis/solis-75",
+    "/prikljucne-masine/kosacice/rotaciona-kosacica",
+    "/prikljucne-masine/freze/pomerljive-freze",
+    "/prikljucne-masine/kosacice/rotaciona-kosacica",
+    "/traktori/yto/yto-504",
+    "/prikljucne-masine/balirke/ursus-543a",
+    "/traktori/solis/solis-90",
+    "/prikljucne-masine/balirke/metal-fach-z562"
+  ],
+  "implementUsageGroups": [
+    {
+      "slug": "ratarstvo",
+      "name": "Ratarstvo",
+      "title": "Mašine za ratarstvo",
+      "categories": [
+        "plugovi",
+        "freze",
+        "sejalice",
+        "prskalice",
+        "rasipaci",
+        "setvospremaci"
+      ]
+    },
+    {
+      "slug": "stocarstvo",
+      "name": "Stočarstvo",
+      "title": "Mašine za stočarstvo",
+      "categories": [
+        "balirke",
+        "kosacice"
+      ]
+    },
+    {
+      "slug": "vocarstvo",
+      "name": "Voćarstvo",
+      "title": "Mašine za voćarstvo",
+      "categories": [
+        "atomizeri",
+        "mulcari"
+      ]
+    },
+    {
+      "slug": "transport",
+      "name": "Transport",
+      "title": "Mašine za transport",
+      "categories": [
+        "cisterne",
+        "prikolice",
+        "rasturaci"
+      ]
+    }
+  ],
+  "homeBanners": [
+    {
+      "title": "Traktori - snaga i pouzdanost za svaku njivu",
+      "text": "Naši traktori kombinuju vrhunsku snagu, izdržljivost i inovativnu tehnologiju kako bi osigurali maksimalnu efikasnost na polju.",
+      "href": "/traktori",
+      "image": "/banners/traktori.jpg"
+    },
+    {
+      "title": "Priključne mašine - kvalitet i pouzdanost",
+      "text": "Naša ponuda priključnih mašina obuhvata širok spektar proizvoda koji će zadovoljiti sve vaše potrebe na polju.",
+      "href": "/prikljucne-masine",
+      "image": "/banners/masine.jpg"
+    },
+    {
+      "title": "Rezervni delovi",
+      "text": "U našoj ponudi možete pronaći rezervne delove za traktore i poljoprivrednu mehanizaciju vrhunskog kvaliteta.",
+      "href": "/rezervni-delovi",
+      "image": "/banners/delovi.jpg"
+    }
+  ],
+  "pageBanners": {
+    "traktori": "/banners/traktori.jpg",
+    "prikljucne-masine": "/banners/masine2.jpg",
+    "rezervni-delovi": "/banners/delovi.jpg",
+    "o-nama": [
+      "/banners/jugo.jpg",
+      "/banners/firma.jpg"
+    ],
+    "kontakt": "/banners/jugo2.jpg",
+    "servis": "/banners/delovi3.jpg",
+    "subvencije": "/banners/subv.jpg"
+  }
+}

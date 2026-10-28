@@ -1,0 +1,100 @@
+{
+  "name": "Jugometal",
+  "legalName": "Jugometal d.o.o. Svilajnac",
+  "founded": 1990,
+  "foundedNote": "Sajt kaže 1990 i '35 godina u poslu' (2025). Poljoberza imenik kaže 1989 - proveriti sa klijentom.",
+  "tagline": "Servis i prodaja poljoprivredne mehanizacije",
+  "email": "info@jugometal.co.rs",
+  "website": "https://jugometal.co.rs",
+  "social": {
+    "facebook": "https://www.facebook.com/jugometal",
+    "instagram": "https://www.instagram.com/jugometal_doo/"
+  },
+  "locations": [
+    {
+      "slug": "svilajnac",
+      "name": "Jugometal Svilajnac",
+      "isHq": true,
+      "description": "Servis i prodaja poljoprivredne mehanizacije u Svilajncu",
+      "street": "Kneza Miloša 81",
+      "streetNote": "Kontakt strana i PTT imenik kažu 81, header i footer sajta kažu 51 - proveriti sa klijentom.",
+      "postalCode": "35210",
+      "city": "Svilajnac",
+      "phone": "035/312-391",
+      "phoneParts": "035/311-137",
+      "fax": "035/312-331",
+      "mobile": null,
+      "googleMaps": "https://www.google.com/maps/place/JUGOMETAL+d.o.o.+Svilajnac/data=!4m2!3m1!1s0x0:0xf407f690f9310426"
+    },
+    {
+      "slug": "temerin",
+      "name": "Jugometal Temerin",
+      "isHq": false,
+      "description": "Servis i prodaja poljoprivredne mehanizacije u Temerinu",
+      "street": "Novosadska 634",
+      "postalCode": "21235",
+      "city": "Temerin",
+      "phone": "021/840-038",
+      "phoneParts": null,
+      "fax": "021/840-505",
+      "mobile": "063/10-58-705",
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=Novosadska+634+21235+Temerin"
+    },
+    {
+      "slug": "pozarevac",
+      "name": "Jugometal Požarevac",
+      "isHq": false,
+      "description": "Servis i prodaja poljoprivredne mehanizacije u Požarevcu",
+      "street": "Beogradski put 17/A",
+      "postalCode": "12000",
+      "city": "Požarevac",
+      "phone": "012/665-544",
+      "phoneParts": null,
+      "fax": null,
+      "mobile": "063/10-58-762",
+      "googleMaps": "https://www.google.com/maps/search/?api=1&query=Beogradski+put+17A+12000+Požarevac"
+    }
+  ],
+  "about": {
+    "title": "Jugometal - siguran partner.",
+    "since": "Since 1990.",
+    "intro": "Preduzeće Jugometal d.o.o. Svilajnac osnovano je 1990. godine. Nakon uspešnih poslovanja možemo da se pohvalimo i sedištima u Temerinu i Požarevcu.",
+    "sections": [
+      { "title": "Višegodišnji rad", "text": "Višegodišnji rad, saradnja sa poljoprivrednicima, poslovnost i posvećenost potrebama kupaca, doprineli su da Jugometal postane lider u prodaji poljoprivredne mehenizacije." },
+      { "title": "Široka ponuda traktora", "text": "Specijalizovani smo za prodaju traktora i poljoprivredne mehanizacije vrhunskog kvaliteta koji su pouzdani, efikasni i napravljeni da se nose sa bilo kojim poljoprivrednim ili industrijskim zadatkom." },
+      { "title": "Ponuda poljoprivredne mehanizacije", "text": "Naša široka ponuda traktora obuhvata modele vodećih svetskih proizvođača poput YTO, John Deere, Solis, Zetor, Mahindra i Belarus. Podržavamo domaće proizvođače priključnih mašina kao što su FPM Agromehanika, Morava i Majevica, kao i proizvode renomiranih firmi iz regiona poput SIP Šempeter, INO Brežice, Gorenc Slovenija i Agromehanika Kranj Slovenija." }
+    ]
+  },
+  "service": {
+    "title": "Servis i prodaja poljoprivredne mehanizacije.",
+    "intro": "Fokusiramo se na pružanje vrhunskih post-prodajnih usluga kroz stručnu servisnu službu i dostupnost originalnih rezervnih delova.",
+    "sections": [
+      { "title": "IMT i IMR", "text": "Kroz godine, snabdevali smo domaće tržište visokokvalitetnim delovima za traktore IMT i IMR, pružajući istovremeno vrhunsku uslugu servisiranja ovih mašina." },
+      { "title": "Massey Ferguson", "text": "Massey Ferguson su veoma značajni ukoliko želite da pravilno održavate i očuvate vaš traktor." },
+      { "title": "Originalni rezervni delovi", "text": "Ukoliko se snabdevate originalnim rezervnim delovima vaš zastoj u radu će biti minimalan." }
+    ]
+  },
+  "subsidies": {
+    "title": "Subvencioni programi.",
+    "text": "Kontaktirajte nas za više informacija.",
+    "note": "Strana na sajtu nema sadržaj osim naslova - klijent treba da da tekst (programi, finansiranje, lizing)."
+  },
+  "promotions": { "title": "Akcija", "emptyText": "Trenutno nemamo proizvoda na akciji." },
+  "partnerLogos": [
+    "belarus", "carraro", "celmak", "deere", "ferocoop", "fpm", "gorenc", "gumaplast", "impex", "ino", "kranj",
+    "mahindra", "majevica", "metalfach", "minos", "morava", "solis", "tafe", "termometal", "ursus", "yto", "zetor"
+  ],
+  "partnerLogosNote": "Fajlovi su u public/brands/<ime>.png - to je karusel 'Partneri' sa početne. Na strani O nama je kraći niz od 12 logoa u public/sponsors/.",
+  "seo": {
+    "title": "Jugometal – IMT, Solis, John Deere, YTO, Mahindra Traktori i Rezervni Delovi",
+    "description": "Jugometal Svilajnac – prodaja traktora (IMT, Solis, John Deere, YTO, Mahindra, Carraro, Belarus), rezervnih delova za traktore, poljoprivrednih mašina i opreme širom Srbije. Rezervni delovi za traktor uvek dostupni. Pouzdan partner za savremenu mehanizaciju.",
+    "keywords": "Jugometal,IMT,Solis,John Deere,YTO,Mahindra,Carraro,Belarus,Rezervni delovi za traktor,IMT Traktori,Solis Traktori,John Deere Srbija,YTO Traktori,Mahindra Traktori,Carraro Traktori,Belarus Traktori,Traktori Srbija,Poljoprivredne Mašine,Rezervni Delovi Za Traktore,Traktorski Delovi,Poljoprivredna Oprema,Jugometal Svilajnac",
+    "siteName": "Jugometal – Traktori i Poljoprivredne Mašine",
+    "locale": "sr-RS"
+  },
+  "currentSite": {
+    "stack": "Next.js (App Router, Turbopack), Radix UI akordeoni, next/image",
+    "credit": "Design & Development Scope. (footer, 2025)",
+    "cart": "Postoji /cart sa formom za dostavu (ime i prezime, email, telefon, grad, poštanski broj, adresa). Dugme 'Dodajte u korpu' postoji samo na stranama rezervnih delova."
+  }
+}

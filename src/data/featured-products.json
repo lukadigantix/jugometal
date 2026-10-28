@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Solis 75",
+    "category": "Traktor",
+    "text": "Solis 75 je traktor kategorije II, sa snagom motora od 75 konjskih snaga, četiri cilindra i radnom zapreminom od 3707 cm³.",
+    "image": "/products/Traktor-Solis-75-01.webp",
+    "href": "/traktori/solis/solis-75",
+    "logo": "/brands/trim/solis.png"
+  },
+  {
+    "name": "Rotaciona kosačica Celmak",
+    "category": "Priključna mašina",
+    "text": "Teži 350 kg, što doprinosi stabilnosti i pokretljivosti i olakšava manevrisanje na uskim i nepristupačnim terenima.",
+    "image": "/products/rotcelmak.webp",
+    "href": "/prikljucne-masine/kosacice/rotaciona-kosacica",
+    "logo": "/brands/trim/celmak.png"
+  },
+  {
+    "name": "Pomerljive freze",
+    "category": "Priključna mašina",
+    "text": "Pomerljive freze spadaju u grupu lakših freza i namenjene su za osnovnu i dopunsku obradu zemljišta u ratarstvu, povrtarstvu, voćarstvu i vinogradarstvu.",
+    "image": "/products/Pomerljiva-freza.webp",
+    "href": "/prikljucne-masine/freze/pomerljive-freze",
+    "logo": "/brands/trim/fpm.png"
+  },
+  {
+    "name": "Rotaciona kosačica Minos Agri",
+    "category": "Priključna mašina",
+    "text": "Rotaciona kosačica Minos Agri kosi sve vrste biljaka od trava, detelina, livada i slično. Uz prednosti podesive visine košenja i visoko kvalitetne visine rezanja.",
+    "image": "/products/minsagri.webp",
+    "href": "/prikljucne-masine/kosacice/rotaciona-kosacica",
+    "logo": "/brands/trim/minos.png"
+  },
+  {
+    "name": "YTO 504",
+    "category": "Traktor",
+    "text": "YTO 504 ima 4-cilindrični motor bez turbine i bez elektronike sa velikom zapreminom od 3160 cm3.",
+    "image": "/products/YTO-504-min.webp",
+    "href": "/traktori/yto/yto-504",
+    "logo": "/brands/trim/yto.png"
+  },
+  {
+    "name": "Presa Ursus 543A",
+    "category": "Priključna mašina",
+    "text": "Materijal se valja u bale promera 1200 mm. Bale napravljene pomoću Z-543/A prese su vezane konopcem ili mrežom.",
+    "image": "/products/ursus-z543.webp",
+    "href": "/prikljucne-masine/balirke/ursus-543a",
+    "logo": "/brands/trim/ursus.png"
+  },
+  {
+    "name": "Solis 90",
+    "category": "Traktor",
+    "text": "Solis 90 predstavlja izvanredan traktor visoke efikasnosti i pouzdanosti, savršen za različite poljoprivredne radove.",
+    "image": "/products/Solis-90.webp",
+    "href": "/traktori/solis/solis-90",
+    "logo": "/brands/trim/solis.png"
+  },
+  {
+    "name": "Balirka Metal-Fach Z562",
+    "category": "Priključna mašina",
+    "text": "U Metal-Fach Z562 balirci za rolo bale, svaki element ima svoje mjesto, savršeno uklopljen u kompleksni ples poljoprivredne produktivnosti.",
+    "image": "/products/prasa-belujaca-stalokomorowa-z562-rn-ts_660x371.webp",
+    "href": "/prikljucne-masine/balirke/metal-fach-z562",
+    "logo": "/brands/trim/metalfach.png"
+  }
+]

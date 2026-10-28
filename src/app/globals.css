@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  /* core neutrals — matched to veloretti's own palette */
+  --color-ink: #2a2926;        /* core-brown-400 / black */
+  --color-ink-soft: #403e3a;
+  --color-brown-100: #8b887e;  /* core-brown-100 */
+  --color-brown-200: #6b6961;  /* core-brown-200 */
+  --color-brown-300: #4b4944;  /* core-brown-300 */
+  --color-paper: #ffffff;
+  --color-canvas: #f5f5f4;     /* neutral-smoke */
+  --color-canvas-deep: #edecea;
+  --color-cream: #f3f1ec;
+  --color-sand: #ddd9cd;
+  --color-mist: #6f6d68;
+  --color-line: #e5e7eb;       /* gray-200 (mega-menu divider) */
+  --color-line-soft: #e4e2de;
+  /* accent drives buttons & highlights */
+  --color-accent: #2a2926;
+  --color-accent-soft: #403e3a;
+  --color-accent-contrast: #ffffff;
+  --font-sans: var(--font-brand), ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --ease-brand: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1); /* mega-menu unfold */
+}
+
+/* native smooth scroll removed — Lenis drives scrolling (see components/SmoothScroll.tsx) */
+
+/* horizontal carousels scroll without a visible scrollbar (mega-menu) */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tailwind v4 preflight leaves buttons with the default cursor — restore pointer */
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+@keyframes heroIn {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  [class*="animate-[marquee"] { animation: none !important; }
+}
+
+/* dugmad-pilule se nikad ne lome u dva reda i ne skupljaju se u flex redu
+   (u base sloju, pa klase kao flex-1 / w-full i dalje važe) */
+@layer base {
+  a.rounded-full,
+  button.rounded-full {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}

@@ -1,0 +1,467 @@
+[
+ {
+  "source": "/cart",
+  "destination": "/korpa",
+  "permanent": true
+ },
+ {
+  "source": "/prikljucne-masine/rasipaci-dubriva",
+  "destination": "/prikljucne-masine/rasipaci",
+  "permanent": true
+ },
+ {
+  "source": "/prikljucne-masine/ratarstvo/setvospremaci",
+  "destination": "/prikljucne-masine/setvospremaci",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-klipnjaca-pumpe-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-klipnjaca-pumpe",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-koleno-ulazno",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-koleno-ulazno-015-01-004",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-koleno-ulazno-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-koleno-ulazno-017-01-141",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-matica-dizne-crna-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-matica-dizne-crna",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-prsten-klipnjace-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-prsten-klipnjace",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-vazdusna-membrana-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-vazdusna-membrana",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranj-ventil",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranja-daljinsko-otvaranje-ventila-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/agromehanika-kranj/agromehanika-kranja-daljinsko-otvaranje-ventila",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/fpm-agromehanika/noz-desni-freza-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/fpm-agromehanika/noz-desni-freza",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/majevica/lancanik-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/majevica/lancanik",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-elasticni-obruc",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-gornji-disk-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-gornji-disk",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-kuciste-lezaja-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-kuciste-lezaja",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-lancanik-1905-14z",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-bubnja-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-bubnja",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-desni-za-rotacionu-kosu",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-levi-za-rotacionu-kosu",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-rezuci-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-noz-rezuci",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-obruc-zaptivni-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-obruc-zaptivni",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-valjak-za-branje-",
+  "destination": "/rezervni-delovi/delovi-za-prikljucne-masine/sip-sempeter/sip-sempeter-valjak-za-branje",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/hladnjaci",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/kardani",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/razno",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/spoljne-gume",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/trimeri",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/ostalo/ulja-i-maziva",
+  "destination": "/rezervni-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/imt/alternator-",
+  "destination": "/rezervni-delovi/traktorski-delovi/imt/alternator",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/imt/imt-prekidac-svetla-",
+  "destination": "/rezervni-delovi/traktorski-delovi/imt/imt-prekidac-svetla",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/imt/imt-zaptivac-glave-motora-imo-533-",
+  "destination": "/rezervni-delovi/traktorski-delovi/imt/imt-zaptivac-glave-motora-imo-533",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/imt/prekidac-radnog-fara-",
+  "destination": "/rezervni-delovi/traktorski-delovi/imt/prekidac-radnog-fara",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/imt/vreteno-volana-",
+  "destination": "/rezervni-delovi/traktorski-delovi/imt/vreteno-volana",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/izlazno-vratilo-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/izlazno-vratilo",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/jinma-caura-bregaste-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/jinma-caura-bregaste",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/jinma-kraj-spone-354-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/jinma-kraj-spone-354",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/jinma-remenica-vodene-pume-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/jinma-remenica-vodene-pume",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/jinma-spojnicka-osovina-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/jinma-spojnicka-osovina",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/jinma/starter-",
+  "destination": "/rezervni-delovi/traktorski-delovi/jinma/starter",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-brza-spojka-kipera-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-brza-spojka-kipera",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-dihtung-poklopca-ventila-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-dihtung-poklopca-ventila",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-goriva",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-klime-delphi",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-ulja-volana",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-vazduha",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-vazduha-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-filter-vazduha-mistral",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-merac-goriva",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-merac-goriva-3685019m92",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-merac-goriva-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-merac-goriva-36912183m91",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-osigurac-instalacije-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-osigurac-instalacije",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-prekidac-klime",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-prekidac-klime-3691871m91",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-prekidac-klime-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-prekidac-klime-3541132m91",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-senzor-brzine-kardana-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/senzor-brzine-kardana",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-senzor-pritiska-ulja-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-senzor-pritiska-ulja",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-termostat-iveco-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-termostat-iveco",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/landini/landini-zastitna-guma-kocnice-",
+  "destination": "/rezervni-delovi/traktorski-delovi/landini/landini-zastitna-guma-kocnice",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/filter-ulja-motora",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/filter-ulja-motora-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-drzac-kabine-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-drzac-kabine",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-filter-goriva",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-filter-goriva-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-filter-goriva-3405418m2",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-grejac",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-gumica-menjaca-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-gumica-menjaca",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-kugla-sa-konusom-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-kugla-sa-konusom",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-medjuploca",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-medjuploca-3619156m1",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-medjuploca-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-medjuploca-3302355m1",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-pumpa-hidraulike-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-pumpa-hidraulike",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-radno-odelo",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-radno-odelo-352",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-radno-odelo-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-radno-odelo-353",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-senzor-temperature",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-senzor-temperature-1877731m92",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-senzor-temperature-",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-senzor-temperature-3812023m1",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/massey-ferguson/massey-ferguson-set-ac-pumpe",
+  "destination": "/rezervni-delovi/traktorski-delovi/massey-ferguson",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/solis/solis-filter-ulja-motora-",
+  "destination": "/rezervni-delovi/traktorski-delovi/solis/solis-filter-ulja-motora",
+  "permanent": true
+ },
+ {
+  "source": "/rezervni-delovi/traktorski-delovi/yto",
+  "destination": "/rezervni-delovi/traktorski-delovi",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus-mahindra",
+  "destination": "/traktori/mahindra",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/10213",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/12213",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/820-rm",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/821",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/892-rm",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/belarus/952",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/carraro",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/carraro/agricube-frutteto",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/carraro/agricube-vigneto",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/carraro/basso-80fb-90fb",
+  "destination": "/traktori",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/imt-tafe",
+  "destination": "/traktori/imt",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/solis/solis-filter-goriva-26",
+  "destination": "/rezervni-delovi/traktorski-delovi/solis",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/solis/solis-filter-hidraulike-50",
+  "destination": "/rezervni-delovi/traktorski-delovi/solis",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/solis/solis-filter-ulja-motora-",
+  "destination": "/rezervni-delovi/traktorski-delovi/solis",
+  "permanent": true
+ },
+ {
+  "source": "/traktori/solis/solis-filter-ulja-motora-26",
+  "destination": "/rezervni-delovi/traktorski-delovi/solis",
+  "permanent": true
+ }
+]

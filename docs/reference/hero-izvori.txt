@@ -1,0 +1,11 @@
+Hero slajder - izvori fotografija (27.10.2026, izbor: Luka „može predlog").
+Sve sa Pexels-a (besplatna Pexels licenca: dozvoljena komercijalna upotreba, bez obaveze navođenja autora).
+Skinuto u 2400 px širine (?auto=compress&cs=tinysrgb&w=2400).
+
+traktori.jpg            https://www.pexels.com/photo/5580718/   (traktor u zalasku, silueta na njivi; slika PRESLIKANA horizontalno da traktor bude desno, dalje od teksta)
+prikljucne-masine.jpg   https://www.pexels.com/photo/12442356/  (snimak iz vazduha: traktor sa sejalicom na njivi; brendovi se ne vide - zamena za 33497142 na Lukin zahtev; retuširani KUHN original ostaje kao hero-prikljucne-masine-original.jpg)
+online-prodavnica.jpg   https://www.pexels.com/photo/33559565/  (ruke mehaničara sa delom)
+servis.jpg              https://www.pexels.com/photo/12555015/  (mehaničar na motoru)
+
+Ostali kandidati (144) ostaju na /izbor (public/izbor) dok se ne odluči; obrisati pre lansiranja.
+Modeli traktora: slike proizvođača (isečci na belom) ostaju u mega-meniju i na stranama proizvoda.
