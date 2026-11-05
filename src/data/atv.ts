@@ -1,7 +1,20 @@
+import { Cable, Mountain, ShieldCheck } from "lucide-react";
 /* Benda ATV - Jugometal je prodavac. Cene i oprema: oglasi Jugometala (polovniautomobili.com, 10.2026).
  * Boje i tehnički podaci: bendamoto.com (proizvođač), prevedeno. */
 
-export type AtvColor = { name: string; sr: string; hex: string; image: string };
+export type AtvColor = {
+  name: string;
+  sr: string;
+  hex: string;
+  image: string;
+  /** 360° prikaz: kadrovi snimljeni u krug, redom (npr. spinFrames("redstone-1000-r2/flash-silver", 36)).
+   *  Bez kadrova sekcija prikazuje `image`. */
+  spin?: string[];
+};
+
+/** Putanje kadrova za 360° prikaz: /public/atv/360/<folder>/01.webp … NN.webp */
+export const spinFrames = (folder: string, count: number, ext = "webp") =>
+  Array.from({ length: count }, (_, i) => `/atv/360/${folder}/${String(i + 1).padStart(2, "0")}.${ext}`);
 export type AtvModel = {
   slug: string;
   name: string;
@@ -67,14 +80,14 @@ export const atvModels: AtvModel[] = [
   {
     slug: "redstone-1000-r2",
     name: "Benda Redstone 1000 R2",
-    tagline: "Najsnažniji kvad u klasi - 102 KS.",
+    tagline: "Najsnažniji kvad u klasi, 102 KS.",
     price: "10.990 €",
     priceNote: "kofer na poklon, metalik boje bez doplate",
     onSale: true,
     saleBadge: "Poklon",
     image: "/atv/boje/1000-flash-silver.webp",
     colors: [
-      { name: "Flash Silver", sr: "srebrna", hex: "#c3c6c9", image: "/atv/boje/1000-flash-silver.webp" },
+      { name: "Flash Silver", sr: "srebrna", hex: "#c3c6c9", image: "/atv/boje/1000-flash-silver.webp", spin: spinFrames("redstone-1000-r2/flash-silver", 8) },
       { name: "Obsidian Black", sr: "crna", hex: "#16181b", image: "/atv/boje/1000-obsidian-black.webp" },
       { name: "Furious Orange", sr: "narandžasta", hex: "#e8621c", image: "/atv/boje/1000-furious-orange.webp" },
       { name: "Sunflare Gold", sr: "zlatna", hex: "#c99a2e", image: "/atv/boje/1000-sunflare-gold.webp" },
@@ -106,11 +119,22 @@ export const atv = {
   text: "Kvadovi za njivu, šumu i teren. Pogon na sva četiri točka, zaključavanje diferencijala, vitlo i kuka u standardnoj opremi. Produžena garancija 3 godine ili 8.000 km.",
   image: "/atv/benda-teren.jpg",
   cta: { label: "Pogledaj ATV vozila", href: "/atv" },
+  /** kraći opis za baner na početnoj (prednosti su ispod, u traci) */
+  lead: "Kvadovi za njivu, šumu i teren - spremni za rad odmah po preuzimanju.",
+  highlights: [
+    { icon: Mountain, value: "4×4", label: "blokada diferencijala" },
+    { icon: Cable, value: "Vitlo i kuka", label: "u standardnoj opremi" },
+    { icon: ShieldCheck, value: "3 godine", label: "ili 8.000 km garancije" },
+  ],
+  /** najniža cena među modelima („7.490 €") */
+  fromPrice:
+    [...atvModels].sort((a, b) => Number(a.price.replace(/\D/g, "")) - Number(b.price.replace(/\D/g, "")))[0]?.price ?? null,
   models: atvModels.map((m) => ({
     key: m.slug,
     name: m.name,
     price: m.price,
     priceNote: m.priceNote,
+    badge: m.onSale ? (m.saleBadge ?? "Akcija") : null,
     image: m.image,
     href: m.href,
     specs: [

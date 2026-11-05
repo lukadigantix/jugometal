@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 import catalog from "@/data/catalog.json";
-import { partGroups, searchIndex } from "@/data/featured-parts";
+import { getPartsData } from "@/lib/catalog";
 import machines from "@/data/machine-list.json";
 import tractors from "@/data/tractor-list.json";
 import { atvModels } from "@/data/atv";
 import { abs } from "@/lib/site";
 
 /* Sve javne strane (bez korpe). Delovi su sada u sitemap-u - na starom sajtu nisu bili. */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const { partGroups, searchIndex } = await getPartsData();
   const page = (path: string, priority: number, changeFrequency: "daily" | "weekly" | "monthly" = "weekly") => ({ url: abs(path), changeFrequency, priority });
   return [
     page("/", 1, "daily"),

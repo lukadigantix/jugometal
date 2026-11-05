@@ -1,16 +1,17 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { searchIndex } from "@/data/featured-parts";
 
-/* Korpa: { id dela -> količina } u localStorage, deljena između svih komponenti
- * (useSyncExternalStore). Podaci o delu (naziv, cena, slika) se uvek čitaju iz parts.json,
- * pa stara cena ne može da ostane zapamćena u korpi. */
+/* Korpa: { id dela -> količina } u localStorage, deljena između svih komponenti (useSyncExternalStore).
+ * Naziv, cena i dostupnost se ne pamte - korpa ih uvek traži od servera (POST /shop/cart/quote),
+ * pa stara cena ne može da ostane zapamćena. */
 
 export type CartLine = { id: string; qty: number };
 const KEY = "jugometal-korpa";
 const MAX_QTY = 99;
 const EMPTY: CartLine[] = [];
+// id iz baze (uuid); stari id-jevi iz parts.json ("imt-180") se odbacuju
+const VALID_ID = /^[0-9a-f-]{36}$/i;
 
 let state: CartLine[] | null = null;
 const listeners = new Set<() => void>();
@@ -20,7 +21,7 @@ function read(): CartLine[] {
   if (state) return state;
   try {
     const raw = JSON.parse(localStorage.getItem(KEY) || "[]");
-    state = Array.isArray(raw) ? raw.filter((l) => l && typeof l.id === "string" && l.qty > 0) : [];
+    state = Array.isArray(raw) ? raw.filter((l) => l && typeof l.id === "string" && VALID_ID.test(l.id) && l.qty > 0) : [];
   } catch {
     state = [];
   }
@@ -51,24 +52,16 @@ const subscribe = (fn: () => void) => {
   return () => listeners.delete(fn);
 };
 
-export const byId = new Map(searchIndex.map((p) => [p.id, p]));
-
 export function useCart() {
   const lines = useSyncExternalStore(subscribe, read, () => EMPTY);
-  const items = lines.flatMap((l) => {
-    const p = byId.get(l.id);
-    return p ? [{ ...p, qty: l.qty, total: p.priceRsd * l.qty }] : [];
-  });
-  const count = items.reduce((n, i) => n + i.qty, 0);
-  const subtotal = items.reduce((n, i) => n + i.total, 0);
-  return { items, count, subtotal };
+  const count = lines.reduce((n, l) => n + l.qty, 0);
+  return { lines, count };
 }
 
-export function addToCart(id: string, qty = 1) {
+export function addToCart(id: string, qty = 1, name?: string) {
   const lines = read();
   const hit = lines.find((l) => l.id === id);
-  write(hit ? lines.map((l) => (l.id === id ? { ...l, qty: Math.min(MAX_QTY, l.qty + qty) } : l)) : [...lines, { id, qty }]);
-  const name = byId.get(id)?.name;
+  write(hit ? lines.map((l) => (l.id === id ? { ...l, qty: Math.min(MAX_QTY, l.qty + qty) } : l)) : [...lines, { id, qty: Math.min(MAX_QTY, qty) }]);
   if (name) toastListeners.forEach((fn) => fn(name));
 }
 

@@ -1,20 +1,27 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 import MegaMenu from "./MegaMenu";
 import { Bag, Chevron, Logo } from "./graphics";
 import { t } from "./copy";
 import { useCart } from "@/lib/cart";
+import { cityName, tel, useSite } from "@/lib/site-context";
 
 /* ikonica korpe sa brojem artikala */
 function CartButton() {
   const { count } = useCart();
   return (
-    <Link href="/korpa" aria-label={count ? `${t.nav.cart} (${count})` : t.nav.cart} className="relative transition-colors duration-150 hover:text-mist">
-      <Bag className="h-5 w-5" />
+    <Link
+      href="/korpa"
+      aria-label={count ? `${t.nav.cart} (${count})` : t.nav.cart}
+      className="relative grid size-10 place-items-center rounded-full bg-canvas text-ink ring-1 ring-line transition-colors duration-200 hover:bg-ink hover:text-white hover:ring-ink"
+    >
+      <Bag className="h-[18px] w-[18px]" />
       {count > 0 && (
-        <span className="absolute -right-2 -top-1.5 flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-[#e02a33] px-1 text-[10px] font-medium text-white">
+        <span className="absolute -right-1 -top-1 flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-[#e02a33] px-1 text-[10px] font-medium text-white ring-2 ring-paper">
           {count > 99 ? "99+" : count}
         </span>
       )}
@@ -22,6 +29,8 @@ function CartButton() {
   );
 }
 import { MACHINE_MENU, MENU_PROMO, PARTS_MENU, TRACTOR_MENU, type MenuEntry } from "./nav-data";
+import { useTractorBrands } from "@/lib/brands-context";
+import { useMediaMap } from "@/lib/media-context";
 
 type MenuItem = {
   id: string;
@@ -69,7 +78,32 @@ const NAV: MenuItem[] = [
 /* linkovi desno u headeru (O nama, Servis, Subvencije, Kontakt) */
 const SECONDARY: MenuItem[] = t.secondary.map((l) => ({ id: l.href, label: l.label, href: l.href }));
 
+/** link je aktivan i na podstranama (/servis, /traktori/solis…) */
+const isActive = (pathname: string, href: string) => pathname === href || pathname.startsWith(`${href}/`);
+
 export default function Header() {
+  // logotipi brendova traktora iz admina (meni i panel na telefonu)
+  const brandLogos = new Map(useTractorBrands().map((b) => [b.slug, b.logo]));
+  const media = useMediaMap(); // slike modela iz admina
+  const entriesOf = (i: MenuItem) =>
+    i.entries?.map((e) => ({
+      ...e,
+      logo: i.id === "traktori" ? brandLogos.get(e.key) || e.logo : e.logo,
+      tiles: e.tiles.map((t) => ({ ...t, img: media[t.href]?.[0] ?? t.img })),
+    }));
+  const pathname = usePathname();
+  const { contact: c, workingHours } = useSite();
+  // posle malo skrola header dobija senku umesto linije
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const on = () => setScrolled(window.scrollY > 40);
+    const raf = requestAnimationFrame(on);
+    window.addEventListener("scroll", on, { passive: true });
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", on);
+    };
+  }, []);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   // preživljava zatvaranje da panel zadrži sadržaj tokom animacije skupljanja
   const [displayId, setDisplayId] = useState<string | null>(null);
@@ -104,23 +138,46 @@ export default function Header() {
 
   return (
     <>
-      {/* gornja traka: telefon i e-mail */}
-      <div className="bg-canvas text-[12px] text-ink">
-        <div className="mx-auto flex max-w-[1900px] flex-wrap items-center gap-x-4 gap-y-1 px-4 py-1.5 md:px-9">
-          <span className="opacity-80">
-            {t.util.help}{" "}
-            <a href={t.util.phone.href} className="transition-opacity duration-150 hover:opacity-100">
-              {t.util.phone.label}
-            </a>
-          </span>
-          <a href={t.util.email.href} className="opacity-80 transition-opacity duration-150 hover:opacity-100">
-            {t.util.email.label}
-          </a>
+      {/* gornja traka: kontakt levo, radno vreme i adresa desno - sve iz admina (Podešavanja → Sajt) */}
+      <div className="bg-[#df2026] text-[12px] font-medium text-white">
+        <div className="mx-auto flex max-w-[1900px] items-center justify-between gap-x-6 px-4 py-2 md:px-9">
+          <div className="flex min-w-0 items-center gap-x-5">
+            {c.phone && (
+              <a href={tel(c.phone)} className="inline-flex items-center gap-1.5 whitespace-nowrap transition-opacity duration-150 hover:opacity-70">
+                <Phone className="h-3 w-3" strokeWidth={2} />
+                <span className="hidden sm:inline">{t.util.help}</span> {c.phone}
+              </a>
+            )}
+            {c.email && (
+              <a href={`mailto:${c.email}`} className="hidden items-center gap-1.5 transition-opacity duration-150 hover:opacity-70 sm:inline-flex">
+                <Mail className="h-3 w-3" strokeWidth={2} />
+                {c.email}
+              </a>
+            )}
+          </div>
+          <div className="hidden items-center gap-x-5 lg:flex">
+            {workingHours.length > 0 && (
+              <span className="inline-flex items-center gap-1.5">
+                <Clock className="h-3 w-3" strokeWidth={2} />
+                {workingHours.filter((h) => h.isOpen).map((h) => `${h.days} ${h.hours}`).join(" · ")}
+              </span>
+            )}
+            {(c.street || c.city) && (
+              <Link href="/kontakt" className="inline-flex items-center gap-1.5 transition-opacity duration-150 hover:opacity-70">
+                <MapPin className="h-3 w-3" strokeWidth={2} />
+                {[c.street, cityName(c.city)].filter(Boolean).join(", ")}
+              </Link>
+            )}
+          </div>
         </div>
       </div>
 
       {/* glavni header */}
-      <header className="sticky top-0 z-40 h-20 border-b border-line bg-paper xl:h-24">
+      <header
+        className={`sticky top-0 z-40 h-20 border-b bg-paper/90 backdrop-blur-xl transition-[box-shadow,border-color] duration-300 ${
+          scrolled || open ? "border-transparent shadow-[0_12px_32px_-20px_rgba(24,25,27,0.35)]" : "border-line"
+        }`}
+      >
         <div className="relative mx-auto flex h-full max-w-[1900px] items-center justify-between px-4 md:px-9">
           {/* mobilno: hamburger umesto navigacije - linije se pretvaraju u X */}
           <button
@@ -150,19 +207,21 @@ export default function Header() {
             />
           </button>
 
-          <nav className="hidden h-full items-center gap-4 text-[14px] xl:flex 2xl:gap-7 2xl:text-[16px]">
+          <nav className="hidden h-full items-center gap-1 text-[14px] xl:flex 2xl:text-[15px]">
             {NAV.map((item) =>
               item.entries ? (
                 <div key={item.id} className="relative flex h-full flex-row items-center">
-                  <span
-                    className={`absolute -bottom-px left-0 block h-[2px] w-full bg-accent transition-opacity duration-200 ${
-                      openMenu === item.id ? "opacity-100" : "opacity-0"
-                    }`}
-                  />
                   <button
                     type="button"
                     onClick={() => toggleMenu(item.id)}
-                    className="group flex items-center gap-x-1 py-2.5 text-ink"
+                    aria-expanded={openMenu === item.id}
+                    className={`group flex h-10 items-center gap-x-1.5 rounded-full px-3.5 transition-colors duration-200 ${
+                      openMenu === item.id
+                        ? "bg-ink text-white"
+                        : isActive(pathname, item.href)
+                          ? "bg-canvas text-ink"
+                          : "text-ink/80 hover:bg-canvas hover:text-ink"
+                    }`}
                   >
                     <span>{item.label}</span>
                     <Chevron
@@ -177,29 +236,43 @@ export default function Header() {
                   key={item.id}
                   href={item.href}
                   onClick={() => setOpenMenu(null)}
-                  className={`py-2.5 transition-colors duration-150 ${
+                  aria-current={isActive(pathname, item.href) ? "page" : undefined}
+                  className={`ml-1 flex h-10 items-center gap-2 rounded-full px-3.5 transition-colors duration-200 ${
                     item.sale
-                      ? "text-[#e02a33] hover:opacity-80"
-                      : item.muted
-                        ? "text-mist hover:text-ink"
-                        : "text-ink hover:text-mist"
+                      ? `text-[#e02a33] hover:bg-[#e02a33]/10 ${isActive(pathname, item.href) ? "bg-[#e02a33]/10" : ""}`
+                      : isActive(pathname, item.href)
+                        ? "bg-canvas text-ink"
+                        : "text-ink/80 hover:bg-canvas hover:text-ink"
                   }`}
                 >
                   {item.label}
+                  {item.sale && <span className="grid size-5 place-items-center rounded-full bg-[#e02a33] text-[10px] font-semibold text-white">%</span>}
                 </Link>
               ),
             )}
           </nav>
 
-          {/* logo: klijent traži da bude krupan - 36 px na telefonu, 40 na tabletu, 56 na desktopu (header 96 px) */}
+          {/* logo: 32 px na telefonu, 36 na tabletu, 48 na desktopu (header 80 px) */}
           <Link href="/" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" aria-label="Jugometal - početna">
-            <Logo className="h-9 w-auto md:h-10 xl:h-14" />
+            <Logo className="h-8 w-auto md:h-9 xl:h-12" />
           </Link>
 
-          <div className="flex items-center gap-5">
-            <nav className="hidden items-center gap-4 text-[14px] xl:flex 2xl:gap-6 2xl:text-[15px]">
+          <div className="flex h-full items-center gap-3">
+            <nav className="hidden h-full items-center gap-1 text-[14px] xl:flex 2xl:text-[15px]">
               {SECONDARY.map((l) => (
-                <Link key={l.id} href={l.href} onClick={() => setOpenMenu(null)} className="py-2.5 text-ink transition-colors duration-150 hover:text-mist">
+                <Link
+                  key={l.id}
+                  href={l.href}
+                  onClick={() => setOpenMenu(null)}
+                  aria-current={isActive(pathname, l.href) ? "page" : undefined}
+                  className={`flex h-10 items-center rounded-full px-3.5 transition-colors duration-200 ${
+                    l.href === "/kontakt"
+                      ? "ml-2 bg-ink px-5 text-white hover:bg-[#e02a33]"
+                      : isActive(pathname, l.href)
+                        ? "bg-canvas text-ink"
+                        : "text-ink/80 hover:bg-canvas hover:text-ink"
+                  }`}
+                >
                   {l.label}
                 </Link>
               ))}
@@ -209,9 +282,11 @@ export default function Header() {
         </div>
 
         {/* ===== mega-meni pune širine (desktop) ===== */}
-        {/* zatamnjenje stranice ispod - klik zatvara meni */}
+        {/* zatamnjenje stranice ispod - klik zatvara meni.
+            w-full a ne w-screen: 100vw uključuje i vertikalni scrollbar, pa je stranica dobijala horizontalni scroll.
+            Visina = ekran minus header (100% je visina headera), da ne viri ispod ekrana. */}
         <div
-          className={`absolute left-0 top-full hidden h-screen w-screen bg-black/40 transition-opacity duration-500 ease-out xl:block ${
+          className={`absolute left-0 top-full hidden h-[calc(100dvh-100%)] w-full bg-black/40 transition-opacity duration-500 ease-out xl:block ${
             open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
           }`}
           onClick={() => setOpenMenu(null)}
@@ -226,7 +301,7 @@ export default function Header() {
           <div className="overflow-hidden">
             <div
               data-lenis-prevent
-              className={`relative max-h-[calc(100dvh-120px)] overflow-y-auto border-b border-line bg-paper transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0"}`}
+              className={`relative max-h-[calc(100dvh-80px)] overflow-y-auto border-b border-line bg-paper transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0"}`}
               onClick={(e) => {
                 // svaki klik na link zatvara meni
                 if ((e.target as HTMLElement).closest("a")) setOpenMenu(null);
@@ -235,7 +310,7 @@ export default function Header() {
               {displayItem?.entries && (
                 <MegaMenu
                   key={displayItem.id}
-                  entries={displayItem.entries}
+                  entries={entriesOf(displayItem)!}
                   promo={MENU_PROMO[displayItem.id]}
                   kind={displayItem.kind ?? "logos"}
                   allLabel={displayItem.exploreLabel ?? ""}
@@ -287,7 +362,7 @@ export default function Header() {
                     {mobileExpand === item.id && (
                       <div className="animate-[heroIn_.45s_ease-out_both]">
                         <ul className="flex flex-col gap-1 pb-5 pt-1">
-                          {item.entries?.map((g) => (
+                          {entriesOf(item)?.map((g) => (
                             <li key={g.key}>
                               <Link href={g.href} className="flex items-center justify-between py-2 text-[15px] text-ink">
                                 {g.label}
@@ -344,9 +419,18 @@ export default function Header() {
               }`}
               style={{ transitionDelay: mobileOpen ? `${80 + (NAV.length + SECONDARY.length) * 60}ms` : "0ms" }}
             >
-              <a href="tel:035312391" className="mt-6 flex items-center gap-1.5 text-[15px] text-ink">
-                {t.nav.phone}
-              </a>
+              {c.phone && (
+                <a href={tel(c.phone)} className="mt-6 flex items-center gap-2 text-[15px] text-ink">
+                  <Phone className="h-4 w-4" strokeWidth={1.8} />
+                  {c.phone}
+                </a>
+              )}
+              {c.email && (
+                <a href={`mailto:${c.email}`} className="mt-3 flex items-center gap-2 text-[15px] text-ink">
+                  <Mail className="h-4 w-4" strokeWidth={1.8} />
+                  {c.email}
+                </a>
+              )}
             </div>
           </div>
         </div>

@@ -1,11 +1,13 @@
 [
   {
     "slug": "traktori/imt/imt-5393-di",
-    "name": "TRAKTOR IMT 539.2DI JUGOMETAL",
-    "shortText": "Opremljen je vertikalnim izduvnim sistemom i suvim prečistačem vazduha, što doprinosi efikasnosti i čistoći motora.",
+    "name": "TRAKTOR IMT 539.3 DI JUGOMETAL",
+    "shortText": "IMT 539.3 DI je traktor od 47 KS sa pogonom na zadnje točkove, motorom po normi Euro 3A i podizačem nosivosti 1100 kg.",
     "texts": [
-      "Opremljen je vertikalnim izduvnim sistemom i suvim prečistačem vazduha, što doprinosi efikasnosti i čistoći motora.",
-      "Traktor IMT 539.2DI pokreće motor snage 47 KS (35 kW) koji zadovoljava standarde Euro 3A. Ovaj traktor ima pogon na dva točka (2WD), što ga čini idealnim za primene na manjim parcelama i lakšem terenu."
+      "IMT 539.3 DI je traktor sa pogonom na dva točka (2WD) snage 47 KS, čiji motor ispunjava emisionu normu EU Stage IIIA. Ima vertikalni izduvni sistem i suvi prečistač vazduha.",
+      "Snaga se prenosi preko dvostrukog kvačila i mehaničkog menjača sa kliznim zupčanicima i centralnom ručicom, sa 8 brzina napred i 2 nazad. Krajnji prenos je direktan, a priključno vratilo je jednobrzinsko, 540 o/min.",
+      "Hidraulika je uronjena u ulje, a nosivost podizača iznosi 1100 kg. Upravljanje je mehaničko, kočnice su dobošaste, prednje gume su dimenzija 6.00 x 16, a zadnje 12.4 x 28.",
+      "U opremi su klateća poteznica, kompresor i komplet hidrauličnih cevi, dok je zaštitni ram (ROPS) dostupan kao opcija."
     ],
     "specs": [
       {
@@ -33,18 +35,163 @@
         "value": "Da"
       }
     ],
-    "image": "/products/TAFE-IMT-tractor-539.webp",
-    "metaTitle": "TRAKTOR IMT 539.2DI JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Traktor IMT 539.2DI pokreće motor snage 47 KS (35 kW) koji zadovoljava standarde Euro 3A. Ovaj traktor ima pogon na dva točka (2WD), što ga čini idealnim za primene na manjim parcelama i lakšem terenu.",
-    "brand": "imt"
+    "image": "/products/imt/imt-5393-di-01.webp",
+    "metaTitle": "TRAKTOR IMT 539.3 DI JUGOMETAL – Jugometal Svilajnac",
+    "metaDescription": "IMT 539.3 DI je traktor od 47 KS sa pogonom na zadnje točkove, motorom po normi Euro 3A i podizačem nosivosti 1100 kg.",
+    "brand": "imt",
+    "images": [
+      "/products/imt/imt-5393-di-01.webp",
+      "/products/imt/imt-5393-di-02.webp",
+      "/products/imt/imt-5393-di-03-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "47 KS"
+          ],
+          [
+            "Emisiona norma",
+            "Euro 3A (EU Stage IIIA)"
+          ],
+          [
+            "Izduvni sistem",
+            "Vertikalni"
+          ],
+          [
+            "Prečistač vazduha",
+            "Suvi"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "2WD (zadnji)"
+          ],
+          [
+            "Kvačilo",
+            "Dvostruko"
+          ],
+          [
+            "Menjač",
+            "8 napred + 2 nazad, klizni zupčanici, centralna ručica"
+          ],
+          [
+            "Krajnji prenos",
+            "Direktan"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "Jednobrzinsko, 540 o/min"
+          ],
+          [
+            "Hidraulika",
+            "Uronjena u ulje"
+          ],
+          [
+            "Nosivost podizača",
+            "1100 kg"
+          ],
+          [
+            "Razvodni ventil",
+            "Nema"
+          ],
+          [
+            "Komplet hidrauličnih cevi",
+            "Da"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednje gume",
+            "6.00 x 16"
+          ],
+          [
+            "Zadnje gume",
+            "12.4 x 28"
+          ],
+          [
+            "Kočnice",
+            "Dobošaste"
+          ],
+          [
+            "Upravljanje",
+            "Mehaničko"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Klateća poteznica",
+            "Da"
+          ],
+          [
+            "Kompresor",
+            "Da"
+          ],
+          [
+            "Prednji tegovi",
+            "Ne"
+          ],
+          [
+            "Zadnji tegovi",
+            "Ne"
+          ],
+          [
+            "Zaštitni ram (ROPS)",
+            "Opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "47",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD",
+        "unit": "",
+        "label": "zadnji pogon"
+      },
+      {
+        "value": "1100",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 2",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci IMT / TAFE"
   },
   {
     "slug": "traktori/imt/imt-5493-di",
     "name": "TRAKTOR IMT 549.3DI JUGOMETAL",
-    "shortText": "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što doprinosi poboljšanoj efikasnosti motora.",
+    "shortText": "IMT 549.3 DI je traktor od 47 KS sa pogonom na sva četiri točka, motorom po normi Euro 3A i podizačem nosivosti 1700 kg.",
     "texts": [
-      "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što doprinosi poboljšanoj efikasnosti motora.",
-      "Traktor IMT 549.3 DI opremljen je motorom snage 47 KS (35 kW) koji zadovoljava standarde Euro 3A. Pogon na ovom traktoru je 4WD, pružajući mu izvanrednu trakciju i upravljivost na različitim terenima."
+      "IMT 549.3 DI je traktor sa pogonom na sva četiri točka (4WD) snage 47 KS, čiji motor ispunjava emisionu normu EU Stage IIIA. Ima vertikalni izduvni sistem i suvi prečistač vazduha. Ugrađen je motor Simpson S325 zapremine 2500 cm³ i snage 35 kW.",
+      "Transmisija ima dvostruko kvačilo i mehanički menjač sa kliznim zupčanicima i centralnom ručicom, sa 8 brzina napred i 2 nazad. Krajnji prenos je direktan, a priključno vratilo je jednobrzinsko, 540 o/min.",
+      "Hidraulika je uronjena u ulje, nosivost podizača je 1700 kg, a dvostruki razvodni ventil daje dva para hidrauličnih spojnica. Upravljanje je hidrostatičko, kočnice su uronjene u ulje, prednje gume su 10.5/80 x 16, a zadnje 13.6 x 28.",
+      "Opremu čine klateća poteznica i kompresor, prednji tegovi 4 x 25 kg i zadnji tegovi 2 x 35 kg, dok je zaštitni ram (ROPS) dostupan kao opcija."
     ],
     "specs": [
       {
@@ -72,18 +219,184 @@
         "value": "Da"
       }
     ],
-    "image": "/products/TAFE-IMT-tractor-549.webp",
+    "image": "/products/imt/imt-5493-di-01.webp",
     "metaTitle": "TRAKTOR IMT 549.3DI JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Traktor IMT 549.3 DI opremljen je motorom snage 47 KS (35 kW) koji zadovoljava standarde Euro 3A. Pogon na ovom traktoru je 4WD, pružajući mu izvanrednu trakciju i upravljivost na različitim terenima.",
-    "brand": "imt"
+    "metaDescription": "IMT 549.3 DI je traktor od 47 KS sa pogonom na sva četiri točka, motorom po normi Euro 3A i podizačem nosivosti 1700 kg.",
+    "brand": "imt",
+    "images": [
+      "/products/imt/imt-5493-di-01.webp",
+      "/products/imt/imt-5493-di-02.webp",
+      "/products/imt/imt-5493-di-03-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "47 KS (35 kW)"
+          ],
+          [
+            "Model motora",
+            "Simpson S325 EU IIIA"
+          ],
+          [
+            "Zapremina",
+            "2500 cm³"
+          ],
+          [
+            "Emisiona norma",
+            "Euro 3A (EU Stage IIIA)"
+          ],
+          [
+            "Izduvni sistem",
+            "Vertikalni"
+          ],
+          [
+            "Prečistač vazduha",
+            "Suvi"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4WD"
+          ],
+          [
+            "Kvačilo",
+            "Dvostruko"
+          ],
+          [
+            "Menjač",
+            "8 napred + 2 nazad, klizni zupčanici, centralna ručica"
+          ],
+          [
+            "Krajnji prenos",
+            "Direktan"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "Jednobrzinsko, 540 o/min"
+          ],
+          [
+            "Hidraulika",
+            "Uronjena u ulje"
+          ],
+          [
+            "Nosivost podizača",
+            "1700 kg"
+          ],
+          [
+            "Razvodni ventil",
+            "Dvostruki (dva para hidrauličnih spojnica)"
+          ],
+          [
+            "Komplet hidrauličnih cevi",
+            "Ne"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije",
+        "rows": [
+          [
+            "Dužina x širina x visina",
+            "pribl. 3377 x 1700 x 2185 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "1930 mm"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednje gume",
+            "10.5/80 x 16"
+          ],
+          [
+            "Zadnje gume",
+            "13.6 x 28"
+          ],
+          [
+            "Kočnice",
+            "Uronjene u ulje"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Klateća poteznica",
+            "Da"
+          ],
+          [
+            "Kompresor",
+            "Da"
+          ],
+          [
+            "Prednji tegovi",
+            "4 x 25 kg"
+          ],
+          [
+            "Zadnji tegovi",
+            "2 x 35 kg"
+          ],
+          [
+            "Zaštitni ram (ROPS)",
+            "Opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "47",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "1700",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 2",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci IMT / TAFE"
   },
   {
     "slug": "traktori/imt/imt-5652-di",
     "name": "TRAKTOR IMT 565.2DI JUGOMETAL",
-    "shortText": "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što poboljšava efikasnost i održavanje.",
+    "shortText": "IMT 565.2 DI je traktor od 63 KS sa pogonom na sva četiri točka, planetarnim krajnjim prenosom i podizačem nosivosti 2050 kg.",
     "texts": [
-      "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što poboljšava efikasnost i održavanje.",
-      "IMT 565.2 DI 4WD opremljen je motorom snage 63 KS (46.5 kW) koji zadovoljava standarde Euro 2. Pogon na ovom traktoru je 4WD, pružajući poboljšanu trakciju i upravljivost u različitim uslovima. Spojač je dvostepena, a menjački prenosnik je 8F + 2R, omogućavajući glatke promene brzina."
+      "IMT 565.2 DI je traktor sa pogonom na sva četiri točka (4WD) snage 63 KS, čiji motor ispunjava emisionu normu EU II. Ima vertikalni izduvni sistem i suvi prečistač vazduha.",
+      "Transmisija ima dvostruko kvačilo i mehanički menjač sa kliznim zupčanicima i centralnom ručicom, sa 8 brzina napred i 2 nazad. Krajnji prenos je planetarni, a priključno vratilo je jednobrzinsko, 540 o/min.",
+      "Hidraulika je uronjena u ulje, nosivost podizača je 2050 kg, a dvostruki razvodni ventil daje dva para hidrauličnih spojnica. Upravljanje je hidrostatičko, kočnice su uronjene u ulje, prednje gume su 9.5 x 24, a zadnje 16.9 x 28.",
+      "Opremu čine klateća poteznica, kompresor i zadnji tegovi 2 x 45 kg, dok je zaštitni ram (ROPS) dostupan kao opcija."
     ],
     "specs": [
       {
@@ -111,18 +424,162 @@
         "value": "2 x 45 kg"
       }
     ],
-    "image": "/products/TAFE-IMT-tractor-565.webp",
+    "image": "/products/imt/imt-5652-di-01.webp",
     "metaTitle": "TRAKTOR IMT 565.2DI JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "IMT 565.2 DI 4WD opremljen je motorom snage 63 KS (46.5 kW) koji zadovoljava standarde Euro 2. Pogon na ovom traktoru je 4WD, pružajući poboljšanu trakciju i upravljivost u različitim uslovima. Spojač je dvostepena, a menjački prenosnik je 8F + 2R, omogućavajući glatke promene brzina.",
-    "brand": "imt"
+    "metaDescription": "IMT 565.2 DI je traktor od 63 KS sa pogonom na sva četiri točka, planetarnim krajnjim prenosom i podizačem nosivosti 2050 kg.",
+    "brand": "imt",
+    "images": [
+      "/products/imt/imt-5652-di-01.webp",
+      "/products/imt/imt-5652-di-02.webp",
+      "/products/imt/imt-5652-di-03-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "63 KS"
+          ],
+          [
+            "Emisiona norma",
+            "EU II (Euro 2)"
+          ],
+          [
+            "Izduvni sistem",
+            "Vertikalni"
+          ],
+          [
+            "Prečistač vazduha",
+            "Suvi"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4WD"
+          ],
+          [
+            "Kvačilo",
+            "Dvostruko"
+          ],
+          [
+            "Menjač",
+            "8 napred + 2 nazad, klizni zupčanici, centralna ručica"
+          ],
+          [
+            "Krajnji prenos",
+            "Planetarni"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "Jednobrzinsko, 540 o/min"
+          ],
+          [
+            "Hidraulika",
+            "Uronjena u ulje"
+          ],
+          [
+            "Nosivost podizača",
+            "2050 kg"
+          ],
+          [
+            "Razvodni ventil",
+            "Dvostruki (dva para hidrauličnih spojnica)"
+          ],
+          [
+            "Komplet hidrauličnih cevi",
+            "Ne"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednje gume",
+            "9.5 x 24"
+          ],
+          [
+            "Zadnje gume",
+            "16.9 x 28"
+          ],
+          [
+            "Kočnice",
+            "Uronjene u ulje"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Klateća poteznica",
+            "Da"
+          ],
+          [
+            "Kompresor",
+            "Da"
+          ],
+          [
+            "Prednji tegovi",
+            "Ne"
+          ],
+          [
+            "Zadnji tegovi",
+            "2 x 45 kg"
+          ],
+          [
+            "Zaštitni ram (ROPS)",
+            "Opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "63",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "2050",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 2",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci IMT / TAFE"
   },
   {
     "slug": "traktori/john-deere/5045-d",
     "name": "TRAKTOR JOHN DEERE 5045 D JUGOMETAL",
-    "shortText": "Poteznica i kačenje omogućavaju kačenje u tri tačke (kategorija II) sa podiznom moći donjih hidrauličnih poluga od 1800 kg.",
+    "shortText": "John Deere 5045D je traktor od 55 KS sa trocilindričnim turbo motorom od 2,9 l, menjačem 9 + 3 i podiznom moći od 1800 kg.",
     "texts": [
-      "Poteznica i kačenje omogućavaju kačenje u tri tačke (kategorija II) sa podiznom moći donjih hidrauličnih poluga od 1800 kg.",
-      "Traktor John Deere pokreće motor snage 55 KS (40 kW) sa 3 cilindra i zapreminom od 2.9 litara, opremljen turbopunjačem i interkulerom. Transmisija je delimična SynhroPlus sa 9 brzina napred i 3 brzine nazad, omogućavajući pouzdanu i efikasnu vožnju u različitim uslovima."
+      "John Deere 5045D pokreće trocilindrični motor zapremine 2,9 l sa turbopunjačem i interkulerom, snage 55 KS (40 kW).",
+      "Transmisija je delimično sinhronizovana SyncPlus, sa 9 brzina napred i 3 nazad, a prednja vuča se uključuje mehanički. Priključno vratilo radi na 540 i 540E o/min.",
+      "Zadnje kačenje u tri tačke je kategorije II, a podizna moć donjih poluga iznosi 1800 kg. Traktor ima klatnu donju poteznicu, prednje gume 320/85R20 i zadnje 380/85R28."
     ],
     "specs": [
       {
@@ -150,18 +607,117 @@
         "value": "380/85R28"
       }
     ],
-    "image": "/products/5045d_bgr_large_large_6e78ccf0ed7c0d0babb872ea216c2e09aefdf9b9.webp",
+    "image": "/products/john-deere/5045-d-01.webp",
     "metaTitle": "TRAKTOR JOHN DEERE 5045 D JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Traktor John Deere pokreće motor snage 55 KS (40 kW) sa 3 cilindra i zapreminom od 2.9 litara, opremljen turbopunjačem i interkulerom. Transmisija je delimična SynhroPlus sa 9 brzina napred i 3 brzine nazad, omogućavajući pouzdanu i efikasnu vožnju u različitim uslovima.",
-    "brand": "john-deere"
+    "metaDescription": "John Deere 5045D je traktor od 55 KS sa trocilindričnim turbo motorom od 2,9 l, menjačem 9 + 3 i podiznom moći od 1800 kg.",
+    "brand": "john-deere",
+    "images": [
+      "/products/john-deere/5045-d-01.webp",
+      "/products/john-deere/5045-d-02-scena.webp",
+      "/products/john-deere/5045-d-03-scena.webp",
+      "/products/john-deere/5045-d-04-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "55 KS (40 kW)"
+          ],
+          [
+            "Broj cilindara",
+            "3"
+          ],
+          [
+            "Zapremina",
+            "2,9 l"
+          ],
+          [
+            "Usisavanje",
+            "Turbopunjač sa interkulerom"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Menjač",
+            "SyncPlus, delimično sinhronizovan"
+          ],
+          [
+            "Broj brzina",
+            "9 napred + 3 nazad"
+          ],
+          [
+            "Prednja vuča",
+            "Mehaničko uključivanje"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Kačenje u tri tačke",
+            "Kategorija II"
+          ],
+          [
+            "Podizna moć donjih poluga",
+            "1800 kg"
+          ],
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi i oprema",
+        "rows": [
+          [
+            "Prednje gume",
+            "320/85R20"
+          ],
+          [
+            "Zadnje gume",
+            "380/85R28"
+          ],
+          [
+            "Donja poteznica",
+            "Klatna"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "55",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "1800",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "9 + 3",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": ""
   },
   {
     "slug": "traktori/john-deere/5075m",
     "name": "TRAKTOR JOHN DEERE 5075M JUGOMETAL",
-    "shortText": "Traktor ima impresivan radijus okretanja od samo 4,1 metara i međuosovinsko rastojanje od 2,35 metara.",
+    "shortText": "John Deere 5075M je traktor od 75 KS sa trocilindričnim motorom od 2,9 l, podiznom moći od 1800 kg i radijusom okretanja od 4,1 m.",
     "texts": [
-      "Traktor ima impresivan radijus okretanja od samo 4,1 metara i međuosovinsko rastojanje od 2,35 metara.",
-      "Traktor John Deere 5075M ima maksimalnu snagu od 75 konjskih snaga (55.13 kW) prema standardu 97/68EC. Motor traktora ima zapreminu od 2,9 litara i sastoji se od 3 cilindra."
+      "John Deere 5075M ima trocilindrični motor zapremine 2,9 l, najveće snage 75 KS (55,13 kW) prema standardu 97/68/EC.",
+      "Traktor je u izvedbi 4x2 (2WD), sa hidrostatičkim upravljanjem i hidrauličnim disk kočnicama. Podizna moć iznosi 1800 kg.",
+      "Međuosovinsko rastojanje je 2350 mm, a radijus okretanja 4,1 m. Masa traktora je 3538 kg, a rezervoar za gorivo prima 84,4 l."
     ],
     "specs": [
       {
@@ -189,18 +745,109 @@
         "value": "3538 kg"
       }
     ],
-    "image": "/products/5075M_iT4_r2g005434_1366x768_large_962b4a20d03bcb066d7612d78961f88879b70dbd.webp",
+    "image": "/products/john-deere/5075m-01.webp",
     "metaTitle": "TRAKTOR JOHN DEERE 5075M JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Traktor John Deere 5075M ima maksimalnu snagu od 75 konjskih snaga (55.13 kW) prema standardu 97/68EC. Motor traktora ima zapreminu od 2,9 litara i sastoji se od 3 cilindra.",
-    "brand": "john-deere"
+    "metaDescription": "John Deere 5075M je traktor od 75 KS sa trocilindričnim motorom od 2,9 l, podiznom moći od 1800 kg i radijusom okretanja od 4,1 m.",
+    "brand": "john-deere",
+    "images": [
+      "/products/john-deere/5075m-01.webp",
+      "/products/john-deere/5075m-02-scena.webp",
+      "/products/john-deere/5075m-03-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "75 KS (55,13 kW), 97/68/EC"
+          ],
+          [
+            "Broj cilindara",
+            "3"
+          ],
+          [
+            "Zapremina",
+            "2,9 l"
+          ],
+          [
+            "Rezervoar za gorivo",
+            "84,4 l"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija i hidraulika",
+        "rows": [
+          [
+            "Pogon",
+            "4x2 (2WD)"
+          ],
+          [
+            "Podizna moć",
+            "1800 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Međuosovinsko rastojanje",
+            "2350 mm"
+          ],
+          [
+            "Radijus okretanja",
+            "4,1 m"
+          ],
+          [
+            "Masa",
+            "3538 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Kočnice i upravljanje",
+        "rows": [
+          [
+            "Kočnice",
+            "Hidraulične disk kočnice"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "75",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD",
+        "unit": "",
+        "label": "zadnji pogon"
+      },
+      {
+        "value": "1800",
+        "unit": "kg",
+        "label": "podizna moć"
+      }
+    ],
+    "specSource": ""
   },
   {
     "slug": "traktori/mahindra/475-di-mkm",
     "name": "TRAKTOR MAHINDRA 475 DI MKM JUGOMETAL",
-    "shortText": "Bosch-ova linijska pumpa za ubrizgavanje goriva čuva gorivo u rezervoaru od 50 litara, čineći vožnju neprekidnom.",
+    "shortText": "Mahindra 475 DI MKM je traktor od 42 KS sa zadnjim pogonom, četvorocilindričnim motorom od 2730 cm³ i menjačem 8+2 sa reduktorom.",
     "texts": [
-      "Bosch-ova linijska pumpa za ubrizgavanje goriva čuva gorivo u rezervoaru od 50 litara, čineći vožnju neprekidnom.",
-      "Motor modela MDI2385 3A pulsira snagom od 30,9 kW (42 KS), pripremajući se za svaki izazov na polju. Sa 2,73 litara radne zapremine i četiri vitalna cilindra, ovaj motor pokazuje svoju pouzdanost i izdržljivost."
+      "Mahindra 475 DI MKM pripada Mahindra seriji MKM NST, koju proizvođač za srpsko tržište nudi u rasponu od 42 do 50 KS. Pokreće ga četvorocilindrični dizel motor MDI2385 3A sa direktnim ubrizgavanjem, radne zapremine 2730 cm³ i snage 42 KS (30,9 kW) pri nominalnih 1900 o/min. Gorivo ubrizgava linijska Bosch pumpa, a motor je hlađen vodom.",
+      "Snaga se prenosi preko dvostruke spojnice Ø 280 mm i menjača sa punim stalnim zahvatom zupčanika, sa 8 stepeni prenosa napred i 2 nazad i reduktorom za brzi i spori hod. Maksimalna brzina je 35 km/h. Traktor ima pogon na zadnjim točkovima i lučnu („Bow type“) prednju osovinu.",
+      "Živa hidraulika sa pozicionom i vučnom kontrolom i poteznica kategorije II podižu do 1200 kg na krajevima poluga. Priključno vratilo radi na 540 o/min. Upravljanje je hidrostatičko, a kočnice su mokre, potopljene u ulje.",
+      "Traktor se isporučuje sa zaštitnim ramom ili sa kabinom."
     ],
     "specs": [
       {
@@ -228,18 +875,222 @@
         "value": "241 cm"
       }
     ],
-    "image": "/products/mahindra-595-1.webp",
+    "image": "/products/mahindra/475-di-mkm-01.webp",
     "metaTitle": "TRAKTOR MAHINDRA 475 DI MKM JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Motor modela MDI2385 3A pulsira snagom od 30,9 kW (42 KS), pripremajući se za svaki izazov na polju. Sa 2,73 litara radne zapremine i četiri vitalna cilindra, ovaj motor pokazuje svoju pouzdanost i izdržljivost.",
-    "brand": "mahindra"
+    "metaDescription": "Mahindra 475 DI MKM je traktor od 42 KS sa zadnjim pogonom, četvorocilindričnim motorom od 2730 cm³ i menjačem 8+2 sa reduktorom.",
+    "brand": "mahindra",
+    "images": [
+      "/products/mahindra/475-di-mkm-01.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Tip motora",
+            "Četvorotaktni dizel, direktno ubrizgavanje, vodeno hlađenje"
+          ],
+          [
+            "Model motora",
+            "MDI2385 3A"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Radna zapremina",
+            "2730 cm³"
+          ],
+          [
+            "Snaga motora",
+            "42 KS (30,9 kW)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "1900 o/min"
+          ],
+          [
+            "Broj obrtaja max/min",
+            "2175 / 750 o/min"
+          ],
+          [
+            "Pumpa za ubrizgavanje",
+            "Bosch, linijska"
+          ],
+          [
+            "Sistem hlađenja",
+            "Vodeno (antifriz), 8,0 l"
+          ],
+          [
+            "Rezervoar za gorivo",
+            "50 l"
+          ],
+          [
+            "Emisiona norma",
+            "BS IIIA (Bharat Stage IIIA)"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Spojnica",
+            "Dvostruka (dvostepena), Ø 280 / Ø 280 mm"
+          ],
+          [
+            "Tip menjača",
+            "Pun stalni zahvat zupčanika"
+          ],
+          [
+            "Broj stepeni prenosa",
+            "8 napred / 2 nazad, sa reduktorom brzo/sporo"
+          ],
+          [
+            "Maksimalna brzina",
+            "35 km/h"
+          ],
+          [
+            "Pogon",
+            "Zadnji (2WD)"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Hidraulični sistem",
+            "Živa hidraulika sa pozicionom i vučnom kontrolom"
+          ],
+          [
+            "Poteznica u 3 tačke",
+            "Kategorija II, sa lancima stabilizatora"
+          ],
+          [
+            "Moć dizanja na krajevima poluga",
+            "1200 kg"
+          ],
+          [
+            "Priključno vratilo (PTO)",
+            "Standardno nezavisno, 540 o/min pri 1900 o/min motora"
+          ],
+          [
+            "Prečnik PTO vratila",
+            "Ø 34,8 mm"
+          ],
+          [
+            "Snaga na PTO",
+            "35 KS"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina (sa tegovima)",
+            "3510 mm"
+          ],
+          [
+            "Širina",
+            "1695 mm"
+          ],
+          [
+            "Visina (bez kabine)",
+            "2410 mm"
+          ],
+          [
+            "Klirens",
+            "460 mm"
+          ],
+          [
+            "Radna masa",
+            "1927 kg"
+          ],
+          [
+            "Masa sa tegovima i kabinom",
+            "2330 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednje gume",
+            "6,00 x 16, 8 PR"
+          ],
+          [
+            "Zadnje gume",
+            "12,4 x 28, 12 PR"
+          ],
+          [
+            "Kočnice",
+            "Mokre (u uljnom kupatilu), višediskne"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko (servo)"
+          ],
+          [
+            "Prednja osovina",
+            "Lučna („Bow type“), od čelika"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "12 V, 88 Ah"
+          ],
+          [
+            "Alternator",
+            "12 V, 11 A"
+          ],
+          [
+            "Izvedba",
+            "Sa zaštitnim ramom ili sa kabinom"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "42",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD",
+        "unit": "",
+        "label": "zadnji pogon"
+      },
+      {
+        "value": "1200",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 2",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci Mahindra"
   },
   {
     "slug": "traktori/mahindra/595-di-turbo-mkm",
     "name": "TRAKTOR MAHINDRA 595 DI TURBO MKM JUGOMETAL",
-    "shortText": "Sa svojih 2,73 litara radne zapremine i četiri srčana cilindra, ovaj motor pruža pouzdanost i izdržljivost na svakom koraku.",
+    "shortText": "Mahindra 595 DI Turbo MKM je traktor od 50 KS sa turbo dizel motorom, menjačem 8+2 sa reduktorom i moći dizanja od 1650 kg.",
     "texts": [
-      "Sa svojih 2,73 litara radne zapremine i četiri srčana cilindra, ovaj motor pruža pouzdanost i izdržljivost na svakom koraku.",
-      "Motor ovog traktora, poznat kao MDI3000TC 3A, krije u sebi 36,75 kW (50 KS) čiste snage, spremne da pokrenu svaku poljsku avanturu."
+      "Mahindra 595 DI Turbo MKM je najjači model Mahindra serije MKM NST. Četvorocilindrični turbo dizel motor MDI3000TC 3A sa direktnim ubrizgavanjem ima radnu zapreminu 2524 cm³ i razvija 50 KS (36,75 kW) pri nominalnih 2100 o/min. Ubrizgavanje obavlja linijska Bosch pumpa, a hlađenje je vodeno.",
+      "Dvostruka spojnica Ø 280 mm i menjač sa punim stalnim zahvatom zupčanika daju 8 brzina napred i 2 nazad, uz reduktor za brzi i spori hod. Maksimalna brzina je 40 km/h.",
+      "Živa hidraulika sa pozicionom i vučnom kontrolom podiže do 1650 kg na krajevima poluga, a poteznica je kategorije II. Upravljanje je hidrostatičko, a kočnice su mokre. Masa traktora sa tegovima i kabinom iznosi 2460 kg.",
+      "Traktor se isporučuje sa zaštitnim ramom ili sa kabinom."
     ],
     "specs": [
       {
@@ -267,18 +1118,218 @@
         "value": "245 cm"
       }
     ],
-    "image": "/products/mahindra-595.webp",
+    "image": "/products/mahindra/595-di-turbo-mkm-01.webp",
     "metaTitle": "TRAKTOR MAHINDRA 595 DI TURBO MKM JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Motor ovog traktora, poznat kao MDI3000TC 3A, krije u sebi 36,75 kW (50 KS) čiste snage, spremne da pokrenu svaku poljsku avanturu.",
-    "brand": "mahindra"
+    "metaDescription": "Mahindra 595 DI Turbo MKM je traktor od 50 KS sa turbo dizel motorom, menjačem 8+2 sa reduktorom i moći dizanja od 1650 kg.",
+    "brand": "mahindra",
+    "images": [
+      "/products/mahindra/595-di-turbo-mkm-01.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Tip motora",
+            "Četvorotaktni dizel, turbo, direktno ubrizgavanje, vodeno hlađenje"
+          ],
+          [
+            "Model motora",
+            "MDI3000TC 3A"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Radna zapremina",
+            "2524 cm³"
+          ],
+          [
+            "Snaga motora",
+            "50 KS (36,75 kW)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2100 o/min"
+          ],
+          [
+            "Broj obrtaja max/min",
+            "2350 / 750 o/min"
+          ],
+          [
+            "Pumpa za ubrizgavanje",
+            "Bosch, linijska"
+          ],
+          [
+            "Sistem hlađenja",
+            "Vodeno (antifriz), 8,0 l"
+          ],
+          [
+            "Rezervoar za gorivo",
+            "50 l"
+          ],
+          [
+            "Emisiona norma",
+            "BS IIIA (Bharat Stage IIIA)"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Spojnica",
+            "Dvostruka (dvostepena), Ø 280 / Ø 280 mm"
+          ],
+          [
+            "Tip menjača",
+            "Pun stalni zahvat zupčanika"
+          ],
+          [
+            "Broj stepeni prenosa",
+            "8 napred / 2 nazad, sa reduktorom brzo/sporo"
+          ],
+          [
+            "Maksimalna brzina",
+            "40 km/h"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Hidraulični sistem",
+            "Živa hidraulika sa pozicionom i vučnom kontrolom"
+          ],
+          [
+            "Poteznica u 3 tačke",
+            "Kategorija II, sa lancima stabilizatora"
+          ],
+          [
+            "Moć dizanja na krajevima poluga",
+            "1650 kg"
+          ],
+          [
+            "Priključno vratilo (PTO)",
+            "Standardno nezavisno, 540 o/min"
+          ],
+          [
+            "Prečnik PTO vratila",
+            "Ø 34,8 mm"
+          ],
+          [
+            "Snaga na PTO",
+            "44 KS"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina (sa tegovima)",
+            "3510 mm"
+          ],
+          [
+            "Širina",
+            "1730 mm"
+          ],
+          [
+            "Visina (bez kabine)",
+            "2450 mm"
+          ],
+          [
+            "Klirens",
+            "460 mm"
+          ],
+          [
+            "Radna masa",
+            "2055 kg"
+          ],
+          [
+            "Masa sa tegovima i kabinom",
+            "2460 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednje gume",
+            "6,00 x 16, 8 PR"
+          ],
+          [
+            "Zadnje gume",
+            "13,6 x 28, 12 PR"
+          ],
+          [
+            "Kočnice",
+            "Mokre (u uljnom kupatilu), višediskne"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko (servo)"
+          ],
+          [
+            "Prednja osovina",
+            "Lučna („Bow type“), od čelika"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "12 V, 88 Ah"
+          ],
+          [
+            "Alternator",
+            "12 V, 11 A"
+          ],
+          [
+            "Izvedba",
+            "Sa zaštitnim ramom ili sa kabinom"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "50",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "1650",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 2",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      },
+      {
+        "value": "2524",
+        "unit": "cm³",
+        "label": "zapremina motora"
+      }
+    ],
+    "specSource": "Fabrički podaci Mahindra"
   },
   {
     "slug": "traktori/mahindra/7030-di",
     "name": "TRAKTOR MAHINDRA 7030 DI JUGOMETAL",
-    "shortText": "Podizna moć na krajevima poluga doseže visinu od 1800 kg, omogućavajući mu da savlada najteže zadatke na polju.",
+    "shortText": "Mahindra 7030 4WD je traktor od 65 KS sa pogonom na sva četiri točka, motorom od 3532 cm³, sinhronizovanim menjačem 8+8 sa reverserom i moći dizanja od 1800 kg.",
     "texts": [
-      "Podizna moć na krajevima poluga doseže visinu od 1800 kg, omogućavajući mu da savlada najteže zadatke na polju.",
-      "Motor ovog traktora, poznat kao NE 462R, predstavlja snagu i pouzdanost, nudeći 47,9 kW (65 KS) snagom koja pulsira kroz četiri srčana cilindra. Sa svojom impresivnom zapreminom od 3532 cm3, ovaj traktor pokreće se snagom koja izvire iz dubina svoje mašinerije."
+      "Mahindra 7030 je traktor sa pogonom na sva četiri točka iz Mahindra serije 30. Pokreće ga četvorocilindrični dizel motor Mahindra NE 462 R sa direktnim ubrizgavanjem i bez turbopunjača, radne zapremine 3532 cm³ i snage 65 KS (48,4 kW) pri 2200 o/min, sa maksimalnim obrtnim momentom do 238 Nm.",
+      "Potpuno sinhronizovani menjač ima 8 brzina napred i 8 nazad i sinhronizovani reverser sa leve strane upravljača, što olakšava rad sa utovarivačem i okretanje na uvratinama. Prednja pogonska osovina ima diferencijal sa ograničenim proklizavanjem i planetarnu redukciju, a kočnice su mokre, potopljene u ulje.",
+      "Hidraulika otvorenog centra sa pozicionom i vučnom kontrolom podiže 1800 kg, poteznica je kategorije I i II sa teleskopskim lancima, a dva hidraulična razvodnika su standardna. Nezavisno priključno vratilo radi na 540 o/min pri 2058 o/min motora.",
+      "Model je ispitan po OECD protokolu (odobrenje 2/2 676 iz 2012. godine), gde je izmereno 39,3 kW na priključnom vratilu i najveći obrtni moment od 222,7 Nm pri 1395 o/min."
     ],
     "specs": [
       {
@@ -306,19 +1357,239 @@
         "value": "2300 cm"
       }
     ],
-    "image": "/products/mahindra-70301.webp",
+    "image": "/products/mahindra/7030-di-01.webp",
     "metaTitle": "TRAKTOR MAHINDRA 7030 DI JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Motor ovog traktora, poznat kao NE 462R, predstavlja snagu i pouzdanost, nudeći 47,9 kW (65 KS) snagom koja pulsira kroz četiri srčana cilindra. Sa svojom impresivnom zapreminom od 3532 cm3, ovaj traktor pokreće se snagom koja izvire iz dubina svoje mašinerije.",
-    "brand": "mahindra"
+    "metaDescription": "Mahindra 7030 4WD je traktor od 65 KS sa pogonom na sva četiri točka, motorom od 3532 cm³, sinhronizovanim menjačem 8+8 sa reverserom i moći dizanja od 1800 kg.",
+    "brand": "mahindra",
+    "images": [
+      "/products/mahindra/7030-di-01.webp",
+      "/products/mahindra/7030-di-02-scena.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "Mahindra NE 462 R"
+          ],
+          [
+            "Tip motora",
+            "Četvorotaktni dizel, direktno ubrizgavanje, vodeno hlađenje, bez turbopunjača"
+          ],
+          [
+            "Broj cilindara",
+            "4, vertikalno u liniji"
+          ],
+          [
+            "Radna zapremina",
+            "3532 cm³"
+          ],
+          [
+            "Snaga motora",
+            "65 KS (48,4 kW) pri 2200 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "238 Nm (brošura); OECD test: 222,7 Nm pri 1395 o/min"
+          ],
+          [
+            "Porast obrtnog momenta (OECD)",
+            "30,5 %"
+          ],
+          [
+            "Stepen kompresije",
+            "19,4:1"
+          ],
+          [
+            "Košuljice cilindara",
+            "Mokre, izmenjive"
+          ],
+          [
+            "Snaga na PTO pri nominalnim obrtajima (OECD)",
+            "39,3 kW pri 2200 o/min"
+          ],
+          [
+            "Specifična potrošnja (OECD)",
+            "269 g/kWh pri maks. snazi; 262 g/kWh pri 540 o/min PTO"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Spojnica",
+            "Dvostruka"
+          ],
+          [
+            "Tip menjača",
+            "Potpuno sinhronizovani, sa sinhronizovanim reverserom (šatl) sa leve strane"
+          ],
+          [
+            "Broj stepeni prenosa",
+            "8 napred / 8 nazad"
+          ],
+          [
+            "Raspon brzina (OECD)",
+            "2,47 do 30,34 km/h"
+          ],
+          [
+            "Pogon",
+            "4WD, mehaničko uključivanje prednjeg pogona"
+          ],
+          [
+            "Prednja osovina",
+            "Diferencijal sa ograničenim proklizavanjem (LSD), planetarna redukcija"
+          ],
+          [
+            "Blokada diferencijala",
+            "Zadnja, nožno uključivanje"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Hidraulični sistem",
+            "Otvoreni centar, potpuno živa hidraulika sa pozicionom i vučnom kontrolom"
+          ],
+          [
+            "Protok pumpe",
+            "43,1 l/min"
+          ],
+          [
+            "Hidraulika na priključcima (OECD)",
+            "21,67 l/min pri 17,5 MPa (6,3 kW)"
+          ],
+          [
+            "Moć dizanja",
+            "1800 kg"
+          ],
+          [
+            "Sila dizanja na krajevima poluga (OECD)",
+            "17,67 kN"
+          ],
+          [
+            "Poteznica u 3 tačke",
+            "Kategorija I i II, teleskopski lanci stabilizatora"
+          ],
+          [
+            "Hidraulični razvodnici",
+            "2 standardno"
+          ],
+          [
+            "Priključno vratilo (PTO)",
+            "Nezavisno, 540 o/min pri 2058 o/min motora"
+          ],
+          [
+            "PTO vratilo",
+            "Ø 34,8 mm, 6 žlebova"
+          ],
+          [
+            "Snaga na PTO",
+            "57 KS (42,5 kW)"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina",
+            "3683 mm"
+          ],
+          [
+            "Širina",
+            "2057 mm"
+          ],
+          [
+            "Minimalni radijus okretanja",
+            "4191 mm"
+          ],
+          [
+            "Radna masa",
+            "2885 kg (brošura za Australiju); 2980 kg (brošura za Srbiju i OECD test)"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Gume (ratarske) prednje / zadnje",
+            "11.2-24 / 16.9-30"
+          ],
+          [
+            "Gume (industrijske, opcija) prednje / zadnje",
+            "12.5/80-18 / 19.5L-24"
+          ],
+          [
+            "Kočnice",
+            "Mokre disk kočnice (u uljnom kupatilu)"
+          ],
+          [
+            "Upravljanje",
+            "Hidrostatičko (servo), pumpa 18,2 l/min"
+          ]
+        ]
+      },
+      {
+        "group": "Oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "12 V (96 Ah prema brošuri za Australiju)"
+          ],
+          [
+            "Alternator",
+            "12 V, 36 A"
+          ],
+          [
+            "Sedište",
+            "Oblikovani jastuci, podešavanje napred/nazad i po visini"
+          ],
+          [
+            "Opciona oprema",
+            "Prednji tegovi sa nosačem, tegovi zadnjih točkova, utovarivač Mahindra ML3070"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "65",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "1800",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "8 + 8",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci Mahindra"
   },
   {
     "slug": "traktori/solis/solis-20",
     "name": "TRAKTOR Solis 20 JUGOMETAL",
-    "shortText": "Sa četvorostrukim pogonom na sva četiri točka, omogućava se izuzetna trakcija i pokretljivost u različitim terenskim uslovima",
+    "shortText": "Solis 20 je kompaktni traktor sa pogonom na sva četiri točka, trocilindričnim Mitsubishi motorom od 953 cm³ i mehaničkim menjačem 6+2.",
     "texts": [
-      "Sa četvorostrukim pogonom na sva četiri točka, omogućava se izuzetna trakcija i pokretljivost u različitim terenskim uslovima",
-      "Traktor kategorije 1 - N pruža optimalnu snagu i efikasnost za manje poljoprivredne operacije. Sa motorom od 20 konjskih snaga i tri cilindra, ovaj traktor ima radnu zapreminu od 952 cm³, pružajući dovoljno snage za različite zadatke.",
-      "Traktor kategorije 1 - N pruža optimalnu snagu i efikasnost za manje poljoprivredne operacije. Sa motorom od 20 konjskih snaga i tri cilindra, ovaj traktor ima radnu zapreminu od 952 cm³, pružajući dovoljno snage za različite zadatke :"
+      "Solis 20 pokreće trocilindrični, vodeno hlađen Mitsubishi motor zapremine 953 cm³, bez turbo punjača. Motor razvija 20 KS pri nominalnih 2700 o/min i maksimalni obrtni moment od 52 Nm, a rezervoar goriva prima 26 l.",
+      "Snaga se prenosi preko jednostrukog suvog kvačila i mehaničkog menjača sa 6 brzina napred i 2 nazad. Pogon prednje osovine se uključuje po potrebi, a za teže uslove rada traktor ima mehaničku blokadu diferencijala na nožnu komandu. Brzina kretanja je od 1,36 do 15,1 km/h, u zavisnosti od pneumatika.",
+      "Zadnje trotačkasto vešanje kategorije 1N podiže do 500 kg na krajevima donjih poluga, a priključno vratilo radi na 540 i 1000 o/min. Traktor ima jedan dvosmerni hidraulični izvod, servo upravljač, suve doboš kočnice i zaštitni ROPS ram sa rotacionim svetlom.",
+      "Sa masom od 970 kg, međuosovinskim rastojanjem od 1420 mm i dužinom od 2735 mm, Solis 20 je namenjen održavanju dvorišta, voćnjaka i zelenih površina, manjim gazdinstvima i komunalnim poslovima. Prednji utovarivač i kabina su dostupni kao dodatna oprema."
     ],
     "specs": [
       {
@@ -342,18 +1613,302 @@
         "value": "4WD"
       }
     ],
-    "image": "/products/solis20.webp",
+    "image": "/products/solis/solis-20-01.webp",
     "metaTitle": "TRAKTOR Solis 20 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Traktor kategorije 1 - N pruža optimalnu snagu i efikasnost za manje poljoprivredne operacije. Sa motorom od 20 konjskih snaga i tri cilindra, ovaj traktor ima radnu zapreminu od 952 cm³, pružajući dovoljno snage za različite zadatke.",
-    "brand": "solis"
+    "metaDescription": "Solis 20 je kompaktni traktor sa pogonom na sva četiri točka, trocilindričnim Mitsubishi motorom od 953 cm³ i mehaničkim menjačem 6+2.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-20-01.webp",
+      "/products/solis/solis-20-02.webp",
+      "/products/solis/solis-20-03.webp",
+      "/products/solis/solis-20-04.webp",
+      "/products/solis/solis-20-05.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Proizvođač motora",
+            "Mitsubishi"
+          ],
+          [
+            "Tip motora",
+            "trocilindrični, vodeno hlađen"
+          ],
+          [
+            "Broj cilindara",
+            "3"
+          ],
+          [
+            "Usisavanje",
+            "atmosfersko (bez turbo punjača)"
+          ],
+          [
+            "Zapremina",
+            "953 cm³"
+          ],
+          [
+            "Snaga",
+            "20 KS"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2700 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "52 Nm"
+          ],
+          [
+            "Prečistač vazduha",
+            "suvi, sa senzorom zaprljanosti"
+          ],
+          [
+            "Pomoć pri hladnom startu",
+            "da"
+          ],
+          [
+            "Izduv",
+            "prigušivač u motornom prostoru, izduv nadole"
+          ],
+          [
+            "Rezervoar goriva",
+            "26 l"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4WD (uključivi pogon prednje osovine)"
+          ],
+          [
+            "Kvačilo",
+            "jednostruko, suvo"
+          ],
+          [
+            "Tip menjača",
+            "mehanički, sa kliznim zupčanicima"
+          ],
+          [
+            "Broj brzina",
+            "6 napred + 2 nazad"
+          ],
+          [
+            "Položaj ručice menjača",
+            "centralno (standard), bočno (opciono)"
+          ],
+          [
+            "Maksimalna brzina",
+            "15,1 km/h (pri 2900 o/min)"
+          ],
+          [
+            "Minimalna brzina",
+            "1,36 km/h (pri nominalnom broju obrtaja)"
+          ],
+          [
+            "Blokada diferencijala",
+            "mehanička, nožna komanda"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 i 1000 o/min"
+          ],
+          [
+            "Uključivanje PTO",
+            "mehaničko"
+          ],
+          [
+            "Trotačkasto vešanje",
+            "kategorija 1N"
+          ],
+          [
+            "Nosivost podizača",
+            "500 kg (na krajevima donjih poluga)"
+          ],
+          [
+            "Protok hidraulike",
+            "13,3 l/min"
+          ],
+          [
+            "Dodatni hidraulični izvodi",
+            "1 dvosmerni"
+          ],
+          [
+            "Stabilizatori donjih poluga",
+            "lanci"
+          ],
+          [
+            "Prednji utovarivač",
+            "opciono"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Masa",
+            "970 kg (sa standardnim prednjim tegovima 2 × 15 kg)"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "1420 mm"
+          ],
+          [
+            "Ukupna dužina",
+            "2735 mm"
+          ],
+          [
+            "Ukupna širina",
+            "1020 mm"
+          ],
+          [
+            "Visina do vrha ROPS rama",
+            "1945 mm"
+          ],
+          [
+            "Klirens",
+            "200 mm"
+          ],
+          [
+            "Trag prednjih točkova",
+            "880 mm"
+          ],
+          [
+            "Trag zadnjih točkova",
+            "795 mm"
+          ],
+          [
+            "Radijus okretanja bez kočenja",
+            "3,2 m (desno), 3,15 m (levo)"
+          ],
+          [
+            "Dozvoljena masa prikolice bez kočnica",
+            "1120 kg"
+          ],
+          [
+            "Dozvoljena masa prikolice sa naletnom kočnicom",
+            "3000 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Standardne gume",
+            "napred 5.00-12, nazad 8.00-18 (dijagonalne poljoprivredne)"
+          ],
+          [
+            "Radijalne poljoprivredne gume (opciono)",
+            "napred 6.5/80-12, nazad 280/70 R18"
+          ],
+          [
+            "Travnate gume (opciono)",
+            "napred 23x8.50-12, nazad 33x15.5-16.5"
+          ],
+          [
+            "Industrijske gume (opciono)",
+            "napred 23x8.50-12, nazad 33x15.5-16.5"
+          ],
+          [
+            "Galaxy Pro gume (opciono)",
+            "napred 220/55 R12, nazad 280/70 R16"
+          ],
+          [
+            "Radne kočnice",
+            "suve doboš kočnice, mehaničko aktiviranje"
+          ],
+          [
+            "Parkirna kočnica",
+            "ručna, nezavisna"
+          ],
+          [
+            "Upravljanje",
+            "servo upravljač"
+          ]
+        ]
+      },
+      {
+        "group": "Električni sistem i oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "12 V, 60 Ah"
+          ],
+          [
+            "Alternator",
+            "12 V, 42 A"
+          ],
+          [
+            "Utičnica za prikolicu",
+            "7-polna"
+          ],
+          [
+            "Sigurnosni prekidači",
+            "kvačilo, PTO, neutralni položaj menjača"
+          ],
+          [
+            "Zaštita vozača",
+            "ROPS ram sa rotacionim svetlom"
+          ],
+          [
+            "Prednji tegovi",
+            "2 × 15 kg (standard)"
+          ],
+          [
+            "Ostala standardna oprema",
+            "pokazivač nivoa goriva, prednja vučna kuka, zadnje radno svetlo"
+          ],
+          [
+            "Kabina",
+            "opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "20",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "500",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "970",
+        "unit": "kg",
+        "label": "masa"
+      }
+    ],
+    "specSource": "Fabrički podaci Solis"
   },
   {
     "slug": "traktori/solis/solis-26",
     "name": "TRAKTOR Solis 26 JUGOMETAL",
-    "shortText": "Izuzetno izdržljiva SOLIS kompaktna serija, koja je oličenje moći, efikasnosti kao i vrhunskog dizajna.",
+    "shortText": "Solis 26 je kompaktni traktor 4WD sa trocilindričnim Mitsubishi dizel motorom od 1319 cm³, menjačem 6+2 i podizačem nosivosti 775 kg.",
     "texts": [
-      "Izuzetno izdržljiva SOLIS kompaktna serija, koja je oličenje moći, efikasnosti kao i vrhunskog dizajna.",
-      "Može biti opremljena sa kompletnom paletom priključaka za svestrano obavljanje poslova u poljoprivrede i komunalnoj delatnosti."
+      "Solis 26 pokreće trocilindrični Mitsubishi dizel motor zapremine 1319 cm³, bez turbo punjača. Pri nominalnih 2500 o/min razvija 26 KS, a maksimalni obrtni moment iznosi 76,3 Nm. Rezervoar goriva prima 28 l.",
+      "Mehanički menjač ima 6 brzina napred i 2 nazad, sa jednostrukim suvim kvačilom. Pogon prednje osovine se uključuje po potrebi, prednja osovina je ojačana, a blokada diferencijala se uključuje nožnom komandom. Brzina kretanja je od 1,64 do 16,2 km/h, u zavisnosti od pneumatika.",
+      "Zadnje trotačkasto vešanje kategorije 1N podiže do 775 kg, priključno vratilo radi na 540 i 1000 o/min, a na raspolaganju je jedan dvosmerni hidraulični izvod. Kočnice rade u uljnom kupatilu, a upravljanje je sa servo pojačanjem.",
+      "Masa traktora sa ROPS ramom je 1070 kg, međuosovinsko rastojanje 1560 mm, a ukupna širina 1075 mm. Kabina sa grejanjem i prednji utovarivač su dostupni kao dodatna oprema, kao i radijalni, travnati, industrijski i Galaxy Pro pneumatici."
     ],
     "specs": [
       {
@@ -381,18 +1936,313 @@
         "value": "1560mm"
       }
     ],
-    "image": "/products/Traktor-solis-26-01.webp",
+    "image": "/products/solis/solis-26-01.webp",
     "metaTitle": "TRAKTOR Solis 26 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Može biti opremljena sa kompletnom paletom priključaka za svestrano obavljanje poslova u poljoprivrede i komunalnoj delatnosti.",
-    "brand": "solis"
+    "metaDescription": "Solis 26 je kompaktni traktor 4WD sa trocilindričnim Mitsubishi dizel motorom od 1319 cm³, menjačem 6+2 i podizačem nosivosti 775 kg.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-26-01.webp",
+      "/products/solis/solis-26-02.webp",
+      "/products/solis/solis-26-03.webp",
+      "/products/solis/solis-26-04.webp",
+      "/products/solis/solis-26-05.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Proizvođač motora",
+            "Mitsubishi"
+          ],
+          [
+            "Tip motora",
+            "trocilindrični dizel motor"
+          ],
+          [
+            "Broj cilindara",
+            "3"
+          ],
+          [
+            "Usisavanje",
+            "atmosfersko (bez turbo punjača)"
+          ],
+          [
+            "Zapremina",
+            "1319 cm³"
+          ],
+          [
+            "Snaga",
+            "26 KS"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2500 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "76,3 Nm"
+          ],
+          [
+            "Emisiona norma",
+            "Stage V"
+          ],
+          [
+            "Prečistač vazduha",
+            "suvi, sa senzorom zaprljanosti"
+          ],
+          [
+            "Pomoć pri hladnom startu",
+            "da"
+          ],
+          [
+            "Izduv",
+            "prigušivač u motornom prostoru, izduv nadole"
+          ],
+          [
+            "Rezervoar goriva",
+            "28 l"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4WD (uključivi pogon prednje osovine)"
+          ],
+          [
+            "Prednja osovina",
+            "ojačana (Heavy Duty)"
+          ],
+          [
+            "Kvačilo",
+            "jednostruko, suvo"
+          ],
+          [
+            "Tip menjača",
+            "mehanički, sa kliznim zupčanicima"
+          ],
+          [
+            "Broj brzina",
+            "6 napred + 2 nazad"
+          ],
+          [
+            "Položaj ručice menjača",
+            "centralno; postoji i izvedba sa bočnom ručicom"
+          ],
+          [
+            "Maksimalna brzina",
+            "16,2 km/h (pri 2815 o/min)"
+          ],
+          [
+            "Minimalna brzina",
+            "1,64 km/h (pri 2500 o/min)"
+          ],
+          [
+            "Blokada diferencijala",
+            "mehanička, nožna komanda"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 i 1000 o/min"
+          ],
+          [
+            "Uključivanje PTO",
+            "mehaničko"
+          ],
+          [
+            "Trotačkasto vešanje",
+            "kategorija 1N"
+          ],
+          [
+            "Nosivost podizača",
+            "775 kg"
+          ],
+          [
+            "Protok hidraulike",
+            "13,5 l/min"
+          ],
+          [
+            "Dodatni hidraulični izvodi",
+            "1 dvosmerni"
+          ],
+          [
+            "Stabilizatori donjih poluga",
+            "lanci"
+          ],
+          [
+            "Prednji utovarivač",
+            "opciono"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Masa sa ROPS ramom",
+            "1070 kg (sa standardnim prednjim tegovima 2 × 15 kg)"
+          ],
+          [
+            "Masa sa kabinom",
+            "1265 kg"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "1560 mm"
+          ],
+          [
+            "Ukupna dužina",
+            "2760 mm"
+          ],
+          [
+            "Ukupna širina",
+            "1075 mm"
+          ],
+          [
+            "Visina do vrha ROPS rama",
+            "1955 mm"
+          ],
+          [
+            "Klirens",
+            "240 mm"
+          ],
+          [
+            "Trag prednjih točkova",
+            "885 mm"
+          ],
+          [
+            "Trag zadnjih točkova",
+            "835 mm"
+          ],
+          [
+            "Radijus okretanja bez kočenja",
+            "3,18 m (desno), 3,10 m (levo)"
+          ],
+          [
+            "Dozvoljena masa prikolice bez kočnica",
+            "1120 kg"
+          ],
+          [
+            "Dozvoljena masa prikolice sa naletnom kočnicom",
+            "3000 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Standardne gume",
+            "napred 6.00-12, nazad 8.30-20 (dijagonalne poljoprivredne)"
+          ],
+          [
+            "Radijalne poljoprivredne gume (opciono)",
+            "napred 6.5/80-12, nazad 280/70 R18"
+          ],
+          [
+            "Travnate gume (opciono)",
+            "napred 23x8.50-12, nazad 33x15.5-16.5"
+          ],
+          [
+            "Industrijske gume (opciono)",
+            "napred 23x8.50-12, nazad 33x15.5-16.5"
+          ],
+          [
+            "Galaxy Pro gume (opciono)",
+            "napred 220/55 R12, nazad 280/70 R16"
+          ],
+          [
+            "Radne kočnice",
+            "disk kočnice u uljnom kupatilu, mehaničko aktiviranje"
+          ],
+          [
+            "Parkirna kočnica",
+            "ručna, nezavisna"
+          ],
+          [
+            "Upravljanje",
+            "servo upravljač"
+          ]
+        ]
+      },
+      {
+        "group": "Električni sistem i oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "12 V, 60 Ah"
+          ],
+          [
+            "Alternator",
+            "12 V, 42 A"
+          ],
+          [
+            "Utičnica za prikolicu",
+            "7-polna"
+          ],
+          [
+            "Sigurnosni prekidači",
+            "kvačilo, PTO, neutralni položaj menjača"
+          ],
+          [
+            "Zaštita vozača",
+            "ROPS ram sa rotacionim svetlom"
+          ],
+          [
+            "Prednji tegovi",
+            "2 × 15 kg (standard)"
+          ],
+          [
+            "Ostala standardna oprema",
+            "pokazivač nivoa goriva, zadnje radno svetlo"
+          ],
+          [
+            "Kabina",
+            "opciono, sa grejanjem"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "26",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "775",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "1070",
+        "unit": "kg",
+        "label": "masa"
+      }
+    ],
+    "specSource": "Fabrički podaci Solis"
   },
   {
     "slug": "traktori/solis/solis-50",
     "name": "TRAKTOR Solis 50 JUGOMETAL",
-    "shortText": "Solis 50 u univerzalni traktori namenjeni za korišćenje u poljoprivredi, komunalne radove i transport.",
+    "shortText": "Solis 50 je univerzalni traktor snage 50 KS za poljoprivredu, komunalne radove i transport.",
     "texts": [
-      "Solis 50 u univerzalni traktori namenjeni za korišćenje u poljoprivredi, komunalne radove i transport.",
-      "Opremljeni su proverenim i pouzdanim trocilindričim motorima sa ekonomičnom potrošnjom goriva i visokim obrtnim momentom."
+      "Solis 50 je univerzalni traktor snage 50 KS, namenjen radu u poljoprivredi, komunalnim poslovima i transportu.",
+      "Pokreće ga trocilindrični motor. Menjač ima 8 brzina napred i 2 nazad, a postoji i sinhronizovani menjač 12 + 12. Pogon je 2WD ili 4WD.",
+      "Masa traktora je 2780 kg, a međuosovinsko rastojanje 2175 mm. Kočnice su disk kočnice u uljnom kupatilu, a priključno vratilo radi na 540 o/min."
     ],
     "specs": [
       {
@@ -420,18 +2270,107 @@
         "value": "2175mm"
       }
     ],
-    "image": "/products/traktor-solis-50.webp",
+    "image": "/products/solis/solis-50-01.webp",
     "metaTitle": "TRAKTOR Solis 50 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Opremljeni su proverenim i pouzdanim trocilindričim motorima sa ekonomičnom potrošnjom goriva i visokim obrtnim momentom.",
-    "brand": "solis"
+    "metaDescription": "Solis 50 je univerzalni traktor snage 50 KS za poljoprivredu, komunalne radove i transport.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-50-01.webp",
+      "/products/solis/solis-50-02.webp",
+      "/products/solis/solis-50-03.webp",
+      "/products/solis/solis-50-04.webp",
+      "/products/solis/solis-50-05.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "50 KS"
+          ],
+          [
+            "Broj cilindara",
+            "3"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "2WD / 4WD"
+          ],
+          [
+            "Menjač",
+            "8 napred + 2 nazad ili sinhronizovani 12 + 12"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Masa",
+            "2780 kg"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2175 mm"
+          ]
+        ]
+      },
+      {
+        "group": "Kočnice",
+        "rows": [
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "50",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD / 4WD",
+        "unit": "",
+        "label": "pogon"
+      },
+      {
+        "value": "2780",
+        "unit": "kg",
+        "label": "masa"
+      },
+      {
+        "value": "540",
+        "unit": "o/min",
+        "label": "PTO"
+      }
+    ]
   },
   {
     "slug": "traktori/solis/solis-60",
     "name": "TRAKTOR Solis 60 JUGOMETAL",
-    "shortText": "Solis 60, klasifikovan kao traktor kategorije II, predstavlja svestranu mašinu za poljoprivredne operacije sa snagom motora od 60 konjskih snaga i četiri cilindra.",
+    "shortText": "Solis 60 je traktor kategorije II snage 60 KS sa četvorocilindričnim motorom od 3707 cm³.",
     "texts": [
-      "Solis 60, klasifikovan kao traktor kategorije II, predstavlja svestranu mašinu za poljoprivredne operacije sa snagom motora od 60 konjskih snaga i četiri cilindra.",
-      "S radnom zapreminom od 3707 cm³, ovaj traktor pruža dovoljno snage i efikasnosti za širok spektar radnih zadataka. Sa mogućnošću odabira između dva i četiri točka pogona (2WD / 4WD), prilagođava se različitim terenskim uslovima, pružajući izvanrednu trakciju i pokretljivost."
+      "Solis 60 je traktor kategorije II snage 60 KS, za širok spektar ratarskih poslova.",
+      "Četvorocilindrični motor zapremine 3707 cm³ zadovoljava normu EURO 3A. Menjač ima 12 brzina napred i 12 nazad, a pogon je 2WD ili 4WD.",
+      "Priključno vratilo radi na 540 i 540E o/min, upravljanje je hidraulično, a kočnice su disk kočnice u uljnom kupatilu."
     ],
     "specs": [
       {
@@ -459,10 +2398,101 @@
         "value": "EURO 3A"
       }
     ],
-    "image": "/products/Solis-60-facelift1.webp",
+    "image": "/products/solis/solis-60-01.webp",
     "metaTitle": "TRAKTOR Solis 60 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "S radnom zapreminom od 3707 cm³, ovaj traktor pruža dovoljno snage i efikasnosti za širok spektar radnih zadataka. Sa mogućnošću odabira između dva i četiri točka pogona (2WD / 4WD), prilagođava se različitim terenskim uslovima, pružajući izvanrednu trakciju i pokretljivost.",
-    "brand": "solis"
+    "metaDescription": "Solis 60 je traktor kategorije II snage 60 KS sa četvorocilindričnim motorom od 3707 cm³.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-60-01.webp",
+      "/products/solis/solis-60-02.webp",
+      "/products/solis/solis-60-03.webp",
+      "/products/solis/solis-60-04.webp",
+      "/products/solis/solis-60-05.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "60 KS"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Zapremina",
+            "3707 cm³"
+          ],
+          [
+            "Izduvne norme",
+            "EURO 3A"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Kategorija",
+            "II"
+          ],
+          [
+            "Pogon",
+            "2WD / 4WD"
+          ],
+          [
+            "Menjač",
+            "12 napred + 12 nazad"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Kočnice i upravljanje",
+        "rows": [
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ],
+          [
+            "Upravljanje",
+            "Hidraulično"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "60",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD / 4WD",
+        "unit": "",
+        "label": "pogon"
+      },
+      {
+        "value": "12 + 12",
+        "unit": "",
+        "label": "menjač"
+      },
+      {
+        "value": "3707",
+        "unit": "cm³",
+        "label": "zapremina"
+      }
+    ]
   },
   {
     "slug": "traktori/solis/solis-60nt",
@@ -506,10 +2536,11 @@
   {
     "slug": "traktori/solis/solis-75",
     "name": "TRAKTOR Solis 75 JUGOMETAL",
-    "shortText": "Solis 75 je traktor kategorije II, sa snagom motora od 75 konjskih snaga, četiri cilindra i radnom zapreminom od 3707 cm³.",
+    "shortText": "Solis 75 je traktor kategorije II snage 75 KS sa četvorocilindričnim motorom od 3707 cm³.",
     "texts": [
-      "Solis 75 je traktor kategorije II, sa snagom motora od 75 konjskih snaga, četiri cilindra i radnom zapreminom od 3707 cm³.",
-      "Sa opcijom dva ili četiri točka pogona (2WD / 4WD), omogućuje se prilagodljivost u svim terenskim uslovima. Menjač sa 12 brzina napred i 12 brzina unazad pruža širok spektar brzina za optimalno upravljanje."
+      "Solis 75 je traktor kategorije II snage 75 KS, sa četvorocilindričnim motorom zapremine 3707 cm³ koji zadovoljava normu EURO 3A.",
+      "Pogon je 2WD ili 4WD, pa se traktor prilagođava različitim terenima. Menjač ima 12 brzina napred i 12 nazad.",
+      "Priključno vratilo radi na 540 i 540E o/min, međuosovinsko rastojanje je 2218 mm, a kočnice su disk kočnice u uljnom kupatilu."
     ],
     "specs": [
       {
@@ -537,18 +2568,110 @@
         "value": "EURO 3A"
       }
     ],
-    "image": "/products/Traktor-Solis-75-01.webp",
+    "image": "/products/solis/solis-75-01.webp",
     "metaTitle": "TRAKTOR Solis 75 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Sa opcijom dva ili četiri točka pogona (2WD / 4WD), omogućuje se prilagodljivost u svim terenskim uslovima. Menjač sa 12 brzina napred i 12 brzina unazad pruža širok spektar brzina za optimalno upravljanje.",
-    "brand": "solis"
+    "metaDescription": "Solis 75 je traktor kategorije II snage 75 KS sa četvorocilindričnim motorom od 3707 cm³.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-75-01.webp",
+      "/products/solis/solis-75-02.webp",
+      "/products/solis/solis-75-03.webp",
+      "/products/solis/solis-75-04.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "75 KS"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Zapremina",
+            "3707 cm³"
+          ],
+          [
+            "Izduvne norme",
+            "EURO 3A"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Kategorija",
+            "II"
+          ],
+          [
+            "Pogon",
+            "2WD / 4WD"
+          ],
+          [
+            "Menjač",
+            "12 napred + 12 nazad"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i kočnice",
+        "rows": [
+          [
+            "Međuosovinsko rastojanje",
+            "2218 mm"
+          ],
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "75",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD / 4WD",
+        "unit": "",
+        "label": "pogon"
+      },
+      {
+        "value": "12 + 12",
+        "unit": "",
+        "label": "menjač"
+      },
+      {
+        "value": "3707",
+        "unit": "cm³",
+        "label": "zapremina"
+      }
+    ]
   },
   {
     "slug": "traktori/solis/solis-75nt",
     "name": "TRAKTOR Solis 75NT JUGOMETAL",
-    "shortText": "Sinhronizovana transmisija kod ove serije obezbeđuje lakoću rada uz visoku produktivnost.",
+    "shortText": "Solis 75NT (fabrički naziv N75) je uski traktor sa pogonom na sva četiri točka i Stage V motorom od 4088 cm³, namenjen voćnjacima i vinogradima.",
     "texts": [
-      "Sinhronizovana transmisija kod ove serije obezbeđuje lakoću rada uz visoku produktivnost.",
-      "SOLIS “N” serija sa uskim razmakom između točkova, garantuje maksimalne performanse u primeni u voćarstvu i vinogradarstvu."
+      "Solis 75NT, kod proizvođača N75, pripada N seriji uskih Solis traktora, namenjenoj voćnjacima, vinogradima i radu u skučenom prostoru. Pokreće ga četvorocilindrični turbo dizel motor zapremine 4088 cm³ sa intercoolerom, nominalne snage 54,83 kW (73,47 KS) pri 2000 o/min i maksimalnog obrtnog momenta 340 Nm pri 1400 o/min. Motor ispunjava Stage V normu, a izduvni gasovi se prečišćavaju oksidacionim katalizatorom i filterom čestica (DOC + DPF).",
+      "Standardni menjač je sinhronizovani šatl 12 + 12 Carraro sa puzajućim brzinama, uz dvostruko kvačilo i pogon na sva četiri točka sa mehaničkim uključivanjem. Priključno vratilo radi na 540 i 540E o/min.",
+      "Zadnji podizač kategorije II ima nosivost 2500 kg, sa mehaničkom regulacijom vuče i položaja. Standardno su dostupna dva dvosmerna hidraulična izvoda, a treći je opcija. Rezervoar goriva ima 80 l.",
+      "Ukupna širina počinje od 1400 mm, a međuosovinsko rastojanje iznosi 2310 mm. Standardne pneumatike su 8.00-18 napred i 14.9-24 pozadi, uz više opcija radijalnih guma. Osnovna verzija ima ROPS zaštitni ram, a kabina kategorije 4 (CAT IV) sa klimatizacijom je dostupna kao opcija."
     ],
     "specs": [
       {
@@ -576,18 +2699,313 @@
         "value": "2306mm"
       }
     ],
-    "image": "/products/Solis-75N.webp",
+    "image": "/products/solis/solis-75nt-01.webp",
     "metaTitle": "TRAKTOR Solis 75NT JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "SOLIS “N” serija sa uskim razmakom između točkova, garantuje maksimalne performanse u primeni u voćarstvu i vinogradarstvu.",
-    "brand": "solis"
+    "metaDescription": "Solis 75NT (fabrički naziv N75) je uski traktor sa pogonom na sva četiri točka i Stage V motorom od 4088 cm³, namenjen voćnjacima i vinogradima.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-75nt-01.webp",
+      "/products/solis/solis-75nt-02.webp",
+      "/products/solis/solis-75nt-03.webp",
+      "/products/solis/solis-75nt-04.webp",
+      "/products/solis/solis-75nt-05.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Tip motora",
+            "4-cilindrični dizel, vodeno hlađenje"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Zapremina",
+            "4088 cm³"
+          ],
+          [
+            "Nominalna snaga",
+            "54,83 kW (73,47 KS)"
+          ],
+          [
+            "Kategorija snage",
+            "75 KS"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2000 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "340 Nm pri 1400 o/min"
+          ],
+          [
+            "Usisavanje",
+            "Turbo punjač sa intercoolerom"
+          ],
+          [
+            "Norma emisije",
+            "Stage V"
+          ],
+          [
+            "Tretman izduvnih gasova",
+            "DOC + DPF (oksidacioni katalizator i filter čestica)"
+          ],
+          [
+            "Prečistač vazduha",
+            "Dvostepeni, suvi, sa senzorom zaprljanosti"
+          ],
+          [
+            "Izduvna cev",
+            "Usmerena nadole"
+          ],
+          [
+            "Grejač bloka motora",
+            "Opciono"
+          ],
+          [
+            "Rezervoar goriva",
+            "80 l"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Menjač",
+            "12 + 12, sinhronizovani šatl (Carraro)"
+          ],
+          [
+            "Puzajuće brzine",
+            "Standardno"
+          ],
+          [
+            "Opcioni menjač",
+            "24 + 24, sinhronizovani šatl"
+          ],
+          [
+            "Minimalna / maksimalna brzina",
+            "0,45 km/h / 30 km/h"
+          ],
+          [
+            "Kvačilo",
+            "Dvostruko"
+          ],
+          [
+            "Pogon",
+            "4WD"
+          ],
+          [
+            "Uključivanje prednjeg pogona",
+            "Mehaničko"
+          ],
+          [
+            "Blokada diferencijala",
+            "Mehanička"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ],
+          [
+            "Tip PTO",
+            "Mehanički"
+          ],
+          [
+            "Protok hidraulične pumpe",
+            "56 l/min"
+          ],
+          [
+            "Regulacija",
+            "Otvoreni centar, mehanička regulacija vuče, senzor na gornjoj poluzi"
+          ],
+          [
+            "Nosivost zadnjeg podizača",
+            "2500 kg"
+          ],
+          [
+            "Kategorija priključka u tri tačke",
+            "II"
+          ],
+          [
+            "Hidraulični izvodi pozadi",
+            "2 dvosmerna standardno, 3 dvosmerna opciono (plivajući položaj, samocentriranje, automatsko isključivanje)"
+          ],
+          [
+            "Samozaključujuće poluge (brze spojnice)",
+            "Opciono"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Masa",
+            "3295 kg"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2310 mm"
+          ],
+          [
+            "Ukupna dužina",
+            "4030–4300 mm"
+          ],
+          [
+            "Ukupna širina",
+            "1400–1515 mm"
+          ],
+          [
+            "Ukupna visina",
+            "2300–2330 mm"
+          ],
+          [
+            "Trag prednjih točkova",
+            "1150–1210 mm"
+          ],
+          [
+            "Trag zadnjih točkova",
+            "1000–1110 mm"
+          ],
+          [
+            "Minimalni klirens",
+            "290–320 mm"
+          ],
+          [
+            "Prednji tegovi",
+            "Osnovni nosač 79 kg + 6 × 31 kg (opciono)"
+          ],
+          [
+            "Zadnji tegovi",
+            "2 × 30 kg, po jedan na svakom točku (opciono)"
+          ],
+          [
+            "Dozvoljena vučna masa bez kočnica",
+            "2500 kg"
+          ],
+          [
+            "Dozvoljena vučna masa sa inercionom kočnicom",
+            "8000 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Standardne pneumatike",
+            "8.00-18 napred, 14.9-24 pozadi"
+          ],
+          [
+            "Opcione pneumatike",
+            "8×18 i 13.6×24; 280/70R18 i 380/85R24; 210/95R18 i 360/70R28; 280/70R18 i 420/70R24; 260/70R16 i 360/70R24; 280/70R18 i 360/70R28"
+          ],
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ],
+          [
+            "Aktiviranje kočnica",
+            "Mehaničko"
+          ],
+          [
+            "Parkirna kočnica",
+            "Ručna"
+          ],
+          [
+            "Kočnice prikolice",
+            "Hidraulične (opciono)"
+          ],
+          [
+            "Upravljanje",
+            "Servo upravljanje, volan podesiv po nagibu i visini"
+          ],
+          [
+            "Radijus okretanja",
+            "3370 mm"
+          ]
+        ]
+      },
+      {
+        "group": "Električni sistem i oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "110 Ah, 800 CCA"
+          ],
+          [
+            "Alternator",
+            "90 A (ROPS) / 120 A (kabina)"
+          ],
+          [
+            "Utičnice",
+            "7-polna utičnica za prikolicu, 3-polna utičnica, prekidač akumulatora"
+          ],
+          [
+            "Zaštita vozača",
+            "ROPS ram standardno, kabina CAT IV opciono"
+          ],
+          [
+            "Klima uređaj (HVAC)",
+            "Opciono, uz kabinu"
+          ],
+          [
+            "Platforma",
+            "Ravna, elastično oslonjena platforma"
+          ],
+          [
+            "Sigurnosni prekidači",
+            "Kvačilo, PTO i neutralni položaj menjača"
+          ],
+          [
+            "Vučni uređaj",
+            "Klatna poteznica (E-oznaka) standardno; CBM, CUNA i viljuškasta poteznica opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "75",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "2500",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "3295",
+        "unit": "kg",
+        "label": "masa"
+      }
+    ],
+    "specSource": "Fabrički podaci Solis"
   },
   {
     "slug": "traktori/solis/solis-90",
     "name": "TRAKTOR Solis 90 JUGOMETAL",
-    "shortText": "Solis 90 predstavlja izvanredan traktor visoke efikasnosti i pouzdanosti, savršen za različite poljoprivredne radove.",
+    "shortText": "Solis 90 je traktor snage 90 KS sa četvorocilindričnim motorom od 4087 cm³.",
     "texts": [
-      "Solis 90 predstavlja izvanredan traktor visoke efikasnosti i pouzdanosti, savršen za različite poljoprivredne radove.",
-      "Sa snagom motora od 90 konjskih snaga i četiri cilindra, ovaj traktor nudi izvanrednu radnu zapreminu od 4087 cm³."
+      "Solis 90 je traktor snage 90 KS za zahtevnije ratarske poslove.",
+      "Pokreće ga četvorocilindrični motor zapremine 4087 cm³. Menjač ima 12 brzina napred i 12 nazad, a pogon je 2WD ili 4WD.",
+      "Priključno vratilo radi na 540 i 540E o/min, upravljanje je hidraulično, međuosovinsko rastojanje je 2218 mm, a kočnice su disk kočnice u uljnom kupatilu."
     ],
     "specs": [
       {
@@ -615,18 +3033,106 @@
         "value": "12F + 12R"
       }
     ],
-    "image": "/products/Solis-90.webp",
+    "image": "/products/solis/solis-90-01.webp",
     "metaTitle": "TRAKTOR Solis 90 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Sa snagom motora od 90 konjskih snaga i četiri cilindra, ovaj traktor nudi izvanrednu radnu zapreminu od 4087 cm³.",
-    "brand": "solis"
+    "metaDescription": "Solis 90 je traktor snage 90 KS sa četvorocilindričnim motorom od 4087 cm³.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-90-01.webp",
+      "/products/solis/solis-90-02.webp",
+      "/products/solis/solis-90-03.webp",
+      "/products/solis/solis-90-04.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Snaga",
+            "90 KS"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Zapremina",
+            "4087 cm³"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "2WD / 4WD"
+          ],
+          [
+            "Menjač",
+            "12 napred + 12 nazad"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije, kočnice i upravljanje",
+        "rows": [
+          [
+            "Međuosovinsko rastojanje",
+            "2218 mm"
+          ],
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ],
+          [
+            "Upravljanje",
+            "Hidraulično"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "90",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "2WD / 4WD",
+        "unit": "",
+        "label": "pogon"
+      },
+      {
+        "value": "12 + 12",
+        "unit": "",
+        "label": "menjač"
+      },
+      {
+        "value": "4087",
+        "unit": "cm³",
+        "label": "zapremina"
+      }
+    ]
   },
   {
     "slug": "traktori/solis/solis-90nt",
     "name": "TRAKTOR Solis 90NT JUGOMETAL",
-    "shortText": "Radna zapremina od 4087 cm³ omogućava mu izvanredne performanse za različite poljoprivredne zadatke.",
+    "shortText": "Solis 90NT (fabrički naziv N90) je uski traktor snage 90 KS sa pogonom na sva četiri točka i CRDi Stage V motorom od 4087 cm³, namenjen voćnjacima i vinogradima.",
     "texts": [
-      "Radna zapremina od 4087 cm³ omogućava mu izvanredne performanse za različite poljoprivredne zadatke.",
-      "Solis 90NT, koji spada u kategoriju II, predstavlja izuzetno moćan traktor sa snagom motora od 90 konjskih snaga i četiri cilindra."
+      "Solis 90NT, kod proizvođača N90, najjači je model N serije uskih Solis traktora, namenjen radu u voćnjacima, vinogradima i drugim skučenim površinama. Pokreće ga četvorocilindrični turbo dizel motor sa CRDi ubrizgavanjem zapremine 4087 cm³, snage 67,3 kW (90 KS) pri 2200 o/min i maksimalnog obrtnog momenta 375 Nm pri 1400 o/min. Motor ispunjava Stage V normu uz DOC, DPF i SCR (AdBlue) sistem.",
+      "Standardni menjač je sinhronizovani šatl 12 + 12 Carraro sa puzajućim brzinama, sa dvostrukim kvačilom i mehanički uključivim pogonom na sva četiri točka. Kao opcija se nudi menjač 24 + 24 sa maksimalnom brzinom 40 km/h. Priključno vratilo je nezavisno, sa brzinama 540 i 540E o/min.",
+      "Zadnji podizač kategorije II podiže do 2500 kg, a standardno su ugrađena dva dvosmerna hidraulična izvoda, uz treći kao opciju. Rezervoar goriva ima 80 l, a rezervoar za AdBlue 10 l.",
+      "Ukupna širina je od 1400 do 1515 mm, zavisno od pneumatika, a međuosovinsko rastojanje 2310 mm. Masa iznosi od 3295 kg (ROPS) do 3545 kg (kabina). Osnovna verzija ima ROPS ram, a kabina kategorije 4 (CAT IV) sa klimatizacijom je opcija."
     ],
     "specs": [
       {
@@ -654,18 +3160,313 @@
         "value": "4WD"
       }
     ],
-    "image": "/products/solis90nt.webp",
+    "image": "/products/solis/solis-90nt-01.webp",
     "metaTitle": "TRAKTOR Solis 90NT JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Solis 90NT, koji spada u kategoriju II, predstavlja izuzetno moćan traktor sa snagom motora od 90 konjskih snaga i četiri cilindra.",
-    "brand": "solis"
+    "metaDescription": "Solis 90NT (fabrički naziv N90) je uski traktor snage 90 KS sa pogonom na sva četiri točka i CRDi Stage V motorom od 4087 cm³, namenjen voćnjacima i vinogradima.",
+    "brand": "solis",
+    "images": [
+      "/products/solis/solis-90nt-01.webp",
+      "/products/solis/solis-90nt-02.webp",
+      "/products/solis/solis-90nt-03.webp",
+      "/products/solis/solis-90nt-04.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Tip motora",
+            "4-cilindrični dizel, CRDi, vodeno hlađenje"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Zapremina",
+            "4087 cm³"
+          ],
+          [
+            "Snaga",
+            "67,3 kW (90 KS)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2200 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "375 Nm pri 1400 o/min"
+          ],
+          [
+            "Usisavanje",
+            "Turbo punjač"
+          ],
+          [
+            "Norma emisije",
+            "Stage V"
+          ],
+          [
+            "Tretman izduvnih gasova",
+            "DOC + DPF + SCR (AdBlue)"
+          ],
+          [
+            "Prečistač vazduha",
+            "Dvostepeni, suvi"
+          ],
+          [
+            "Izduvna cev",
+            "Usmerena nadole"
+          ],
+          [
+            "Grejač bloka motora",
+            "Opciono"
+          ],
+          [
+            "Rezervoar goriva",
+            "80 l"
+          ],
+          [
+            "Rezervoar za AdBlue (DEF)",
+            "10 l"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Menjač",
+            "12 + 12, sinhronizovani šatl (Carraro)"
+          ],
+          [
+            "Puzajuće brzine",
+            "Standardno"
+          ],
+          [
+            "Minimalna / maksimalna brzina (12 + 12)",
+            "0,5 km/h / 30 km/h"
+          ],
+          [
+            "Opcioni menjač",
+            "24 + 24, sinhronizovani šatl, 0,5 km/h / 40 km/h"
+          ],
+          [
+            "Kvačilo",
+            "Dvostruko"
+          ],
+          [
+            "Pogon",
+            "4WD"
+          ],
+          [
+            "Uključivanje prednjeg pogona",
+            "Mehaničko"
+          ],
+          [
+            "Blokada diferencijala",
+            "Mehanička"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "540 / 540E o/min"
+          ],
+          [
+            "Tip PTO",
+            "Nezavisni"
+          ],
+          [
+            "Protok hidraulične pumpe",
+            "56 l/min"
+          ],
+          [
+            "Regulacija",
+            "Otvoreni centar, mehanička regulacija vuče, senzor na gornjoj poluzi"
+          ],
+          [
+            "Nosivost zadnjeg podizača",
+            "2500 kg"
+          ],
+          [
+            "Kategorija priključka u tri tačke",
+            "II"
+          ],
+          [
+            "Hidraulični izvodi pozadi",
+            "2 dvosmerna standardno, 3 dvosmerna opciono (plivajući položaj, samocentriranje, automatsko isključivanje)"
+          ],
+          [
+            "Samozaključujuće poluge (brze spojnice)",
+            "Opciono"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Masa (ROPS / kabina)",
+            "3295–3545 kg"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2310 mm"
+          ],
+          [
+            "Ukupna dužina",
+            "4030–4300 mm"
+          ],
+          [
+            "Ukupna širina",
+            "1400–1515 mm"
+          ],
+          [
+            "Ukupna visina",
+            "2300–2330 mm"
+          ],
+          [
+            "Trag prednjih točkova",
+            "1150–1210 mm"
+          ],
+          [
+            "Trag zadnjih točkova",
+            "1000–1110 mm"
+          ],
+          [
+            "Klirens",
+            "290–320 mm"
+          ],
+          [
+            "Prednji tegovi",
+            "Osnovni nosač 79 kg + 6 × 31 kg (opciono)"
+          ],
+          [
+            "Zadnji tegovi",
+            "2 × 30 kg, po jedan na svakom točku (opciono)"
+          ],
+          [
+            "Dozvoljena vučna masa bez kočnica",
+            "2500 kg"
+          ],
+          [
+            "Dozvoljena vučna masa sa inercionom kočnicom",
+            "8000 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Standardne pneumatike",
+            "8×18 napred, 14.9-24 pozadi (poljoprivredne)"
+          ],
+          [
+            "Opcione pneumatike",
+            "8×18 i 13.6×24; 280/70R18 i 380/85R24; 210/95R18 i 360/70R28; 280/70R18 i 420/70R24; 260/70R16 i 360/70R24; 280/70R18 i 360/70R28"
+          ],
+          [
+            "Radne kočnice",
+            "Disk kočnice u uljnom kupatilu"
+          ],
+          [
+            "Aktiviranje kočnica",
+            "Mehaničko"
+          ],
+          [
+            "Parkirna kočnica",
+            "Ručna"
+          ],
+          [
+            "Kočnice prikolice",
+            "Hidraulične (opciono)"
+          ],
+          [
+            "Upravljanje",
+            "Servo upravljanje, volan podesiv po nagibu i visini"
+          ],
+          [
+            "Radijus okretanja",
+            "3370 mm"
+          ]
+        ]
+      },
+      {
+        "group": "Električni sistem i oprema",
+        "rows": [
+          [
+            "Akumulator",
+            "110 Ah, 800 CCA"
+          ],
+          [
+            "Alternator",
+            "90 A"
+          ],
+          [
+            "Utičnice",
+            "7-polna utičnica za prikolicu, 3-polna utičnica, prekidač akumulatora"
+          ],
+          [
+            "Zaštita vozača",
+            "ROPS ram standardno, kabina CAT IV opciono"
+          ],
+          [
+            "Klima uređaj (HVAC)",
+            "Opciono, uz kabinu"
+          ],
+          [
+            "Platforma",
+            "Ravna, elastično oslonjena platforma"
+          ],
+          [
+            "Sigurnosni prekidači",
+            "Kvačilo, PTO i neutralni položaj menjača"
+          ],
+          [
+            "Vučni uređaj",
+            "Klatna poteznica (E-oznaka) standardno; CBM, CUNA i viljuškasta poteznica opciono"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "90",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "2500",
+        "unit": "kg",
+        "label": "podizna moć"
+      },
+      {
+        "value": "3295–3545",
+        "unit": "kg",
+        "label": "masa"
+      }
+    ],
+    "specSource": "Fabrički podaci Solis"
   },
   {
     "slug": "traktori/yto/yto-354",
     "name": "TRAKTOR YTO 354 JUGOMETAL",
-    "shortText": "Poveća težina od 1680 kg, međuosovinski razmak od 1698 mm i prednja vuča (4WD) čine ga vrlo snažnim.",
+    "shortText": "Kompaktan traktor YTO SG354 sa četvorocilindričnim dizel motorom od 25,7 kW (35 KS), pogonom 4×4 i menjačem 8+4 i hidrauličnim upravljanjem.",
     "texts": [
-      "Poveća težina od 1680 kg, međuosovinski razmak od 1698 mm i prednja vuča (4WD) čine ga vrlo snažnim.",
-      "Vrlo je jednostavan za upravljanje, bez elektronike što povećava pouzdanost uz vrlo niske troškove za održavanje. Ogibljeno sedište sa naslonima i palice menjača smeštene sa desne strane pružaju udobnu vožnju, a prilaz sedištu je bez prepreka."
+      "YTO SG354 je najjači model kompaktne SG serije kineskog proizvođača YTO (First Tractor Company). Pokreće ga četvorocilindrični, vodeno hlađeni dizel motor YND485T zapremine 2,16 l, nominalne snage 25,7 kW (35 KS) pri 2400 min-1.",
+      "Menjač u osnovnoj verziji ima 8 brzina napred i 4 nazad, a fabrički su u ponudi i varijante 8+8 i 16+8. Brzine kretanja kreću se od 2,22 do 32,28 km/h napred. Glavna i pomoćna ručica menjača postavljene su bočno, a kvačilo i kočnice imaju viseće pedale.",
+      "Traktor ima dvostruko kvačilo, dvobrzinsko priključno vratilo i dva hidraulična izvoda, pa se lako kombinuje sa različitim priključnim mašinama. Sila dizanja na zglobovima poluga iznosi 8,3 kN. Upravljanje je hidraulično, a pri pokretanju motora traktor ima uređaj za bezbedan start.",
+      "Međuosovinsko rastojanje iznosi 1855 mm, minimalna radna masa sa ROPS ramom 1570 kg, a traktor stoji na pneumaticima 6.50-16 napred i 11.2-24 nazad. Prema proizvođaču, model ima E-Mark sertifikat."
     ],
     "specs": [
       {
@@ -695,16 +3496,191 @@
     ],
     "image": "/products/ITO-354SG.webp",
     "metaTitle": "TRAKTOR YTO 354 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Vrlo je jednostavan za upravljanje, bez elektronike što povećava pouzdanost uz vrlo niske troškove za održavanje. Ogibljeno sedište sa naslonima i palice menjača smeštene sa desne strane pružaju udobnu vožnju, a prilaz sedištu je bez prepreka.",
-    "brand": "yto"
+    "metaDescription": "Kompaktan traktor YTO SG354 sa četvorocilindričnim dizel motorom od 25,7 kW (35 KS), pogonom 4×4 i menjačem 8+4 i hidrauličnim upravljanjem.",
+    "brand": "yto",
+    "images": [
+      "/products/ITO-354SG.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "YND485T"
+          ],
+          [
+            "Tip motora",
+            "dizel, 4-cilindrični, vertikalni, vodeno hlađen, četvorotaktni"
+          ],
+          [
+            "Zapremina",
+            "2,16 l"
+          ],
+          [
+            "Nominalna snaga",
+            "25,7 kW (35 KS)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2400 min-1"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4×4"
+          ],
+          [
+            "Menjač (standard)",
+            "8 napred / 4 nazad"
+          ],
+          [
+            "Opcioni menjači",
+            "8 napred / 8 nazad ili 16 napred / 8 nazad"
+          ],
+          [
+            "Brzine napred",
+            "2,22–32,28 km/h"
+          ],
+          [
+            "Brzine nazad",
+            "2,69–8,39 km/h"
+          ],
+          [
+            "Kvačilo",
+            "dvostruko"
+          ],
+          [
+            "Ručice menjača",
+            "glavna i pomoćna, bočno postavljene"
+          ],
+          [
+            "Prednji pogonski most",
+            "integrisano kućište mosta"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Priključno vratilo (PTO)",
+            "dvobrzinsko"
+          ],
+          [
+            "Hidraulični izvodi",
+            "2"
+          ],
+          [
+            "Sila dizanja (610 mm iza zglobova)",
+            "≥ 5,80 kN"
+          ],
+          [
+            "Sila dizanja (na zglobovima poluga)",
+            "8,3 kN"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "3650 × 1590 × 1580 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "1855 mm"
+          ],
+          [
+            "Klirens (minimalni)",
+            "325 mm"
+          ],
+          [
+            "Trag točkova napred / nazad",
+            "1200 / 1100–1400 mm"
+          ],
+          [
+            "Minimalna radna masa (sa ROPS)",
+            "1570 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Pneumatici napred",
+            "6.50-16"
+          ],
+          [
+            "Pneumatici nazad",
+            "11.2-24"
+          ],
+          [
+            "Upravljanje",
+            "hidraulično"
+          ],
+          [
+            "Podešavanje zadnjeg traga",
+            "kontinualno (opcija)"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Zaštita vozača",
+            "ROPS ram (osnovna verzija)"
+          ],
+          [
+            "Pedale kvačila i kočnica",
+            "viseće"
+          ],
+          [
+            "Bezbedan start",
+            "uređaj za sprečavanje pokretanja pri pogrešnom rukovanju"
+          ],
+          [
+            "Homologacija",
+            "E-Mark sertifikat"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "35",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "8 + 4",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   },
   {
     "slug": "traktori/yto/yto-504",
     "name": "TRAKTOR YTO 504 JUGOMETAL",
-    "shortText": "YTO 504 ima 4-cilindrični motor bez turbine i bez elektronike sa velikom zapreminom od 3160 cm3.",
+    "shortText": "YTO 504 je traktor od 36,8 kW (50 KS) sa atmosferskim četvorocilindričnim motorom od 4,15 l, pogonom 4×4 i menjačem 8+8 sa šatlom.",
     "texts": [
-      "YTO 504 ima 4-cilindrični motor bez turbine i bez elektronike sa velikom zapreminom od 3160 cm3.",
-      "Snažan motor u kombinaciji sa velikom težinom traktora od 2.620 kg, međuosovinskim razmakom od 1.975 mm i prednjom vučom, obezbeđuje odličnu trakciju."
+      "YTO 504 (fabrička oznaka MF504) pokreće sopstveni YTO četvorocilindrični dizel motor YT4A2-22 zapremine 4,15 l, nominalne snage 36,8 kW (50 KS) pri 2200 min-1 i maksimalnog obrtnog momenta 195 Nm pri 1650 min-1. Proizvođač ističe veliku rezervu obrtnog momenta i ekonomičan rad.",
+      "Menjač MF504 ima 8 brzina napred i 8 nazad sa šatl izvedbom, uz brzine od 2,37 do 31,06 km/h napred. Prednji pogonski most ima integrisano kućište za veće opterećenje i dobro zaptivanje, a kvačilo je suvo, dvostruko, prečnika 10 inča.",
+      "Priključno vratilo radi na 540/720 ili 540/1000 min-1, uz snagu na PTO od 32,5 kW. Hidraulika ima kombinovanu vučnu, pozicionu i plivajuću regulaciju, sa silom dizanja od 10,66 kN na zglobovima poluga.",
+      "Traktor je dug 3910 mm, sa međuosovinskim rastojanjem od 2063 mm, klirensom od 350 mm i minimalnom radnom masom od 2326 kg (sa ROPS). Na pneumaticima 8.3-20 i 12.4-28 ima potpuno hidraulično upravljanje i disk kočnice, a kao opcija se nudi kabina sa ventilatorom i klima uređajem."
     ],
     "specs": [
       {
@@ -734,16 +3710,231 @@
     ],
     "image": "/products/YTO-504-min.webp",
     "metaTitle": "TRAKTOR YTO 504 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Snažan motor u kombinaciji sa velikom težinom traktora od 2.620 kg, međuosovinskim razmakom od 1.975 mm i prednjom vučom, obezbeđuje odličnu trakciju.",
-    "brand": "yto"
+    "metaDescription": "YTO 504 je traktor od 36,8 kW (50 KS) sa atmosferskim četvorocilindričnim motorom od 4,15 l, pogonom 4×4 i menjačem 8+8 sa šatlom.",
+    "brand": "yto",
+    "images": [
+      "/products/YTO-504-min.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "YT4A2-22"
+          ],
+          [
+            "Tip motora",
+            "dizel, 4-cilindrični, redni, vertikalni, vodeno hlađen, četvorotaktni"
+          ],
+          [
+            "Usisavanje",
+            "atmosfersko (bez prehranjivanja), direktno ubrizgavanje (OECD test 2008)"
+          ],
+          [
+            "Zapremina",
+            "4,15 l (OECD test: 4156 cm3)"
+          ],
+          [
+            "Prečnik × hod klipa",
+            "105 × 120 mm"
+          ],
+          [
+            "Nominalna snaga",
+            "36,8 kW (50 KS)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2200 min-1"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "195 Nm pri 1650 min-1"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4×4"
+          ],
+          [
+            "Menjač (MF504)",
+            "8 napred / 8 nazad, šatl"
+          ],
+          [
+            "Brzine napred",
+            "2,37–31,06 km/h"
+          ],
+          [
+            "Brzine nazad",
+            "2,03–26,62 km/h"
+          ],
+          [
+            "Opcija (starija YTO-504 izvedba)",
+            "8+4 standard; šatl 4×2×2; puzajuće brzine 4×(2+1)×2"
+          ],
+          [
+            "Kvačilo",
+            "suvo, dvostruko, 10 inča"
+          ],
+          [
+            "Prednji pogonski most",
+            "integrisano kućište mosta"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Brzine PTO",
+            "540/720 ili 540/1000 min-1"
+          ],
+          [
+            "Snaga na PTO",
+            "32,5 kW"
+          ],
+          [
+            "PTO vratilo",
+            "Ø 35 mm, 6 žlebova (OECD test 2008)"
+          ],
+          [
+            "Kategorija poluga",
+            "I"
+          ],
+          [
+            "Regulacija",
+            "kombinovana vučna, poziciona i plivajuća"
+          ],
+          [
+            "Sila dizanja (610 mm iza zglobova)",
+            "≥ 8,28 kN"
+          ],
+          [
+            "Sila dizanja (na zglobovima poluga)",
+            "10,66 kN"
+          ],
+          [
+            "Hidraulični sistem",
+            "otvoreni centar (OECD test 2008)"
+          ],
+          [
+            "Protok / pritisak",
+            "27,6 l/min pri 15,2 MPa (OECD test 2008)"
+          ],
+          [
+            "Hidraulični izvodi",
+            "1 ili 2 grupe"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "3910 × 1745 × 2545 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2063 mm"
+          ],
+          [
+            "Klirens (minimalni)",
+            "350 mm"
+          ],
+          [
+            "Trag točkova napred / nazad",
+            "1250 / 1400–1600 mm"
+          ],
+          [
+            "Minimalna radna masa (sa ROPS)",
+            "2326 kg"
+          ],
+          [
+            "Masa u OECD testu",
+            "2248 kg bez balasta / 2526 kg sa balastom"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Pneumatici napred",
+            "8.3-20"
+          ],
+          [
+            "Pneumatici nazad",
+            "12.4-28"
+          ],
+          [
+            "Upravljanje",
+            "potpuno hidraulično"
+          ],
+          [
+            "Kočnice",
+            "disk, mehanički aktivirane"
+          ],
+          [
+            "Podešavanje zadnjeg traga",
+            "kontinualno"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Zaštita vozača",
+            "ROPS ram (osnovna verzija)"
+          ],
+          [
+            "Kabina (opcija)",
+            "ramska konstrukcija, aerodinamičan oblik, ventilator; klima uređaj opciono"
+          ],
+          [
+            "Bezbedan start",
+            "start uz pritisnutu pedalu kvačila"
+          ],
+          [
+            "Homologacija",
+            "E-Mark sertifikat"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "50",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "8 + 8",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   },
   {
     "slug": "traktori/yto/yto-x1204",
     "name": "TRAKTOR YTO X1204 JUGOMETAL",
-    "shortText": "Opremljen je mehaničkom transmisijom sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad.",
+    "shortText": "YTO X1204 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6B5-23 od 7,43 l i 88,2 kW (120 KS).",
     "texts": [
-      "Opremljen je mehaničkom transmisijom sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad.",
-      "Ovaj traktor pokreće šestocilindarski motor modela LR6B5-23, sa nominalnom snagom od 120 KS pri 2300 o/min. Ima impresivan maksimalni obrtni moment od 460 Nm, što obezbeđuje snažne performanse u različitim uslovima rada."
+      "YTO X1204 pokreće šestocilindrični YTO dizel motor LR6B5-23 radne zapremine 7,43 l, vertikalni, vodom hlađen, sa direktnim ubrizgavanjem. Nominalna snaga iznosi 88,2 kW (120 KS) pri 2300 o/min.",
+      "Traktor ima pogon 4 × 4, menjač sa 12 brzina napred i 4 nazad i dvostruko kvačilo. Prema YTO podacima, transmisija je izrađena po italijanskoj tehnologiji, a opseg brzina je 2,19 do 29,63 km/h napred.",
+      "Zadnje priključno vratilo ima dve nezavisne brzine, 540 i 1000 o/min, i snagu do 71,25 kW. Podizni uređaj razvija 29 kN na zglobovima i omogućava više načina regulacije dubine obrade.",
+      "Uz međuosovinsko rastojanje od 2688,5 mm, klirens od 470 mm i pneumatike 14.9-26 i 18.4-38, X1204 je namenjen težim ratarskim radovima. Upravljanje je potpuno hidraulično, kočnice su mokre disk kočnice, a kabina sa ravnim podom može imati klima uređaj."
     ],
     "specs": [
       {
@@ -773,16 +3964,178 @@
     ],
     "image": "/products/YTO_X1204.webp",
     "metaTitle": "TRAKTOR YTO X1204 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Ovaj traktor pokreće šestocilindarski motor modela LR6B5-23, sa nominalnom snagom od 120 KS pri 2300 o/min. Ima impresivan maksimalni obrtni moment od 460 Nm, što obezbeđuje snažne performanse u različitim uslovima rada.\n\n",
-    "brand": "yto"
+    "metaDescription": "YTO X1204 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6B5-23 od 7,43 l i 88,2 kW (120 KS).",
+    "brand": "yto",
+    "images": [
+      "/products/YTO_X1204.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "YTO LR6B5-23"
+          ],
+          [
+            "Tip motora",
+            "šestocilindrični, vertikalni, vodom hlađen, četvorotaktni dizel, direktno ubrizgavanje"
+          ],
+          [
+            "Broj cilindara",
+            "6"
+          ],
+          [
+            "Radna zapremina",
+            "7,43 l"
+          ],
+          [
+            "Nominalna snaga",
+            "88,2 kW (120 KS) pri 2300 o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4 × 4"
+          ],
+          [
+            "Menjač",
+            "12 brzina napred / 4 nazad"
+          ],
+          [
+            "Opseg brzina napred",
+            "2,19–29,63 km/h"
+          ],
+          [
+            "Opseg brzina nazad",
+            "4,72–13,83 km/h"
+          ],
+          [
+            "Kvačilo",
+            "dvostruko (double action)"
+          ],
+          [
+            "Konstrukcija transmisije",
+            "po italijanskoj tehnologiji (navod proizvođača)"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Snaga na priključnom vratilu",
+            "71,25 kW"
+          ],
+          [
+            "Brzine priključnog vratila",
+            "540 i 1000 o/min (dve nezavisne brzine)"
+          ],
+          [
+            "Sila podizanja (610 mm iza zglobova)",
+            "≥ 25,9 kN"
+          ],
+          [
+            "Sila podizanja (na zglobovima)",
+            "29 kN"
+          ],
+          [
+            "Regulacija dubine obrade",
+            "višestruka regulacija dubine obrade"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "5040 × 2380 × 3100 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2688,5 mm"
+          ],
+          [
+            "Minimalni klirens",
+            "470 mm"
+          ],
+          [
+            "Minimalna radna masa",
+            "4850 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednji pneumatici",
+            "14.9-26"
+          ],
+          [
+            "Zadnji pneumatici",
+            "18.4-38"
+          ],
+          [
+            "Trag točkova napred",
+            "1672–2003 mm"
+          ],
+          [
+            "Trag točkova pozadi",
+            "1662–2262 mm"
+          ],
+          [
+            "Upravljanje",
+            "potpuno hidraulično"
+          ],
+          [
+            "Kočnice",
+            "mokre disk kočnice na zadnjoj osovini"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Kabina",
+            "kabina sa ravnim podom"
+          ],
+          [
+            "Klima uređaj",
+            "opcija"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "120",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   },
   {
     "slug": "traktori/yto/yto-x1304",
     "name": "TRAKTOR YTO X1304 JUGOMETAL",
-    "shortText": "Poseduje mehaničku transmisiju sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad, omogućavajući precizno podešavanje brzina vožnje.",
+    "shortText": "YTO X1304 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6M5-23 od 7,7 l i 95,6 kW (130 KS).",
     "texts": [
-      "Poseduje mehaničku transmisiju sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad, omogućavajući precizno podešavanje brzina vožnje.",
-      "YTO-X1304 opremljen je šestocilindarskim motorom modela LR6M5-23, koji pruža impresivnu nominalnu snagu od 130 KS pri 2300 o/min. Motor proizvodi snažan obrtni moment od 500 Nm, što osigurava efikasno obavljanje raznovrsnih poljoprivrednih zadataka."
+      "YTO X1304 pokreće atmosferski šestocilindrični YTO dizel motor LR6M5-23 radne zapremine 7,7 l, sa direktnim ubrizgavanjem i vodenim hlađenjem. Nominalna snaga je 95,6 kW (130 KS) pri 2300 o/min.",
+      "Traktor ima pogon 4 × 4, nezavisno dvostruko kvačilo i menjač sa 12 brzina napred i 4 nazad, uz fabričku opciju 24 napred i 8 nazad. Sinhronizatori menjača su dostupni kao opcija, a opseg brzina je 2,2 do 29,6 km/h.",
+      "Nezavisno zadnje priključno vratilo radi sa 540/1000 o/min, a podizni uređaj ima nosivost od najmanje 47 kN na zglobovima. Hidraulika može imati 2 ili 3 grupe izvoda.",
+      "Upravljanje je hidrostatičko, kočnice su mokre disk kočnice, a zatvorena kabina pruža širok pregled, sedište sa vešanjem i opcioni klima uređaj. Međuosovinsko rastojanje je 2688,5 mm, klirens 470 mm, a pneumatici 14.9-26 napred i 18.4-38 pozadi."
     ],
     "specs": [
       {
@@ -812,16 +4165,186 @@
     ],
     "image": "/products/YTO-1304.webp",
     "metaTitle": "TRAKTOR YTO X1304 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "YTO-X1304 opremljen je šestocilindarskim motorom modela LR6M5-23, koji pruža impresivnu nominalnu snagu od 130 KS pri 2300 o/min. Motor proizvodi snažan obrtni moment od 500 Nm, što osigurava efikasno obavljanje raznovrsnih poljoprivrednih zadataka.",
-    "brand": "yto"
+    "metaDescription": "YTO X1304 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6M5-23 od 7,7 l i 95,6 kW (130 KS).",
+    "brand": "yto",
+    "images": [
+      "/products/YTO-1304.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "YTO LR6M5-23"
+          ],
+          [
+            "Tip motora",
+            "šestocilindrični, vertikalni, vodom hlađen, četvorotaktni dizel, direktno ubrizgavanje, atmosferski"
+          ],
+          [
+            "Broj cilindara",
+            "6"
+          ],
+          [
+            "Radna zapremina",
+            "7,7 l"
+          ],
+          [
+            "Nominalna snaga",
+            "95,6 kW (130 KS) pri 2300 o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4 × 4"
+          ],
+          [
+            "Kvačilo",
+            "nezavisno, dvostruko (double action)"
+          ],
+          [
+            "Menjač",
+            "12 brzina napred / 4 nazad (opcija 24 napred / 8 nazad)"
+          ],
+          [
+            "Opseg brzina napred",
+            "2,19–29,63 km/h"
+          ],
+          [
+            "Opseg brzina nazad",
+            "4,72–13,83 km/h"
+          ],
+          [
+            "Sinhronizatori menjača",
+            "opcija"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Zadnje priključno vratilo",
+            "nezavisno, 540/1000 o/min"
+          ],
+          [
+            "Nosivost podizača (na zglobovima)",
+            "≥ 47 kN (NLX1304 / X1304 serija)"
+          ],
+          [
+            "Sila podizanja po tabeli X1304",
+            "≥ 25,9 kN na 610 mm, 29 kN na zglobovima"
+          ],
+          [
+            "Hidraulični izvodi",
+            "2 ili 3 grupe"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "5050 × 2380 × 3100 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2688,5 mm"
+          ],
+          [
+            "Minimalni klirens",
+            "470 mm"
+          ],
+          [
+            "Minimalni poluprečnik okretanja",
+            "7 ± 0,3 m"
+          ],
+          [
+            "Minimalna radna masa",
+            "5200 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednji pneumatici",
+            "14.9-26"
+          ],
+          [
+            "Zadnji pneumatici",
+            "18.4-38"
+          ],
+          [
+            "Trag točkova napred",
+            "1672–2003 mm (NLX1304); tabela X1304: 1822–2153 mm"
+          ],
+          [
+            "Trag točkova pozadi",
+            "1662–2262 mm"
+          ],
+          [
+            "Upravljanje",
+            "hidrostatičko"
+          ],
+          [
+            "Kočnice",
+            "mokre disk kočnice"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Kabina",
+            "zatvorena, sa širokim pregledom"
+          ],
+          [
+            "Klima uređaj",
+            "opcija"
+          ],
+          [
+            "Sedište",
+            "sa vešanjem, presvlake od inženjerske plastike"
+          ],
+          [
+            "Instrument tabla",
+            "multifunkcionalna"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "130",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   },
   {
     "slug": "traktori/yto/yto-x804",
     "name": "TRAKTOR YTO X804 JUGOMETAL",
-    "shortText": "YTO X804 je robustan traktor snage 80 KS, pokreće ga četvorocilindarski motor LR4B5-23 zapremine 4674 cm³.",
+    "shortText": "YTO X804 je ratarski traktor od 58,8 kW (80 KS) sa atmosferskim motorom LR4B5-23 od 4,95 l, pogonom 4×4, menjačem 12+4 (opciono 12+12 ili 24+8) i zatvorenom kabinom.",
     "texts": [
-      "YTO X804 je robustan traktor snage 80 KS, pokreće ga četvorocilindarski motor LR4B5-23 zapremine 4674 cm³.",
-      "Opremljen je sinhronizovanom transmisijom sa 12 brzina napred i 12 nazad, pružajući širok opseg brzina za različite zadatke. Sa maksimalnom brzinom od 40 km/h, omogućava efikasno kretanje na terenu."
+      "YTO X804 pokreće četvorocilindrični dizel motor LR4B5-23 sa direktnim ubrizgavanjem, zapremine 4,95 l, nominalne snage 58,8 kW (80 KS) pri 2300 min-1 i maksimalnog obrtnog momenta 270 Nm u opsegu od 1500 do 1700 min-1.",
+      "Transmisija je razvijena na osnovu evropske tehnologije: standardno ima 12 brzina napred i 4 nazad, a kao opcija se nude šatl menjač 12+12 i puzajuće brzine 24+8, uz mogućnost sinhronizovanog menjanja. Verzija sa kabinom ima LUK dvostruko kvačilo sa nezavisnim upravljanjem, a prednji most je izrađen prema evropskoj tehnologiji.",
+      "Priključno vratilo je dvobrzinsko, nezavisno i sinhrono (540/720 ili 540/1000 min-1), sa snagom od 50 kW. Hidraulika II kategorije ima kombinovanu vučnu, pozicionu i plivajuću regulaciju, 2 ili 3 grupe hidrauličnih izvoda i silu dizanja do 25,6 kN na zglobovima poluga.",
+      "X804 ima međuosovinsko rastojanje od 2314 mm, klirens od 430 mm i pneumatike 11.2-28 napred i 13.6-38 nazad. Kočnice su lamelaste u uljnom kupatilu, upravljanje je potpuno hidraulično sa podesivim volanom, a zatvorena kabina može imati klima uređaj."
     ],
     "specs": [
       {
@@ -851,16 +4374,211 @@
     ],
     "image": "/products/YTO-X804-min.webp",
     "metaTitle": "TRAKTOR YTO X804 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Opremljen je sinhronizovanom transmisijom sa 12 brzina napred i 12 nazad, pružajući širok opseg brzina za različite zadatke. Sa maksimalnom brzinom od 40 km/h, omogućava efikasno kretanje na terenu.",
-    "brand": "yto"
+    "metaDescription": "YTO X804 je ratarski traktor od 58,8 kW (80 KS) sa atmosferskim motorom LR4B5-23 od 4,95 l, pogonom 4×4, menjačem 12+4 (opciono 12+12 ili 24+8) i zatvorenom kabinom.",
+    "brand": "yto",
+    "images": [
+      "/products/YTO-X804-min.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "LR4B5-23"
+          ],
+          [
+            "Tip motora",
+            "dizel, 4-cilindrični, vertikalni, vodeno hlađen, četvorotaktni, direktno ubrizgavanje"
+          ],
+          [
+            "Usisavanje",
+            "atmosfersko"
+          ],
+          [
+            "Zapremina",
+            "4,95 l"
+          ],
+          [
+            "Nominalna snaga",
+            "58,8 kW (80 KS)"
+          ],
+          [
+            "Nominalni broj obrtaja",
+            "2300 min-1"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "270 Nm pri 1500–1700 min-1"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4×4"
+          ],
+          [
+            "Menjač (standard)",
+            "12 napred / 4 nazad"
+          ],
+          [
+            "Opcioni menjači",
+            "šatl 12+12; puzajuće brzine 24+8"
+          ],
+          [
+            "Sinhronizacija",
+            "sinhronizovano menjanje kao opcija"
+          ],
+          [
+            "Brzine napred",
+            "1,63–26,82 km/h"
+          ],
+          [
+            "Brzine nazad",
+            "4,23–12,69 km/h"
+          ],
+          [
+            "Kvačilo",
+            "suvo, dvostruko, 11 inča (verzija sa kabinom: LUK dvostruko kvačilo sa nezavisnim upravljanjem)"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Brzine PTO",
+            "540/720 ili 540/1000 min-1"
+          ],
+          [
+            "Tip PTO",
+            "dvobrzinsko, sinhrono i nezavisno"
+          ],
+          [
+            "Snaga na PTO",
+            "50 kW"
+          ],
+          [
+            "Kategorija poluga",
+            "II"
+          ],
+          [
+            "Regulacija",
+            "kombinovana vučna, poziciona i plivajuća"
+          ],
+          [
+            "Sila dizanja (610 mm iza zglobova)",
+            "≥ 21,9 kN"
+          ],
+          [
+            "Sila dizanja (na zglobovima poluga)",
+            "≥ 25,6 kN"
+          ],
+          [
+            "Razvodnik",
+            "jednosmerni ili dvosmerni višesekcijski, podesiv"
+          ],
+          [
+            "Hidraulični izvodi",
+            "2 ili 3 grupe"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "4350 × 2170 × 2740 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2314 mm"
+          ],
+          [
+            "Klirens (minimalni)",
+            "430 mm"
+          ],
+          [
+            "Trag točkova napred",
+            "1630–1960 mm"
+          ],
+          [
+            "Trag točkova nazad",
+            "1500–2100 mm"
+          ],
+          [
+            "Minimalna radna masa (sa kabinom i nosačem tegova)",
+            "3675 kg"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Pneumatici napred",
+            "11.2-28"
+          ],
+          [
+            "Pneumatici nazad",
+            "13.6-38"
+          ],
+          [
+            "Kočnice",
+            "lamelaste, u uljnom kupatilu"
+          ],
+          [
+            "Upravljanje",
+            "potpuno hidraulično, podesiv volan"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Kabina",
+            "potpuno zatvorena, klima uređaj opciono"
+          ],
+          [
+            "Alternativa kabini",
+            "OECD sertifikovan ROPS ram ili ROPS sa krovom"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "80",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      },
+      {
+        "value": "12 + 4",
+        "unit": "",
+        "label": "brzina napred / nazad"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   },
   {
     "slug": "traktori/yto/yto-x904",
     "name": "TRAKTOR YTO X904 JUGOMETAL",
-    "shortText": "Sa svojih 5606 cm³ zapremine, ovaj traktor obezbeđuje izvanredne performanse i pouzdanost.",
+    "shortText": "YTO X904 je ratarski traktor sa pogonom na sva četiri točka i četvorocilindričnim YTO dizel motorom od 5,13 l i 66,5 kW (90 KS).",
     "texts": [
-      "Sa svojih 5606 cm³ zapremine, ovaj traktor obezbeđuje izvanredne performanse i pouzdanost.",
-      "Ovaj traktor raspolaže snažnim četvorocilindarskim motorom modela LR4N5-23, koji pruža impresivnu nominalnu snagu od 90,5 KS, uz maksimalni obrtni moment od 345 Nm u rasponu od 1600-1800 o/min."
+      "YTO X904 pokreće četvorocilindrični YTO dizel motor LR4M5-23 radne zapremine 5,13 l, sa direktnim ubrizgavanjem i vodenim hlađenjem. Nominalna snaga je 66,5 kW pri 2300 o/min, a maksimalni obrtni moment 325 Nm postiže se u opsegu od 1600 do 1800 o/min.",
+      "Traktor ima pogon 4 × 4 i menjač sa 12 brzina napred i 4 nazad, uz fabričke opcije menjača 12 + 12 sa šatlom ili 24 + 8 sa puzajućim brzinama. Kvačilo je suvo, dvostruko (double action), prečnika 11 inča.",
+      "Zadnje priključno vratilo daje do 55 kW i radi sa 540/720 ili 540/1000 o/min. Trozglobna veza kategorije II ima kombinovanu regulaciju vučne sile, položaja i plivajući položaj, a hidraulika može imati 2 ili 3 grupe izvoda.",
+      "Sa međuosovinskim rastojanjem od 2314 mm, klirensom od 440 mm i pneumaticima 13.6-24 napred i 16.9-34 pozadi, X904 je kompaktan traktor za ratarske radove. Upravljanje je potpuno hidraulično, a kočnice su disk kočnice u uljnom kupatilu."
     ],
     "specs": [
       {
@@ -890,7 +4608,183 @@
     ],
     "image": "/products/YTO-X904-min.webp",
     "metaTitle": "TRAKTOR YTO X904 JUGOMETAL – Jugometal Svilajnac - Jugometal Svilajnac",
-    "metaDescription": "Ovaj traktor raspolaže snažnim četvorocilindarskim motorom modela LR4N5-23, koji pruža impresivnu nominalnu snagu od 90,5 KS, uz maksimalni obrtni moment od 345 Nm u rasponu od 1600-1800 o/min.",
-    "brand": "yto"
+    "metaDescription": "YTO X904 je ratarski traktor sa pogonom na sva četiri točka i četvorocilindričnim YTO dizel motorom od 5,13 l i 66,5 kW (90 KS).",
+    "brand": "yto",
+    "images": [
+      "/products/YTO-X904-min.webp"
+    ],
+    "specGroups": [
+      {
+        "group": "Motor",
+        "rows": [
+          [
+            "Model motora",
+            "YTO LR4M5-23"
+          ],
+          [
+            "Tip motora",
+            "četvorotaktni dizel, vertikalni, vodom hlađen, direktno ubrizgavanje, atmosferski"
+          ],
+          [
+            "Broj cilindara",
+            "4"
+          ],
+          [
+            "Prečnik × hod klipa",
+            "110 × 135 mm"
+          ],
+          [
+            "Radna zapremina",
+            "5,13 l"
+          ],
+          [
+            "Nominalna snaga",
+            "66,5 kW (90 KS) pri 2300 o/min"
+          ],
+          [
+            "Maksimalni obrtni moment",
+            "325 Nm pri 1600–1800 o/min"
+          ]
+        ]
+      },
+      {
+        "group": "Transmisija",
+        "rows": [
+          [
+            "Pogon",
+            "4 × 4"
+          ],
+          [
+            "Menjač",
+            "12 brzina napred / 4 nazad"
+          ],
+          [
+            "Opcije menjača",
+            "12 + 12 sa šatlom ili 24 + 8 sa puzajućim brzinama"
+          ],
+          [
+            "Opseg brzina napred",
+            "1,65–27,17 km/h"
+          ],
+          [
+            "Opseg brzina nazad",
+            "4,28–12,85 km/h"
+          ],
+          [
+            "Kvačilo",
+            "suvo, dvostruko (double action), 11 inča"
+          ]
+        ]
+      },
+      {
+        "group": "Hidraulika i PTO",
+        "rows": [
+          [
+            "Snaga na priključnom vratilu",
+            "55 kW"
+          ],
+          [
+            "Brzine priključnog vratila",
+            "540/720 ili 540/1000 o/min"
+          ],
+          [
+            "Trozglobna veza",
+            "kategorija II"
+          ],
+          [
+            "Regulacija dubine obrade",
+            "kombinovana regulacija vučne sile, položaja i plivajući položaj"
+          ],
+          [
+            "Sila podizanja (610 mm iza zglobova)",
+            "≥ 21,9 kN"
+          ],
+          [
+            "Sila podizanja (na zglobovima)",
+            "≥ 25,6 kN"
+          ],
+          [
+            "Hidraulični izvodi",
+            "2 ili 3 grupe (opcija)"
+          ]
+        ]
+      },
+      {
+        "group": "Dimenzije i mase",
+        "rows": [
+          [
+            "Dužina × širina × visina",
+            "4350 × 2300 × 2765 mm"
+          ],
+          [
+            "Međuosovinsko rastojanje",
+            "2314 mm"
+          ],
+          [
+            "Minimalni klirens",
+            "440 mm"
+          ],
+          [
+            "Minimalna radna masa",
+            "3920 kg (sa kabinom i nosačem tegova)"
+          ]
+        ]
+      },
+      {
+        "group": "Točkovi, kočnice i upravljanje",
+        "rows": [
+          [
+            "Prednji pneumatici",
+            "13.6-24"
+          ],
+          [
+            "Zadnji pneumatici",
+            "16.9-34"
+          ],
+          [
+            "Trag točkova napred",
+            "1562–2000 mm"
+          ],
+          [
+            "Trag točkova pozadi",
+            "1520–2120 mm"
+          ],
+          [
+            "Upravljanje",
+            "potpuno hidraulično"
+          ],
+          [
+            "Kočnice",
+            "disk kočnice u uljnom kupatilu"
+          ]
+        ]
+      },
+      {
+        "group": "Kabina i oprema",
+        "rows": [
+          [
+            "Kabina",
+            "zatvorena kabina (radna masa navedena sa kabinom)"
+          ],
+          [
+            "Zaštitna konstrukcija (opcija)",
+            "OECD sertifikovan ram protiv prevrtanja ili ram sa krovom"
+          ]
+        ]
+      }
+    ],
+    "stats": [
+      {
+        "value": "90",
+        "unit": "KS",
+        "label": "snaga motora"
+      },
+      {
+        "value": "4WD",
+        "unit": "",
+        "label": "pogon na sva 4 točka"
+      }
+    ],
+    "specSource": "Fabrički podaci YTO"
   }
 ]

@@ -3,12 +3,12 @@
   "slug": "imt-5393-di",
   "brand": "imt",
   "brandName": "IMT",
-  "name": "IMT 539.2 DI",
+  "name": "IMT 539.3 DI",
   "ks": 47,
   "drive": "2WD",
-  "image": "/products/TAFE-IMT-tractor-539.webp",
+  "image": "/products/imt/imt-5393-di-01.webp",
   "href": "/traktori/imt/imt-5393-di",
-  "text": "Opremljen je vertikalnim izduvnim sistemom i suvim prečistačem vazduha, što doprinosi efikasnosti i čistoći motora.",
+  "text": "IMT 539.3 DI je traktor od 47 KS sa pogonom na zadnje točkove, motorom po normi Euro 3A i podizačem nosivosti 1100 kg.",
   "specs": [
    {
     "label": "Maksimalna podizna moć",
@@ -24,9 +24,9 @@
   "name": "IMT 549.3 DI",
   "ks": 47,
   "drive": "4WD",
-  "image": "/products/TAFE-IMT-tractor-549.webp",
+  "image": "/products/imt/imt-5493-di-01.webp",
   "href": "/traktori/imt/imt-5493-di",
-  "text": "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što doprinosi poboljšanoj efikasnosti motora.",
+  "text": "IMT 549.3 DI je traktor od 47 KS sa pogonom na sva četiri točka, motorom po normi Euro 3A i podizačem nosivosti 1700 kg.",
   "specs": [
    {
     "label": "Maksimalna podizna moć",
@@ -42,9 +42,9 @@
   "name": "IMT 565.2 DI",
   "ks": 63,
   "drive": "4WD",
-  "image": "/products/TAFE-IMT-tractor-565.webp",
+  "image": "/products/imt/imt-5652-di-01.webp",
   "href": "/traktori/imt/imt-5652-di",
-  "text": "Ima vertikalni izduvni sistem i suvi prečistač vazduha, što poboljšava efikasnost i održavanje.",
+  "text": "IMT 565.2 DI je traktor od 63 KS sa pogonom na sva četiri točka, planetarnim krajnjim prenosom i podizačem nosivosti 2050 kg.",
   "specs": [
    {
     "label": "Maksimalna podizna moć",
@@ -60,9 +60,9 @@
   "name": "John Deere 5045D",
   "ks": 55,
   "drive": "",
-  "image": "/products/5045d_bgr_large_large_6e78ccf0ed7c0d0babb872ea216c2e09aefdf9b9.webp",
+  "image": "/products/john-deere/5045-d-01.webp",
   "href": "/traktori/john-deere/5045-d",
-  "text": "Poteznica i kačenje omogućavaju kačenje u tri tačke (kategorija II) sa podiznom moći donjih hidrauličnih poluga od 1800 kg.",
+  "text": "John Deere 5045D je traktor od 55 KS sa trocilindričnim turbo motorom od 2,9 l, menjačem 9 + 3 i podiznom moći od 1800 kg.",
   "specs": [],
   "use": "ratarski"
  },
@@ -73,9 +73,9 @@
   "name": "John Deere 5075M",
   "ks": 75,
   "drive": "2WD",
-  "image": "/products/5075M_iT4_r2g005434_1366x768_large_962b4a20d03bcb066d7612d78961f88879b70dbd.webp",
+  "image": "/products/john-deere/5075m-01.webp",
   "href": "/traktori/john-deere/5075m",
-  "text": "Traktor ima impresivan radijus okretanja od samo 4,1 metara i međuosovinsko rastojanje od 2,35 metara.",
+  "text": "John Deere 5075M je traktor od 75 KS sa trocilindričnim motorom od 2,9 l, podiznom moći od 1800 kg i radijusom okretanja od 4,1 m.",
   "specs": [
    {
     "label": "Kočnice",
@@ -94,10 +94,10 @@
   "brandName": "Mahindra",
   "name": "Mahindra 475 DI",
   "ks": 42,
-  "drive": "",
-  "image": "/products/mahindra-595-1.webp",
+  "drive": "2WD",
+  "image": "/products/mahindra/475-di-mkm-01.webp",
   "href": "/traktori/mahindra/475-di-mkm",
-  "text": "Bosch-ova linijska pumpa za ubrizgavanje goriva čuva gorivo u rezervoaru od 50 litara, čineći vožnju neprekidnom.",
+  "text": "Mahindra 475 DI MKM je traktor od 42 KS sa zadnjim pogonom, četvorocilindričnim motorom od 2730 cm³ i menjačem 8+2 sa reduktorom.",
   "specs": [],
   "use": "ratarski"
  },
@@ -108,9 +108,9 @@
   "name": "Mahindra 595 DI Turbo",
   "ks": 50,
   "drive": "",
-  "image": "/products/mahindra-595.webp",
+  "image": "/products/mahindra/595-di-turbo-mkm-01.webp",
   "href": "/traktori/mahindra/595-di-turbo-mkm",
-  "text": "Sa svojih 2,73 litara radne zapremine i četiri srčana cilindra, ovaj motor pruža pouzdanost i izdržljivost na svakom koraku.",
+  "text": "Mahindra 595 DI Turbo MKM je traktor od 50 KS sa turbo dizel motorom, menjačem 8+2 sa reduktorom i moći dizanja od 1650 kg.",
   "specs": [],
   "use": "ratarski"
  },
@@ -120,10 +120,10 @@
   "brandName": "Mahindra",
   "name": "Mahindra 7030 DI",
   "ks": 65,
-  "drive": "",
-  "image": "/products/mahindra-70301.webp",
+  "drive": "4WD",
+  "image": "/products/mahindra/7030-di-01.webp",
   "href": "/traktori/mahindra/7030-di",
-  "text": "Podizna moć na krajevima poluga doseže visinu od 1800 kg, omogućavajući mu da savlada najteže zadatke na polju.",
+  "text": "Mahindra 7030 4WD je traktor od 65 KS sa pogonom na sva četiri točka, motorom od 3532 cm³, sinhronizovanim menjačem 8+8 sa reverserom i moći dizanja od 1800 kg.",
   "specs": [],
   "use": "ratarski"
  },
@@ -134,9 +134,9 @@
   "name": "Solis 20",
   "ks": 20,
   "drive": "4WD",
-  "image": "/products/solis20.webp",
+  "image": "/products/solis/solis-20-01.webp",
   "href": "/traktori/solis/solis-20",
-  "text": "Sa četvorostrukim pogonom na sva četiri točka, omogućava se izuzetna trakcija i pokretljivost u različitim terenskim uslovima",
+  "text": "Solis 20 je kompaktni traktor sa pogonom na sva četiri točka, trocilindričnim Mitsubishi motorom od 953 cm³ i mehaničkim menjačem 6+2.",
   "specs": [
    {
     "label": "Menjač",
@@ -156,9 +156,9 @@
   "name": "Solis 26",
   "ks": 26,
   "drive": "4WD",
-  "image": "/products/Traktor-solis-26-01.webp",
+  "image": "/products/solis/solis-26-01.webp",
   "href": "/traktori/solis/solis-26",
-  "text": "Izuzetno izdržljiva SOLIS kompaktna serija, koja je oličenje moći, efikasnosti kao i vrhunskog dizajna.",
+  "text": "Solis 26 je kompaktni traktor 4WD sa trocilindričnim Mitsubishi dizel motorom od 1319 cm³, menjačem 6+2 i podizačem nosivosti 775 kg.",
   "specs": [
    {
     "label": "Menjač",
@@ -178,9 +178,9 @@
   "name": "Solis 50",
   "ks": 50,
   "drive": "4WD",
-  "image": "/products/traktor-solis-50.webp",
+  "image": "/products/solis/solis-50-01.webp",
   "href": "/traktori/solis/solis-50",
-  "text": "Solis 50 u univerzalni traktori namenjeni za korišćenje u poljoprivredi, komunalne radove i transport.",
+  "text": "Solis 50 je univerzalni traktor snage 50 KS za poljoprivredu, komunalne radove i transport.",
   "specs": [
    {
     "label": "PTO",
@@ -200,9 +200,9 @@
   "name": "Solis 60",
   "ks": 60,
   "drive": "4WD",
-  "image": "/products/Solis-60-facelift1.webp",
+  "image": "/products/solis/solis-60-01.webp",
   "href": "/traktori/solis/solis-60",
-  "text": "Solis 60, klasifikovan kao traktor kategorije II, predstavlja svestranu mašinu za poljoprivredne operacije sa snagom motora od 60 konjskih snaga i četiri cilindra.",
+  "text": "Solis 60 je traktor kategorije II snage 60 KS sa četvorocilindričnim motorom od 3707 cm³.",
   "specs": [
    {
     "label": "Menjač",
@@ -244,9 +244,9 @@
   "name": "Solis 75",
   "ks": 75,
   "drive": "4WD",
-  "image": "/products/Traktor-Solis-75-01.webp",
+  "image": "/products/solis/solis-75-01.webp",
   "href": "/traktori/solis/solis-75",
-  "text": "Solis 75 je traktor kategorije II, sa snagom motora od 75 konjskih snaga, četiri cilindra i radnom zapreminom od 3707 cm³.",
+  "text": "Solis 75 je traktor kategorije II snage 75 KS sa četvorocilindričnim motorom od 3707 cm³.",
   "specs": [
    {
     "label": "PTO",
@@ -266,9 +266,9 @@
   "name": "Solis 75NT",
   "ks": 75,
   "drive": "4WD",
-  "image": "/products/Solis-75N.webp",
+  "image": "/products/solis/solis-75nt-01.webp",
   "href": "/traktori/solis/solis-75nt",
-  "text": "Sinhronizovana transmisija kod ove serije obezbeđuje lakoću rada uz visoku produktivnost.",
+  "text": "Solis 75NT (fabrički naziv N75) je uski traktor sa pogonom na sva četiri točka i Stage V motorom od 4088 cm³, namenjen voćnjacima i vinogradima.",
   "specs": [
    {
     "label": "Menjač",
@@ -288,9 +288,9 @@
   "name": "Solis 90",
   "ks": 90,
   "drive": "4WD",
-  "image": "/products/Solis-90.webp",
+  "image": "/products/solis/solis-90-01.webp",
   "href": "/traktori/solis/solis-90",
-  "text": "Solis 90 predstavlja izvanredan traktor visoke efikasnosti i pouzdanosti, savršen za različite poljoprivredne radove.",
+  "text": "Solis 90 je traktor snage 90 KS sa četvorocilindričnim motorom od 4087 cm³.",
   "specs": [
    {
     "label": "Menjač",
@@ -310,9 +310,9 @@
   "name": "Solis 90NT",
   "ks": 90,
   "drive": "4WD",
-  "image": "/products/solis90nt.webp",
+  "image": "/products/solis/solis-90nt-01.webp",
   "href": "/traktori/solis/solis-90nt",
-  "text": "Radna zapremina od 4087 cm³ omogućava mu izvanredne performanse za različite poljoprivredne zadatke.",
+  "text": "Solis 90NT (fabrički naziv N90) je uski traktor snage 90 KS sa pogonom na sva četiri točka i CRDi Stage V motorom od 4087 cm³, namenjen voćnjacima i vinogradima.",
   "specs": [
    {
     "label": "Menjač",
@@ -334,7 +334,7 @@
   "drive": "4WD",
   "image": "/products/ITO-354SG.webp",
   "href": "/traktori/yto/yto-354",
-  "text": "Poveća težina od 1680 kg, međuosovinski razmak od 1698 mm i prednja vuča (4WD) čine ga vrlo snažnim.",
+  "text": "Kompaktan traktor YTO SG354 sa četvorocilindričnim dizel motorom od 25,7 kW (35 KS), pogonom 4×4 i menjačem 8+4 i hidrauličnim upravljanjem.",
   "specs": [],
   "use": "ratarski"
  },
@@ -347,7 +347,7 @@
   "drive": "4WD",
   "image": "/products/YTO-504-min.webp",
   "href": "/traktori/yto/yto-504",
-  "text": "YTO 504 ima 4-cilindrični motor bez turbine i bez elektronike sa velikom zapreminom od 3160 cm3.",
+  "text": "YTO 504 je traktor od 36,8 kW (50 KS) sa atmosferskim četvorocilindričnim motorom od 4,15 l, pogonom 4×4 i menjačem 8+8 sa šatlom.",
   "specs": [],
   "use": "ratarski"
  },
@@ -357,10 +357,10 @@
   "brandName": "YTO",
   "name": "YTO X1204",
   "ks": 120,
-  "drive": "",
+  "drive": "4WD",
   "image": "/products/YTO_X1204.webp",
   "href": "/traktori/yto/yto-x1204",
-  "text": "Opremljen je mehaničkom transmisijom sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad.",
+  "text": "YTO X1204 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6B5-23 od 7,43 l i 88,2 kW (120 KS).",
   "specs": [],
   "use": "ratarski"
  },
@@ -370,10 +370,10 @@
   "brandName": "YTO",
   "name": "YTO X1304",
   "ks": 130,
-  "drive": "",
+  "drive": "4WD",
   "image": "/products/YTO-1304.webp",
   "href": "/traktori/yto/yto-x1304",
-  "text": "Poseduje mehaničku transmisiju sa dvostepenom, frikcionom spojnicom (LUK) i 24 brzine napred i 8 nazad, omogućavajući precizno podešavanje brzina vožnje.",
+  "text": "YTO X1304 je ratarski traktor 4 × 4 sa šestocilindričnim YTO dizel motorom LR6M5-23 od 7,7 l i 95,6 kW (130 KS).",
   "specs": [],
   "use": "ratarski"
  },
@@ -386,7 +386,7 @@
   "drive": "4WD",
   "image": "/products/YTO-X804-min.webp",
   "href": "/traktori/yto/yto-x804",
-  "text": "YTO X804 je robustan traktor snage 80 KS, pokreće ga četvorocilindarski motor LR4B5-23 zapremine 4674 cm³.",
+  "text": "YTO X804 je ratarski traktor od 58,8 kW (80 KS) sa atmosferskim motorom LR4B5-23 od 4,95 l, pogonom 4×4, menjačem 12+4 (opciono 12+12 ili 24+8) i zatvorenom kabinom.",
   "specs": [],
   "use": "ratarski"
  },
@@ -399,7 +399,7 @@
   "drive": "4WD",
   "image": "/products/YTO-X904-min.webp",
   "href": "/traktori/yto/yto-x904",
-  "text": "Sa svojih 5606 cm³ zapremine, ovaj traktor obezbeđuje izvanredne performanse i pouzdanost.",
+  "text": "YTO X904 je ratarski traktor sa pogonom na sva četiri točka i četvorocilindričnim YTO dizel motorom od 5,13 l i 66,5 kW (90 KS).",
   "specs": [],
   "use": "ratarski"
  }

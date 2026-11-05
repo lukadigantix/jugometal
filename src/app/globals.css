@@ -66,8 +66,18 @@ button:not(:disabled) {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+/* hero slajder: aktivna fotografija se polako približava; traka napretka aktivnog slajda */
+@keyframes heroZoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.07); }
+}
+@keyframes heroProgress {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
 @media (prefers-reduced-motion: reduce) {
-  [class*="animate-[marquee"] { animation: none !important; }
+  [class*="animate-[marquee"],
+  [class*="animate-[heroZoom"] { animation: none !important; }
 }
 
 /* dugmad-pilule se nikad ne lome u dva reda i ne skupljaju se u flex redu
@@ -78,4 +88,16 @@ button:not(:disabled) {
     white-space: nowrap;
     flex-shrink: 0;
   }
+}
+
+/* MapLibre popup omotač bez sopstvenog stila: karticu crta MarkerPopup/MarkerTooltip (ui/map.tsx),
+   inače se vide dve kartice jedna u drugoj */
+.maplibregl-map .maplibregl-popup-content {
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+.maplibregl-map .maplibregl-popup-tip {
+  display: none;
 }
