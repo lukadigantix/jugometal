@@ -8,7 +8,7 @@
         "name": "Nošeni plugovi",
         "category": "Plugovi",
         "brand": "Impex",
-        "logo": "/brands/trim/impex.png",
+        "logo": "/brands/trim/impex.svg",
         "image": "/products/noseni.webp",
         "href": "/prikljucne-masine/plugovi/noseni-plugovi",
         "specs": [
@@ -31,7 +31,7 @@
         "name": "Pneumatske sejalice",
         "category": "Sejalice",
         "brand": "Majevica",
-        "logo": "/brands/trim/majevica.png",
+        "logo": "/brands/trim/majevica.svg",
         "image": "/products/Sejalica-sa-fiksnom-gredom-1.webp",
         "href": "/prikljucne-masine/sejalice/pneumatske-sejalice",
         "specs": [
@@ -54,7 +54,7 @@
         "name": "Rotacione freze Rotas",
         "category": "Freze",
         "brand": "FPM Agromehanika",
-        "logo": "/brands/trim/fpm.png",
+        "logo": "/brands/trim/fpm.svg",
         "image": "/products/Teska-freza-ROTAS.webp",
         "href": "/prikljucne-masine/freze/rotacione-freze-rotas",
         "specs": [
@@ -77,7 +77,7 @@
         "name": "Setvospremač Supra",
         "category": "Setvospremači",
         "brand": "Gorenc",
-        "logo": "/brands/trim/gorenc.png",
+        "logo": "/brands/trim/gorenc.svg",
         "image": "/products/supra.webp",
         "href": "/prikljucne-masine/setvospremaci/setvospremac-supra",
         "specs": [
@@ -100,7 +100,7 @@
         "name": "Vučena prskalica",
         "category": "Prskalice",
         "brand": "Agromehanika",
-        "logo": "/brands/trim/kranj.png",
+        "logo": "/brands/trim/kranj.svg",
         "image": "/products/AGS-1500-EN-7.webp",
         "href": "/prikljucne-masine/prskalice/vucena-prskalica",
         "specs": [
@@ -123,7 +123,7 @@
         "name": "Rasipač Minos Agri",
         "category": "Rasipači",
         "brand": "Minos Agri",
-        "logo": "/brands/trim/minos.png",
+        "logo": "/brands/trim/minos.svg",
         "image": "/products/rasiminos.webp",
         "href": "/prikljucne-masine/rasipaci/rasipac-minos-agri",
         "specs": [
@@ -146,7 +146,7 @@
         "name": "Sejalica za žito",
         "category": "Sejalice",
         "brand": "Majevica",
-        "logo": "/brands/trim/majevica.png",
+        "logo": "/brands/trim/majevica.svg",
         "image": "/products/szz.webp",
         "href": "/prikljucne-masine/sejalice/sejalica-za-zito",
         "specs": [
@@ -169,7 +169,7 @@
         "name": "Pomerljive freze",
         "category": "Freze",
         "brand": "FPM Agromehanika",
-        "logo": "/brands/trim/fpm.png",
+        "logo": "/brands/trim/fpm.svg",
         "image": "/products/Pomerljiva-freza.webp",
         "href": "/prikljucne-masine/freze/pomerljive-freze",
         "specs": [
@@ -198,7 +198,7 @@
         "name": "Metal-Fach Z562",
         "category": "Balirke",
         "brand": "Metal-Fach",
-        "logo": "/brands/trim/metalfach.png",
+        "logo": "/brands/trim/metalfach.svg",
         "image": "/products/prasa-belujaca-stalokomorowa-z562-rn-ts_660x371.webp",
         "href": "/prikljucne-masine/balirke/metal-fach-z562",
         "specs": [
@@ -221,7 +221,7 @@
         "name": "Presa Ursus 543A",
         "category": "Balirke",
         "brand": "Ursus",
-        "logo": "/brands/trim/ursus.png",
+        "logo": "/brands/trim/ursus.svg",
         "image": "/products/ursus-z543.webp",
         "href": "/prikljucne-masine/balirke/ursus-543a",
         "specs": [
@@ -244,7 +244,7 @@
         "name": "Agrisprint",
         "category": "Kosačice",
         "brand": "Čelmak",
-        "logo": "/brands/trim/celmak.png",
+        "logo": "/brands/trim/celmak.svg",
         "image": "/products/kosacica.webp",
         "href": "/prikljucne-masine/kosacice/agrisprint",
         "specs": [
@@ -267,7 +267,7 @@
         "name": "Kosačice COMER",
         "category": "Kosačice",
         "brand": "FPM Agromehanika",
-        "logo": "/brands/trim/fpm.png",
+        "logo": "/brands/trim/fpm.svg",
         "image": "/products/diskaste-kosacice-dk-06.webp",
         "href": "/prikljucne-masine/kosacice/kosacice-comer",
         "specs": [
@@ -290,7 +290,7 @@
         "name": "Sunce",
         "category": "Sakupljači",
         "brand": "Termometal",
-        "logo": "/brands/trim/termometal.png",
+        "logo": "/brands/trim/termometal.svg",
         "image": "/products/sunce.webp",
         "href": "/prikljucne-masine/sakupljaci/sunce",
         "specs": [
@@ -313,7 +313,7 @@
         "name": "Hidraulični utovarivač",
         "category": "Utovarivači",
         "brand": "Ferocoop",
-        "logo": "/brands/trim/ferocoop.png",
+        "logo": "/brands/trim/ferocoop.svg",
         "image": "/products/hidraulicni-utovarivac.webp",
         "href": "/prikljucne-masine/utovarivaci/hidraulicni-utovarivac",
         "specs": [
@@ -342,7 +342,7 @@
         "name": "AGP 1000 – 2000 l",
         "category": "Atomizeri",
         "brand": "Agromehanika",
-        "logo": "/brands/trim/kranj.png",
+        "logo": "/brands/trim/kranj.svg",
         "image": "/products/AGP_2000EN_slika_1-remove.webp",
         "href": "/prikljucne-masine/atomizeri/agp-1000-2000-l",
         "specs": [
@@ -365,7 +365,7 @@
         "name": "Nošeni atomizeri S",
         "category": "Atomizeri",
         "brand": "Morava",
-        "logo": "/brands/trim/morava.png",
+        "logo": "/brands/trim/morava.svg",
         "image": "/products/AM-330S-09-1-1.webp",
         "href": "/prikljucne-masine/atomizeri/noseni-atomizeri-s",
         "specs": [
@@ -388,7 +388,7 @@
         "name": "Voćarski Mulčari",
         "category": "Mulčari",
         "brand": "FPM Agromehanika",
-        "logo": "/brands/trim/fpm.png",
+        "logo": "/brands/trim/fpm.svg",
         "image": "/products/Mulcar-za-vocarstvo-i-vinogradarstvo-2.webp",
         "href": "/prikljucne-masine/mulcari/vocarski-mulcari",
         "specs": [
@@ -411,7 +411,7 @@
         "name": "Elite",
         "category": "Mulčari",
         "brand": "INO Brežice",
-        "logo": "/brands/trim/ino.png",
+        "logo": "/brands/trim/ino.svg",
         "image": "/products/elite.webp",
         "href": "/prikljucne-masine/mulcari/elite",
         "specs": [
@@ -434,7 +434,7 @@
         "name": "MKS Plus",
         "category": "Mulčari",
         "brand": "INO Brežice",
-        "logo": "/brands/trim/ino.png",
+        "logo": "/brands/trim/ino.svg",
         "image": "/products/mksplus.webp",
         "href": "/prikljucne-masine/mulcari/mks-plus",
         "specs": [
@@ -457,7 +457,7 @@
         "name": "Atomizeri INOX",
         "category": "Atomizeri",
         "brand": "Morava",
-        "logo": "/brands/trim/morava.png",
+        "logo": "/brands/trim/morava.svg",
         "image": "/products/1-22.webp",
         "href": "/prikljucne-masine/atomizeri/atomizeri-inox",
         "specs": [
@@ -486,7 +486,7 @@
         "name": "Prikolice 4 T",
         "category": "Prikolice",
         "brand": "Majevica",
-        "logo": "/brands/trim/majevica.png",
+        "logo": "/brands/trim/majevica.svg",
         "image": "/products/38-Background-Removed.webp",
         "href": "/prikljucne-masine/prikolice/prikolice-4-t",
         "specs": [
@@ -509,7 +509,7 @@
         "name": "Prikolica Čelmak",
         "category": "Prikolice",
         "brand": "Čelmak",
-        "logo": "/brands/trim/celmak.png",
+        "logo": "/brands/trim/celmak.svg",
         "image": "/products/35tnRmork1_2-(1).webp",
         "href": "/prikljucne-masine/prikolice/prikolica-celmak",
         "specs": [
@@ -532,7 +532,7 @@
         "name": "Cisterna Majevica",
         "category": "Cisterne",
         "brand": "Majevica",
-        "logo": "/brands/trim/majevica.png",
+        "logo": "/brands/trim/majevica.svg",
         "image": "/products/33-Background-Removed.webp",
         "href": "/prikljucne-masine/cisterne/cisterna-majevica",
         "specs": [
@@ -555,7 +555,7 @@
         "name": "Rasturač đubriva",
         "category": "Rasturači",
         "brand": "Majevica",
-        "logo": "/brands/trim/majevica.png",
+        "logo": "/brands/trim/majevica.svg",
         "image": "/products/41-Background-Removed.webp",
         "href": "/prikljucne-masine/rasturaci/rasturac-djubriva",
         "specs": [

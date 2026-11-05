@@ -1,4 +1,36 @@
-# Backend - predaja kolegi
+# Backend - stanje (04.11.2026)
+
+Backend (`../jugometal-backend`) i admin (`../jugometal-admin`) su napravljeni, a baza je podignuta i napunjena sa starog
+sajta. Ovde je šta je od prodavnice povezano, a šta je još statično.
+
+## Povezano sa bazom
+
+| Deo | Kako radi |
+|---|---|
+| Rezervni delovi (sve strane `/rezervni-delovi/...`, početna, servis, sitemap) | `src/lib/catalog.ts` → `GET /shop/catalog`, keš pod oznakom `katalog`; obrada u `src/data/featured-parts.ts` (`buildPartsData`) |
+| Brisanje keša posle izmene u adminu | `src/app/api/osvezi/route.ts` (POST, zaglavlje `x-revalidate-secret` = `REVALIDATE_SECRET`) |
+| Korpa | `src/lib/cart.ts` čuva samo id i količinu; `CartPage` traži cene od servera (`POST /shop/cart/quote`) i šalje porudžbinu (`POST /shop/orders`) |
+| Upiti (kontakt, traktor, mašina, ATV) | `src/lib/useInquiry.ts` → `POST /shop/inquiries`; ako server ne odgovara, nudi se e-mail kao ranije |
+
+Ako backend ne odgovara, katalog delova se uzima iz `src/data/parts.json` (keš par minuta), a porudžbina javlja grešku
+sa brojem telefona.
+
+`.env.local`:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:3005/api/v1
+REVALIDATE_SECRET=<isto kao SHOP_REVALIDATE_SECRET u backendu>
+```
+
+## Još statično (sledeći korak)
+
+Traktori, priključne mašine i ATV su već u bazi i u adminu, ali ih prodavnica i dalje čita iz `tractor-list.json`,
+`tractors.json`, `machine-list.json`, `implements.json` i `atv.ts`. API ih već vraća (`/shop/catalog` → `tractors`,
+`machines`, `machineCategories`, `atv`) sa istim adresama, pa je prelazak isti kao kod delova.
+
+---
+
+# Prvobitna predaja (pre backenda)
 
 Sajt je trenutno statičan: svi podaci su JSON/TS fajlovi u `src/data`, a porudžbine i upiti idu preko `mailto:`. Backend ide na naš server (unlimited server + storage). Ovaj dokument opisuje šta postoji i gde se šta menja. Ništa od backenda nije urađeno.
 

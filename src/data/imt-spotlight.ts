@@ -50,7 +50,7 @@ export const imt = {
   ],
   uses: ["Košenje", "Setva", "Freza", "Rasturanje đubriva", "Transport", "Prednji utovarivač", "Ralica za sneg"],
   siblings: [
-    { name: "IMT 539.2 DI", note: "47 KS · 2WD", href: "/traktori/imt/imt-5393-di" },
+    { name: "IMT 539.3 DI", note: "47 KS · 2WD", href: "/traktori/imt/imt-5393-di" },
     { name: "IMT 549.3 DI", note: "47 KS · 4WD", href: "/traktori/imt/imt-5493-di" },
   ],
 };

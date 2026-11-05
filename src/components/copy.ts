@@ -32,7 +32,7 @@ export const t = {
   hero: {
     label: "Jugometal Svilajnac",
     title: "Snaga i pouzdanost za svaku njivu.",
-    sub: "Traktori, priključne mašine i rezervni delovi. Prodaja i servis u Svilajncu, Temerinu i Požarevcu.",
+    sub: "Traktori, priključne mašine i rezervni delovi. Prodaja i servis u Svilajncu.",
     buy: "Pogledaj traktore",
     note: "Od 1990. godine",
   },
@@ -45,7 +45,7 @@ export const t = {
   explore: {
     eyebrow: "Ponuda",
     heading: "Šta nudimo",
-    sub: "Sve za poljoprivredu na jednom mestu - od traktora do najsitnijeg dela.",
+    sub: "Sve za poljoprivredu na jednom mestu, od traktora do najsitnijeg dela.",
     cats: [
       { key: "traktori", count: "23 modela", title: "Traktori", sub: "Solis, IMT, John Deere, YTO i Mahindra - od 20 do 130 KS.", href: "/traktori", img: "/images/ponuda/traktori.jpg", cta: "Pogledaj traktore" },
       { key: "masine", count: "15 kategorija", title: "Priključne mašine", sub: "Plugovi, sejalice, prskalice, kosačice, balirke i prikolice.", href: "/prikljucne-masine", img: "/images/ponuda/prikljucne-masine.jpg", cta: "Pogledaj mašine" },
@@ -80,7 +80,7 @@ export const t = {
   },
   brand: {
     title: "35 godina u poslu.",
-    body: "Preduzeće Jugometal d.o.o. Svilajnac osnovano je 1990. godine. Višegodišnji rad, saradnja sa poljoprivrednicima i posvećenost potrebama kupaca doveli su do sedišta u Temerinu i Požarevcu i do mesta lidera u prodaji poljoprivredne mehanizacije.",
+    body: "Preduzeće Jugometal d.o.o. Svilajnac osnovano je 1990. godine. Višegodišnji rad, saradnja sa poljoprivrednicima i posvećenost potrebama kupaca doveli su do mesta lidera u prodaji poljoprivredne mehanizacije.",
     link: "O nama",
     href: "/o-nama",
     img: "/banners/firma.jpg",
@@ -91,10 +91,18 @@ export const t = {
     link: "Zapratite nas",
     href: "https://www.instagram.com/jugometal_doo/",
     imgs: ["/banners/jugo2.jpg", "/banners/masine.jpg", "/banners/traktori.jpg"],
+    /* galerija (mozaik): prva je velika; natpis se vidi na fotografiji */
+    gallery: [
+      { src: "/banners/jugo2.jpg", caption: "Posle žetve" },
+      { src: "/banners/masine.jpg", caption: "Bale za zimu" },
+      { src: "/banners/traktori.jpg", caption: "Setva" },
+      { src: "/images/ponuda/prikljucne-masine.jpg", caption: "Mašine na njivi" },
+      { src: "/atv/benda-teren-2.jpg", caption: "Benda na terenu" },
+    ],
   },
   locations: {
-    heading: "Tri lokacije.",
-    body: "Svilajnac, Temerin i Požarevac - prodaja, servis i rezervni delovi na jednom mestu. Pozovite ili svratite.",
+    heading: "Gde smo.",
+    body: "Prodaja, servis i rezervni delovi na jednom mestu u Svilajncu. Pozovite ili svratite.",
     link: "Kontakt",
     href: "/kontakt",
     nextUp: "Pozovite nas",
@@ -147,11 +155,11 @@ export const t = {
       { label: "Politika privatnosti", href: "/politika-privatnosti" },
       { label: "Uslovi korišćenja", href: "/uslovi-koriscenja" },
     ],
-    cities: ["SVILAJNAC", "TEMERIN", "POŽAREVAC"],
+    cities: ["SVILAJNAC"],
     social: [
       { label: "FB", href: "https://www.facebook.com/jugometal" },
       { label: "IG", href: "https://www.instagram.com/jugometal_doo/" },
     ],
-    tagline: "Traktori, priključne mašine i rezervni delovi - od 1990. godine.",
+    tagline: "Traktori, priključne mašine i rezervni delovi od 1990. godine.",
   },
 };

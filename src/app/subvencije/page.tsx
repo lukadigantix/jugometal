@@ -20,7 +20,6 @@ export default function Subvencije() {
         <SubsidyPrograms />
         <SubsidySteps />
         <FeaturedProducts />
-        <div className="h-14 md:h-24" />
         <SubsidyFaq />
         <SubsidyCta />
       </main>

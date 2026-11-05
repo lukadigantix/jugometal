@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSeo } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -13,11 +14,11 @@ export async function generateMetadata({ params }: PageProps<"/traktori/[brand]"
   const { brand } = await params;
   const b = catalog.tractorBrands.find((x) => x.slug === brand);
   if (!b) return {};
-  return {
+  return withSeo(`/traktori/${b.slug}`, {
     title: `${b.name} traktori - ${b.models.length} modela | Jugometal`,
-    description: `${b.name} traktori u ponudi Jugometala: prodaja, servis i rezervni delovi. Svilajnac, Temerin, Požarevac.`,
+    description: `${b.name} traktori u ponudi Jugometala: prodaja, servis i rezervni delovi. Jugometal Svilajnac.`,
     alternates: { canonical: `/traktori/${b.slug}` },
-  };
+  });
 }
 
 export default async function Page({ params }: PageProps<"/traktori/[brand]">) {

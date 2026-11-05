@@ -24,11 +24,11 @@ export type MenuEntry = { key: string; label: string; logo?: string; meta: strin
 export type MenuPromo = { eyebrow: string; title: string; text: string; img: string; href: string; cta: string };
 
 const TRACTOR_LOGO: Record<string, string> = {
-  solis: "/brands/trim/solis.png",
-  imt: "/brands/trim/imt.png",
-  "john-deere": "/brands/trim/deere.png",
-  yto: "/brands/trim/yto.png",
-  mahindra: "/brands/trim/mahindra.png",
+  solis: "/brands/trim/solis.svg",
+  imt: "/brands/trim/imt.svg",
+  "john-deere": "/brands/trim/deere.svg",
+  yto: "/brands/trim/yto.svg",
+  mahindra: "/brands/trim/mahindra.svg",
 };
 
 export const TRACTOR_MENU: MenuEntry[] = catalog.tractorBrands.map((b) => {

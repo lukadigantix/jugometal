@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 export const metadata: Metadata = {
   title: "Korpa | Jugometal online prodavnica",
   robots: { index: false, follow: true },
+  alternates: { canonical: "/korpa" },
 };
 
 export default function Korpa() {

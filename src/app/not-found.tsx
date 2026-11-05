@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import company from "@/data/company.json";
+import { getSiteInfo } from "@/lib/site-info";
 
 export const metadata: Metadata = { title: "Strana nije pronađena | Jugometal", robots: { index: false } };
 
@@ -13,7 +13,9 @@ const LINKS = [
   { label: "Benda ATV", sub: "Redstone 550 i 1000", href: "/atv" },
 ];
 
-export default function NotFound() {
+export default async function NotFound() {
+  const { contact } = await getSiteInfo();
+  const parts = contact.phoneParts || contact.phone;
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
@@ -34,7 +36,7 @@ export default function NotFound() {
           </ul>
           <div className="mt-10 flex flex-wrap gap-3">
             <Link href="/" className="rounded-full bg-accent px-8 py-3 text-[14px] text-accent-contrast hover:bg-accent-soft">Početna strana</Link>
-            <a href="tel:035311137" className="rounded-full border border-line px-8 py-3 text-[14px] hover:border-ink">Delovi {company.locations[0].phoneParts}</a>
+            {parts && <a href={`tel:${parts.replace(/[^\d+]/g, "")}`} className="rounded-full border border-line px-8 py-3 text-[14px] hover:border-ink">Delovi {parts}</a>}
           </div>
         </section>
       </main>

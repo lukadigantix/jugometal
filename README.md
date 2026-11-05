@@ -1,46 +1,114 @@
-# Jugometal - novi sajt
+# Jugometal - prodavnica
 
-Next.js 16 (App Router, TypeScript, Tailwind 4). Pokretanje:
+Javni sajt i online prodavnica za **jugometal.co.rs**: traktori, priključne mašine, Benda ATV, rezervni delovi
+sa korpom i porudžbinom, akcije, servis, subvencije.
 
-```
+Next.js 16 (App Router, Cache Components, Turbopack), React 19, TypeScript, Tailwind 4.
+
+| Projekat | Uloga | Lokalno |
+|---|---|---|
+| `jugometal` (ovaj) | prodavnica | http://localhost:3000 |
+| `jugometal-admin` | admin panel | http://localhost:3002 |
+| `jugometal-backend` | REST API, baza, mejlovi, slike (`/uploads`) | http://localhost:3005 |
+
+## Pokretanje
+
+```bash
 npm install
-npm run dev
+npm run dev        # http://localhost:3000
 ```
 
-- `docs/ISTRAZIVANJE.md` - sve što je izvučeno sa jugometal.co.rs (firma, kontakti, kategorije, proizvodi, greške na starom sajtu, pitanja za klijenta)
-- `src/data/company.json` - firma, lokacije, telefoni, tekstovi O nama / Servis
-- `src/data/catalog.json` - struktura: brendovi traktora, kategorije priključnih mašina, grupe rezervnih delova
-- `src/data/tractors.json`, `implements.json`, `solis-filters.json` - proizvodi sa opisima i specifikacijama
-- `src/data/parts.json` - 338 rezervnih delova sa šiframa i cenama (RSD)
-- `public/` - sve slike sa starog sajta na originalnim putanjama (`/products`, `/banners`, `/sponsors`, `/images/masine`, `/brands`, `/logo.png`)
-- `docs/reference/` - sitemap, liste strana i kartica sa starog sajta
+Backend treba da radi (`jugometal-backend`, `npm run dev`). Ako ne radi, sajt se ipak otvara, sa
+poslednjim izvozom podataka iz `src/data` (vidi „Podaci").
 
-## Početna strana (27.10.2026)
+`.env.local`:
 
-Početna je prenesena iz Lukinog projekta pitbike (github.com/lukadigantix/pitbike, pitbike.vercel.app): isti raspored sekcija, header sa mega-menijem, Lenis skrol, Reveal animacije, samo svetla tema (tamna i prekidač teme izbačeni na Lukin zahtev). Zamenjen je samo sadržaj (Jugometal).
+```
+NEXT_PUBLIC_API_URL=http://localhost:3005/api/v1   # backend
+REVALIDATE_SECRET=<isto kao SHOP_REVALIDATE_SECRET u backend .env>
+```
 
-- Tekstovi početne: `src/components/copy.ts` (samo srpski, bez prevoda)
-- Struktura menija iz podataka: `src/components/nav-data.ts`
-- Sekcije: Hero → ProductSpotlight → ExploreCategories → EditorialCards (servis) → MachinesShowcase (karusel priključnih mašina) → BrandStory (o nama) → SocialGrid → Locations → Footer
-- Razlike u odnosu na pitbike: nema prebacivanja jezika i ikone naloga; header je 96 px na desktopu (80 ispod xl) jer klijent traži krupan logo (56 px visine, 224 px širine; 40/36 na tabletu/telefonu); desktop navigacija ide od 1280 px (xl) jer su srpski nazivi duži i preklapali su logo; slike proizvoda stoje na beloj pločici jer nemaju providnu pozadinu. Logo je vektorizovan iz logo.png (ImageMagick + potrace, dva sloja: crveni i crni) u `public/logo.svg` i `public/logo-white.svg` (za tamnu podlogu); Zeroblynk potpis u footeru koristi `public/zeroblynk/logo-light.svg` sa zeroblynk.com.
-- Ostale strane još ne postoje (vode na 404 stranu).
+## Skripte
 
-## Hero slajder (27.10.2026)
+| Komanda | Šta radi |
+|---|---|
+| `npm run dev` | razvojni server na 3000 |
+| `npm run lint` | ESLint |
+| `npx tsc --noEmit` | provera tipova |
+| `npm run build:cpanel` | build za cPanel → `deploy/jugometal-cpanel.zip` (vidi `DEPLOY.md`) |
+| `npm run clean` | briše `.next-cpanel` i `deploy` |
 
-Prenesen iz htzshop projekta (kod vraćen iz zapisa sesije od 26.10.): crossfade, imena slajdova + strelice dole desno, brojač ispod 1280 px, autoplay 7 s, pauza na hover, strelice na tastaturi. Slajdovi (od 27.10. popodne) = ponuda, ne modeli: Traktori, Priključne mašine, Online prodavnica, Servis, sa profesionalnim Pexels fotografijama (za konkretne modele profesionalnih slika nema). Podaci i tekstovi u `src/data/hero-slides.ts`, fotografije u `public/hero/`, izvori u `docs/reference/hero-izvori.txt`. Kandidati za izbor (144) su na `/izbor` (public/izbor) - obrisati pre lansiranja.
+`build:cpanel` ide u poseban folder (`.next-cpanel`), pa `npm run dev` može da radi u isto vreme.
 
-## Preporučeni proizvodi (27.10.2026)
+## Podaci
 
-Odmah ispod hero-a: `FeaturedProducts.tsx` - karusel sa karticama „Izdvajamo iz ponude" sa starog sajta (bez Belarusa): slika proizvođača na beloj pločici; u telu kartice red sa logoom proizvođača (public/brands/trim - logoi isečeni na sadržaj, 96 px visine) i kategorijom, naziv, kratak opis, primarno dugme „Pogledaj proizvod". Podaci u `src/data/featured-products.json` (8 kartica, iz docs/reference/kartice-po-stranama.json). Redosled sekcija: Hero → Preporučeni proizvodi → Najtraženiji rezervni delovi → ostalo.
+Sajt čita sve iz backenda (`GET /api/v1/shop/...`), uz keš pod oznakom `katalog`. Posle svake izmene u
+adminu backend zove `POST /api/osvezi` (zaglavlje `x-revalidate-secret`), keš se briše i izmena se odmah
+vidi na sajtu. Bez poziva keš ističe za 1 h.
 
-## Istaknuti proizvodi iz prodavnice (27.10.2026)
+| Šta | Izvor | Kod |
+|---|---|---|
+| Rezervni delovi (cene, stanje, slike, opis, tehnički podaci), grupe | `GET /shop/catalog` | `lib/catalog.ts`, `data/featured-parts.ts` |
+| Slike traktora i mašina, logotipi i baneri brendova | `GET /shop/catalog` | `lib/media-context.tsx`, `lib/brands-context.tsx` |
+| Akcije (strana Akcije, oznake na karticama) | `GET /shop/catalog`, `GET /shop/promotions` | `lib/promotions.ts` |
+| Kontakt, radno vreme, mreže (header, footer, kontakt, schema.org) | `GET /shop/site` | `lib/site-info.ts`, `lib/site-context.tsx` |
+| Hero slajder na početnoj | `GET /shop/slider` | `lib/slider.ts` |
+| Ručni SEO naslovi i opisi | `GET /shop/seo` | `lib/seo.ts` |
+| GA4, Google Ads, Meta Pixel, Tag Manager (tek posle pristanka na kolačiće) | `GET /shop/marketing` | `lib/marketing.ts`, `lib/track.ts` |
+| Korpa (obračun) i porudžbina | `POST /shop/cart/quote`, `POST /shop/orders` | `lib/cart.ts`, `lib/checkout.ts` |
+| Upiti sa formi (kontakt, servis, subvencije, ponuda) | `POST /shop/inquiries` | `lib/useInquiry.ts` |
 
-Odmah ispod hero-a: `ShopFeatured.tsx` - karusel (4 kartice na xl, 3 na lg, 2 na sm, 1 na telefonu; strelice na ivicama, isti obrazac kao karusel mašina) sa slikom na beloj pločici, logoom brenda + imenom brenda u telu kartice (mapa BRAND_LOGO u featured-parts.ts → public/brands/trim; Landini, Jinma, SIP i poljska kosa nemaju logo pa stoji samo ime), brendom, nazivom, šifrom, cenom u RSD i dugmetom „U korpu" (još bez logike korpe), pa „Pogledaj sve proizvode" → /rezervni-delovi. Izbor proizvoda je ručni spisak id-ova u `src/data/featured-parts.ts` (zameniti podacima o prodaji kad ih klijent da).
+**Još iz fajlova u `src/data`** (sledeći korak je prebacivanje na API, kao delovi):
 
-## Studio slike rezervnih delova (27.10.2026)
+- tekstovi i tehnički podaci traktora: `tractors.json`, `tractor-list.json`
+- priključne mašine: `machine-list.json`, `implements.json`, `machines-catalog.json`
+- Benda ATV (boje, cene, 360° kadrovi): `atv.ts`
+- struktura menija i brendova: `catalog.json`; firma i lokacije: `company.json`
 
-Klijentove fotografije delova su isečci sa telefona (361 PNG sa providnom pozadinom). Skripta `scripts/studio-sve.sh` ih pretvara u ujednačen „studio" prikaz: iseče prazninu, uklopi deo u 64% kvadratnog platna 1000×1000, blago pojača boju i oštrinu, doda dve meke senke i položi na zajednički fon (`scripts/studio-pozadina.jpg` = radionica u sivom, zamućena i posvetljena, u stilu pitbike kartica). Izlaz: `public/products/studio/<ime>.webp` (oko 14 MB ukupno). Pokretanje: `scripts/studio-sve.sh` (preskače već obrađene; `--force` za ponovnu obradu; prvi argument je druga pozadina). Jedna slika: `scripts/studio-slika.sh ulaz.png izlaz.webp`. Kartice u prodavnici koriste studio verziju preko `studioImage()` u `src/data/featured-parts.ts`; originali ostaju u `public/products/`.
+**Rezerva bez backenda:** ako API ne odgovara, katalog se uzima iz `src/data/parts.json`, kontakt iz
+`company.json`, slajder iz `hero-slides.ts`, a keš traje samo par minuta. Zato build prolazi i bez interneta.
 
-## Benda ATV (27.10.2026)
+Korpa u `localStorage` pamti samo id i količinu; naziv, cena i dostupnost uvek dolaze sa servera.
 
-Jugometal prodaje Benda kvadove (njihovi oglasi na polovniautomobili.com/jugometal): Redstone 550 R2 (7.490 €, akcija) i Redstone 1000 R2 (10.990 €). Sekcija `AtvSection.tsx` stoji odmah ispod „Šta nudimo": terenska fotografija sa tekstom + dve kartice modela sa ključnim podacima, cenom i dugmetom. Podaci u `src/data/atv.ts` (prepisani iz oglasa), fotografije u `public/atv/` sa bendamoto.com (proizvođač). Cene proveriti sa klijentom pre lansiranja.
+## Struktura
+
+```
+src/
+├── app/                 strane (App Router)
+│   ├── traktori/        lista sa filterima, /[brand], /[brand]/[model]
+│   ├── prikljucne-masine/  lista, /[category], /[category]/[product]
+│   ├── rezervni-delovi/ prodavnica: lista, /[group], /[group]/[brand], /[group]/[brand]/[part]
+│   ├── atv/             Benda ATV: /atv i /atv/[model] (360° prikaz 1000 R2)
+│   ├── korpa/, porudzbina/   korpa i porudžbina
+│   ├── akcije/, servis/, subvencije/, kontakt/, o-nama/, politika-privatnosti/, uslovi-koriscenja/
+│   ├── api/osvezi/      brisanje keša kataloga (poziva backend)
+│   └── sitemap.ts, robots.ts
+├── components/
+│   ├── catalog/CatalogKit.tsx   hero, filteri, traka, poziv - zajedničko za Traktore, Mašine, Prodavnicu
+│   ├── ProductDetail.tsx        strana traktora i mašine (galerija, cena na upit, specifikacija, upit)
+│   ├── PartPage.tsx             strana rezervnog dela
+│   ├── OfferCard.tsx            kartica proizvoda (Akcije, traktori, mašine)
+│   ├── Spin360.tsx              360° prikaz od niza fotografija
+│   ├── ui/Select.tsx            padajući meni sajta
+│   └── ...                      početna, header, mega meni, footer
+├── data/                podaci (vidi gore) i redirects.json (301 sa starog sajta)
+└── lib/                 API, keš, korpa, SEO, schema.org, marketing
+public/                  slike (proizvodi, baneri, brendovi, ATV boje i 360° kadrovi), logo, opengraph
+docs/                    BACKEND.md, SEO-MIGRACIJA.md, ISTRAZIVANJE.md, reference/
+```
+
+## Napomene
+
+- **Stare adrese** sa prethodnog sajta preusmerava Next prema `src/data/redirects.json`
+  (`docs/SEO-MIGRACIJA.md`). Adrese strana (slug) se ne menjaju, jer ih Google već zna.
+- **Slike** se prikazuju kao `<img>`, bez Next optimizatora (shared hosting nema memorije za sharp).
+  Slike proizvoda su WebP; slike koje se menjaju u adminu stižu sa backenda (`/uploads/...`).
+- **Slika za deljenje** linkova: `public/opengraph.jpg` i `opengraph.webp` (1200 × 630), u `lib/seo.ts`.
+- **Kolačići**: marketing oznake se učitavaju tek posle pristanka (`components/Marketing.tsx`).
+- **Dizajn**: crvena `#e02a33`, tamna `#18191b`, kartice `rounded-[12px]` sa tankim okvirom, naslovi sa
+  crvenim natpisom iznad i crvenom tačkom na kraju, bez senki na dugmadima i slikama.
+
+## Deploy
+
+cPanel (Setup Node.js App), isto kao admin panel: lokalno `npm run build:cpanel`, upload arhive, Restart.
+Ceo postupak, promenljive okruženja i rešavanje problema: [`DEPLOY.md`](DEPLOY.md).

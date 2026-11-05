@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSeo } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -16,7 +17,7 @@ export async function generateMetadata({ params }: PageProps<"/prikljucne-masine
   const { category } = await params;
   const c = cats.find((x) => x.slug === category);
   if (!c) return {};
-  return { title: `${c.name} - priključne mašine | Jugometal`, description: `${c.name} u ponudi Jugometala. Cena na upit, savet i servis - Svilajnac, Temerin, Požarevac.`, alternates: { canonical: `/prikljucne-masine/${c.slug}` } };
+  return withSeo(`/prikljucne-masine/${c.slug}`, { title: `${c.name} - priključne mašine | Jugometal`, description: `${c.name} u ponudi Jugometala. Cena na upit, savet i servis - Jugometal Svilajnac.`, alternates: { canonical: `/prikljucne-masine/${c.slug}` } });
 }
 
 export default async function Page({ params }: PageProps<"/prikljucne-masine/[category]">) {

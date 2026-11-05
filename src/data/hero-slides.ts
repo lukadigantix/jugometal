@@ -37,7 +37,7 @@ export const heroSlides = [
   {
     key: "servis",
     label: "Servis",
-    eyebrow: "Svilajnac · Temerin · Požarevac",
+    eyebrow: "Jugometal Svilajnac",
     title: "Servis koji ne čeka sezonu.",
     text: "Stručna servisna služba i originalni delovi na stanju - zastoj u radu sveden na minimum.",
     image: "/hero/servis.jpg",

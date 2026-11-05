@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withSeo } from "@/lib/seo";
 import { notFound } from "next/navigation";
 import AtvPage from "@/components/AtvPage";
 import JsonLd from "@/components/JsonLd";
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/atv/[model]">): P
   const { model } = await params;
   const m = atvModels.find((x) => x.slug === model);
   if (!m) return {};
-  return { title: `${m.name} - ${m.stats[0].value} KS, ${m.price} | Jugometal`, description: `${m.name}: ${m.tagline} ${m.colors.length} boja, garancija 3 godine. Prodaja Jugometal Svilajnac.`, alternates: { canonical: m.href }, openGraph: { images: [m.image] } };
+  return withSeo(m.href, { title: `${m.name} - ${m.stats[0].value} KS, ${m.price} | Jugometal`, description: `${m.name}: ${m.tagline} ${m.colors.length} boja, garancija 3 godine. Prodaja Jugometal Svilajnac.`, alternates: { canonical: m.href }, openGraph: { images: [m.image] } });
 }
 
 export default async function Page({ params }: PageProps<"/atv/[model]">) {

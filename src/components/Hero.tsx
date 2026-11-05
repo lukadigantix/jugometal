@@ -2,18 +2,20 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { heroSlides } from "@/data/hero-slides";
-import { ArrowLeft, ArrowRight, Chevron } from "./graphics";
+import type { HeroSlide } from "@/lib/slider";
+import { ArrowLeft, ArrowRight } from "./graphics";
 
 const DURATION = 7000;
 
 /*
-  Hero slajder (prenesen iz htzshop v4, obrazac pitbike.vercel.app): puna širina, 702 px,
-  fotografija preko celog ekrana, tekst dole levo (nadnaslov 16, naslov 48/52, pasus 16).
-  Smena: crossfade 700 ms, tekst se blago podigne; imena slajdova i dve tanke strelice dole desno
-  (ispod xl: brojač "01 / 05"). Autoplay 7 s, pauza na hover, strelice na tastaturi.
+  Hero slajder na vrhu početne. Slajdovi dolaze iz admina (Podešavanja → Slider), vidi lib/slider.ts:
+  nadnaslov, naslov, tekst, dva dugmeta, fotografija sa pozicijom i prelaz (boja i jačina).
+  - fotografija preko cele širine; aktivna se tokom 7 s polako približava (Ken Burns), smena je crossfade 700 ms
+  - tekst dole levo: nadnaslov sa crvenom crtom, naslov, tekst, crveno dugme sa strelicom i stakleno drugo dugme
+  - dole staklena traka: segment po slajdu (broj i naziv od md), aktivni se puni tokom 7 s; strelice desno
+  Autoplay 7 s, pauza na hover (staje i punjenje), strelice na tastaturi.
 */
-export default function Hero() {
+export default function Hero({ slides: heroSlides }: { slides: HeroSlide[] }) {
   const [active, setActive] = useState(0);
   const [paused, setPaused] = useState(false);
   const [cycle, setCycle] = useState(0);
@@ -29,12 +31,12 @@ export default function Hero() {
   );
 
   useEffect(() => {
-    if (paused) return;
+    if (paused || n < 2) return;
     timer.current = setTimeout(() => go(active + 1), DURATION);
     return () => {
       if (timer.current) clearTimeout(timer.current);
     };
-  }, [active, paused, cycle, go]);
+  }, [active, paused, cycle, go, n]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -45,13 +47,15 @@ export default function Hero() {
     return () => window.removeEventListener("keydown", onKey);
   }, [active, go]);
 
+  const glass = "border border-white/20 bg-white/10 backdrop-blur-md";
+
   return (
     <section
-      className="relative h-[620px] overflow-hidden bg-[#15181d] text-white md:h-[680px] xl:h-[702px]"
+      className="relative h-[640px] overflow-hidden bg-[#15181d] text-white md:h-[700px] xl:h-[740px]"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       aria-roledescription="carousel"
-      aria-label="Najprodavaniji traktori"
+      aria-label="Jugometal ponuda"
     >
       {heroSlides.map((s, i) => {
         const isActive = i === active;
@@ -61,77 +65,121 @@ export default function Hero() {
             className={`absolute inset-0 transition-opacity duration-700 ${isActive ? "opacity-100" : "pointer-events-none opacity-0"}`}
             aria-hidden={!isActive}
           >
+            {/* eslint-disable-next-line @next/next/no-img-element -- fotografija iz admina */}
             <img
               src={s.image}
-              alt={s.title}
+              alt={s.imageAlt}
               fetchPriority={i === 0 ? "high" : "low"}
               decoding="async"
-              className="absolute inset-0 h-full w-full object-cover"
-              style={{ objectPosition: s.imagePosition ?? "center" }}
+              className={`absolute inset-0 h-full w-full object-cover ${isActive ? "animate-[heroZoom_9s_ease-out_both]" : ""}`}
+              style={{ objectPosition: s.imagePosition ?? "center", animationPlayState: paused ? "paused" : "running" }}
             />
-            {/* zatamnjenje samo ispod teksta: odozdo (ceo red sa kontrolama) + sleva (blok teksta); sredina i vrh slike ostaju svetli */}
-            <div className="absolute inset-x-0 bottom-0 h-[85%] bg-linear-to-t from-black/85 via-black/50 to-transparent md:h-[65%] md:from-black/65 md:via-black/30" />
-            <div className="absolute inset-y-0 left-0 hidden w-[70%] bg-linear-to-r from-black/65 via-black/30 to-transparent md:block" />
-            {/* dole desno: iza imena slajdova i strelica */}
-            <div className="absolute bottom-0 right-0 hidden h-[55%] w-[65%] bg-[radial-gradient(ellipse_at_bottom_right,rgba(0,0,0,0.7)_0%,rgba(0,0,0,0.35)_40%,transparent_72%)] md:block" />
+            {/* prelaz odozdo nagore iza teksta - boja i jačina iz admina (podrazumevano crna, puna jačina) */}
+            <div
+              className="absolute inset-0 bg-[linear-gradient(to_top,rgb(var(--fade)/0.95)_0%,rgb(var(--fade)/0.85)_35%,rgb(var(--fade)/0.55)_55%,rgb(var(--fade)/0)_75%)] md:bg-[linear-gradient(to_top,rgb(var(--fade)/0.95)_0%,rgb(var(--fade)/0.8)_30%,rgb(var(--fade)/0.45)_48%,rgb(var(--fade)/0)_65%)]"
+              style={{ "--fade": s.fade.rgb, opacity: s.fade.opacity } as React.CSSProperties}
+            />
+            {/* blago zatamnjenje sleva, da tekst ostane čitljiv i na svetlim fotografijama */}
+            <div className="absolute inset-0 hidden bg-linear-to-r from-black/35 via-black/5 to-transparent md:block" />
+
             <div
               key={isActive ? `t-${cycle}` : "t"}
-              className={`absolute bottom-[96px] left-4 right-4 [text-shadow:0_1px_12px_rgba(0,0,0,0.35)] md:bottom-14 md:left-14 md:right-auto md:w-[480px] lg:w-[560px] xl:w-[640px] ${isActive ? "animate-[heroIn_.6s_ease-out_both]" : ""}`}
+              className={`absolute bottom-[124px] left-4 right-4 [text-shadow:0_1px_14px_rgba(0,0,0,0.35)] md:bottom-[140px] md:left-14 md:right-auto md:w-[520px] lg:w-[580px] xl:w-[620px] ${isActive ? "animate-[heroIn_.7s_ease-out_both]" : ""}`}
             >
-              <p className="text-[14px] text-white/90 md:text-[16px]">{s.eyebrow}</p>
-              <h1 className="mt-3 text-[34px] font-medium leading-[36px] md:text-[48px] md:leading-[52px]">{s.title}</h1>
-              <p className="mt-3 max-w-[540px] text-[14px] leading-[21px] text-white/85 md:mt-4 md:text-[16px] md:leading-[24px]">{s.text}</p>
-              <div className="mt-6 flex flex-wrap items-center gap-3 md:gap-4">
-                <Link
-                  href={s.cta.href}
-                  className="rounded-full bg-paper/85 px-8 py-2.5 text-[14px] text-ink backdrop-blur transition-colors duration-150 ease-[var(--ease-brand)] hover:bg-paper"
-                >
-                  {s.cta.label}
-                </Link>
-                <Link href={s.secondary.href} className="group inline-flex items-center gap-1 text-[14px] text-white/90 transition-colors hover:text-white">
-                  {s.secondary.label}
-                  <Chevron className="h-2.5 w-2.5 transition-transform duration-150 group-hover:translate-x-0.5" />
-                </Link>
-              </div>
+              {s.eyebrow && (
+                <p className="mb-3 flex items-center gap-3 text-[11px] font-medium uppercase tracking-[0.18em] text-white/85 md:text-[12px]">
+                  <span aria-hidden className="h-[2px] w-6 rounded-full bg-[#e02a33]" />
+                  {s.eyebrow}
+                </p>
+              )}
+              {/* samo prvi slajd je naslov strane (h1), ostali su h2 */}
+              {s.title &&
+                (i === 0 ? (
+                  <h1 className="text-[32px] font-medium leading-[1.05] tracking-[-0.025em] md:text-[44px] xl:text-[48px]">{s.title}</h1>
+                ) : (
+                  <h2 className="text-[32px] font-medium leading-[1.05] tracking-[-0.025em] md:text-[44px] xl:text-[48px]">{s.title}</h2>
+                ))}
+              {s.text && <p className="mt-3 max-w-[520px] text-[14px] leading-relaxed text-white/80 md:mt-4 md:text-[15px]">{s.text}</p>}
+              {(s.cta || s.secondary) && (
+                <div className="mt-6 flex flex-wrap items-center gap-3">
+                  {s.cta && (
+                    <Link
+                      href={s.cta.href}
+                      className="group inline-flex h-11 items-center gap-2.5 rounded-full bg-[#e02a33] pl-5 pr-1.5 text-[13px] font-medium text-white [text-shadow:none] transition-colors duration-200 hover:bg-[#c41f27]"
+                    >
+                      {s.cta.label}
+                      <span className="grid size-8 place-items-center rounded-full bg-white text-[#e02a33]">
+                        <ArrowRight className="h-3 w-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
+                      </span>
+                    </Link>
+                  )}
+                  {s.secondary && (
+                    <Link
+                      href={s.secondary.href}
+                      className={`inline-flex h-11 items-center rounded-full px-5 text-[13px] text-white [text-shadow:none] transition-colors duration-200 hover:border-white hover:bg-white hover:text-ink ${glass}`}
+                    >
+                      {s.secondary.label}
+                    </Link>
+                  )}
+                </div>
+              )}
             </div>
           </div>
         );
       })}
 
-      <div className="absolute bottom-6 right-4 z-10 flex h-10 items-center gap-5 md:bottom-14 md:right-14 md:gap-8">
-        <nav aria-label="Slajdovi" className="hidden items-center gap-5 xl:flex">
-          {heroSlides.map((s, i) => (
-            <button
-              key={s.key}
-              type="button"
-              onClick={() => go(i)}
-              aria-current={i === active}
-              className={`relative flex h-10 items-center text-[13px] uppercase tracking-[0.14em] transition-colors [text-shadow:0_1px_8px_rgba(0,0,0,0.5)] ${i === active ? "text-white" : "text-white/70 hover:text-white"}`}
-            >
-              {s.label}
-              <span className={`absolute inset-x-0 bottom-1.5 h-px bg-white transition-opacity ${i === active ? "opacity-100" : "opacity-0"}`} />
-            </button>
-          ))}
+      {/* donja traka: segmenti sa napretkom + strelice */}
+      <div className="absolute inset-x-4 bottom-5 z-10 flex items-center gap-3 md:inset-x-14 md:bottom-10 md:gap-6">
+        <nav aria-label="Slajdovi" className="flex min-w-0 flex-1 gap-2 md:gap-4">
+          {heroSlides.map((s, i) => {
+            const on = i === active;
+            return (
+              <button
+                key={s.key}
+                type="button"
+                onClick={() => go(i)}
+                aria-label={`Slajd ${i + 1}: ${s.label}`}
+                aria-current={on}
+                className="group flex min-w-0 flex-1 flex-col gap-2.5 py-2 text-left"
+              >
+                <span className="relative block h-[2px] w-full overflow-hidden rounded-full bg-white/25">
+                  {on && n > 1 ? (
+                    <span
+                      key={`p-${cycle}`}
+                      className="absolute inset-0 origin-left rounded-full bg-white"
+                      style={{ animation: `heroProgress ${DURATION}ms linear both`, animationPlayState: paused ? "paused" : "running" }}
+                    />
+                  ) : (
+                    <span className={`absolute inset-0 rounded-full bg-white transition-opacity ${on ? "opacity-100" : "opacity-0 group-hover:opacity-50"}`} />
+                  )}
+                </span>
+                <span
+                  className={`hidden items-baseline gap-2.5 truncate text-[11px] uppercase tracking-[0.14em] transition-colors md:flex ${on ? "text-white" : "text-white/55 group-hover:text-white/85"}`}
+                >
+                  <span className="tabular-nums text-white/45">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="truncate">{s.label}</span>
+                </span>
+              </button>
+            );
+          })}
         </nav>
-        <span className="text-[12px] tracking-[0.14em] text-white/70 xl:hidden">
-          <span className="text-white">{String(active + 1).padStart(2, "0")}</span> / {String(n).padStart(2, "0")}
-        </span>
-        <div className="flex items-center gap-2">
+
+        <div className="flex shrink-0 items-center gap-2">
           <button
             type="button"
             onClick={() => go(active - 1)}
             aria-label="Prethodni slajd"
-            className="grid size-10 place-items-center rounded-full border border-white/40 text-white transition hover:border-white hover:bg-white/10"
+            className={`grid size-11 place-items-center rounded-full text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-ink ${glass}`}
           >
-            <ArrowLeft className="h-3 w-4" />
+            <ArrowLeft className="h-3 w-3.5" />
           </button>
           <button
             type="button"
             onClick={() => go(active + 1)}
             aria-label="Sledeći slajd"
-            className="grid size-10 place-items-center rounded-full border border-white/40 text-white transition hover:border-white hover:bg-white/10"
+            className={`grid size-11 place-items-center rounded-full text-white transition-colors duration-200 hover:border-white hover:bg-white hover:text-ink ${glass}`}
           >
-            <ArrowRight className="h-3 w-4" />
+            <ArrowRight className="h-3 w-3.5" />
           </button>
         </div>
       </div>
